@@ -1,0 +1,113 @@
+---
+import DraftTable from '../components/DraftTable'
+
+import ishanData from '../data/draft/predict.json';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+
+export interface Team {
+    abbrev: string;
+    currentProjectedRank: number;
+    divisionId: number;
+    draftDayProjectedRank: number;
+    id: number;
+    isActive: boolean;
+    location: string;
+    logo: string;
+    logoType: string;
+    name: string;
+    nickname: string;
+    owners: string[];
+    playoffSeed: number;
+    points: number;
+    pointsAdjusted: number;
+    pointsDelta: number;
+    primaryOwner: string;
+    rankCalculatedFinal: number;
+    rankFinal: number;
+    record: Record;
+    roster: Roster;
+    tradeBlock: TradeBlock;
+    transactionCounter: TransactionCounter;
+    waiverRank: number;
+}
+
+export interface Record {
+    away: Away;
+    division: Away;
+    home: Away;
+    overall: Away;
+}
+
+export interface Away {
+    gamesBack: number;
+    losses: number;
+    percentage: number;
+    pointsAgainst: number;
+    pointsFor: number;
+    streakLength: number;
+    streakType: string;
+    ties: number;
+    wins: number;
+}
+
+export interface Roster {
+    entries: any[];
+    tradeReservedEntries: number;
+}
+
+export interface TradeBlock {
+}
+
+export interface TransactionCounter {
+    acquisitionBudgetSpent: number;
+    acquisitions: number;
+    drops: number;
+    matchupAcquisitionTotals: TradeBlock;
+    misc: number;
+    moveToActive: number;
+    moveToIR: number;
+    paid: number;
+    teamCharges: number;
+    trades: number;
+}
+
+export interface LeagueInfo {
+    settings: {
+        draftSettings: {
+            pickOrder: Number[]
+        }
+    },
+    teams: Team[]
+}
+
+// const espnespnLeagueURL = "https://fantasy.espn.com/apis/v3/games/ffl/seasons/2023/segments/0/leagues/429806?view=mTeam&view=mRoster&view=mMatchup&view=mSettings&view=mStandings"
+
+// const espnLeagueReq = await fetch(espnespnLeagueURL, {
+//       method: 'GET',
+//       headers: { 
+//         "Cookie": `SWID={${import.meta.env.ESPN_SWID}}; espn_s2=${import.meta.env.ESPN_ESPN_S2}`}
+// })
+
+
+// const leagueInfo: LeagueInfo = await espnLeagueReq.json()
+
+// const draftOrder: Number[] = leagueInfo["settings"]["draftSettings"]["pickOrder"]
+
+// const teams = leagueInfo["teams"].map(x => x.id)
+
+// // console.log(draftOrder, teams)
+
+// console.log(JSON.stringify(leagueInfo["teams"][0]))
+
+
+
+---
+<BaseLayout 
+    title={"Stonks Fantasy ADP - IshGup Site"}
+    description={"ADP Fantasy Football 2023"}>
+    <div class="text-4xl font-bold mx-auto my-4 mb-10 text-center">
+        Ishan and ESPN PPR ADP
+    </div>
+    <DraftTable client:load ishanData={ishanData}></DraftTable>
+</BaseLayout>

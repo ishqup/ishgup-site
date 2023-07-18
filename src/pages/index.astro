@@ -1,0 +1,37 @@
+---
+import { getCollection, getEntry } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Card from "../components/Card.astro";
+import PowerRankingTable from "../components/PowerRankingTable";
+import Section from "../components/Section.astro";
+import PostCard from "../components/PostCard.astro";
+
+const post = (await getCollection("stonksFantasyBlog")).sort(
+    (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+)[0];
+
+const { data } = await getEntry("stonksFantasyData", post.slug);
+---
+
+<BaseLayout title="IshGup Site" description="Homepage for IshGup Site">
+
+    <Section heading="">
+        <div class="max-w-lg mx-auto">
+            <div class="grid grid-cols-2 gap-2">
+                <Card title="Projects" href="/projects"></Card>
+                <Card title="About Me" href="/about"></Card>
+                <Card title="Power Rankings" href="/pr"></Card>
+                <Card title="Draft" href="/draft"></Card>
+            </div>
+        </div>
+    </Section>
+    <Section heading="Current Power Rankings">
+        <PowerRankingTable client:load data={data}/>
+    </Section>
+    <Section heading="Most Recent Blog Post">
+        <a href={`/stonksfantasy/${post.slug}/`}>
+            <PostCard title={post.data.title} description={post.data.description} date={post.data.pubDate} image={post.data.PRdata.id + ".jpg"}>
+        </a>
+    </Section>
+</BaseLayout>

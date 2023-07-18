@@ -1,0 +1,12 @@
+---
+
+const {title, href } = Astro.props;
+
+---
+<a href={href}>
+    <div class="w-full sm:w-44 h-20 rounded-sm font-Verdana overflow-hidden bg-[url('/code.jpg')]">
+        <div class="font-bold flex items-center justify-center w-full h-full bg-slate-800 bg-opacity-75 hover:bg-opacity-10 transition-all">
+            {title}
+        </div>
+    </div>
+</a>

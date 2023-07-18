@@ -1,0 +1,25 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Header from "../../components/Header.astro";
+import { getCollection } from "astro:content";
+import FormattedDate from "../../components/FormattedDate.astro";
+import PostCard from "../../components/PostCard.astro";
+
+const posts = (await getCollection("stonksFantasyBlog")).sort(
+    (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+);
+---
+<BaseLayout 
+    title={"Stonks Fantasy - IshGup Site"}
+    description={"All Posts About Stonks Fantasy"}>
+    <div class="text-4xl font-bold mx-auto my-4 mb-10 text-center">
+        Stonks Fantasy Blog Posts
+    </div>
+    {
+        posts.map((post) => (
+            <a href={`/stonksfantasy/${post.slug}/`}>
+                    <PostCard title={post.data.title} description={post.data.description} date={post.data.pubDate} image={post.data.PRdata.id + ".jpg"}>
+            </a>
+        ))
+    }
+</BaseLayout>
