@@ -158,7 +158,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
   const [isLoading, setLoading] = React.useState(true);
   const [positionFilter, setPositionFilter] = React.useState([true, true, true, true]); // qb, rb, wr, te
 
-  const numberClass = "font-IBM text-right w-[100px] pr-[10px]"
+  const numberClass = "font-SourceCodePro text-right w-[100px] pr-[10px]"
   const columnHelper = createColumnHelper<PlayerRow>()
 
   const espnPosIdToString: { [key: number]: string } = {
@@ -268,7 +268,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
         style: (context: CellContext<PlayerRow, unknown>) => {
           return { style: {} }
         },
-        class: "font-IBM"
+        class: "font-SourceCodePro"
       }
     }),
     columnHelper.accessor('EspnRank', {
@@ -278,7 +278,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
         style: (context: CellContext<PlayerRow, unknown>) => {
           return { style: {} }
         },
-        class: "font-IBM"
+        class: "font-SourceCodePro"
       }
     }),
     columnHelper.accessor('EspnProj', {
@@ -288,7 +288,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
         style: (context: CellContext<PlayerRow, unknown>) => {
           return { style: {} }
         },
-        class: "font-IBM"
+        class: "font-SourceCodePro"
       }
     }),
     columnHelper.accessor('IshanRank', {
@@ -298,7 +298,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
         style: (context: CellContext<PlayerRow, unknown>) => {
           return { style: {} }
         },
-        class: "font-IBM"
+        class: "font-SourceCodePro"
       }
     }),
     columnHelper.accessor('IshanProj', {
@@ -308,7 +308,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
         style: (context: CellContext<PlayerRow, unknown>) => {
           return { style: {} }
         },
-        class: "font-IBM"
+        class: "font-SourceCodePro"
       }
     }),
     columnHelper.accessor("Difference", {

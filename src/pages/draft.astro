@@ -1,5 +1,6 @@
 ---
 import DraftTable from '../components/DraftTable'
+import Section from '../components/Section.astro';
 
 import ishanData from '../data/draft/predict.json';
 import BaseLayout from '../layouts/BaseLayout.astro';
@@ -103,11 +104,10 @@ export interface LeagueInfo {
 
 
 ---
-<BaseLayout 
-    title={"Stonks Fantasy ADP - IshGup Site"}
-    description={"ADP Fantasy Football 2023"}>
-    <div class="text-4xl font-bold mx-auto my-4 mb-10 text-center">
-        Ishan and ESPN PPR ADP
-    </div>
-    <DraftTable client:load ishanData={ishanData}></DraftTable>
+<BaseLayout title={"Stonks Fantasy ADP - ishgup"} description={"2023 Fantasy ADP Analysis"}>
+    
+    <Section heading="ESPN vs Ishan Projections">
+        <DraftTable client:load ishanData={ishanData}></DraftTable>
+    </Section>
+    
 </BaseLayout>

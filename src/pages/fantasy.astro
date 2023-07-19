@@ -16,36 +16,22 @@ const { data } = await getEntry("stonksFantasyData", post.slug);
 const { Content } = await post.render();
 ---
 
-<BaseLayout title="ishgup" description="Homepage">
+<BaseLayout title="Stonks Fantasy - ishgup" description="Stonks Fantasy Blog Posts">
 
-    <div class="flex justify-center items-center pt-10">
-        <div>
-            <div
-                class="my-name font-sans font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-teal-500 text-5xl sm:text-7xl md:text-8xl lg:text-9xl"
-            >
-                {'Ishan Gupta'}
-            </div>
-            <div class="text-center text-xl sm:text-4xl">Data Science & Sports</div>
-        </div>
-    </div>
-    
     <Section heading="">
         <div class="max-w-lg mx-auto">
             <div class="grid grid-cols-3 gap-2">
-                <Card title="Projects" href="/projects"></Card>
+                <Card title="Home" href="/"></Card>
                 <Card title="Fantasy" href="/fantasy"></Card>
-                <Card title="About Me" href="/about"></Card>
+                <Card title="Draft" href="/draft"></Card>
                
             </div>
         </div>
     </Section>
-    <Section heading="Current Power Rankings">
-        <PowerRankingTable client:load data={data}/>
-    </Section>
-    
-    <Section heading="Latest">
-        <div class="prose prose-invert prose-md">
-            <Content data={data} />
-        </div>
+
+    <Section>
+        <a href={`/stonksfantasy/${post.slug}/`}>
+            <PostCard title={post.data.title} description={post.data.description} date={post.data.pubDate} image={post.data.PRdata.id + ".jpg"}>
+        </a>
     </Section>
 </BaseLayout>

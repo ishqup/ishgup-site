@@ -7,6 +7,7 @@ module.exports = {
                 IBM: ["IBM Plex Mono", "monospace"],
                 Grotesk: ["Schibsted Grotesk", "sans-serif"],
                 Verdana: ["Verdana", "sans-serif"],
+                SourceCodePro: ["Source Code Pro", "monos pace"]
             },
         },
     },
