@@ -46,12 +46,13 @@ const ReactTable = (props: { data: Ranking[]; }) => {
   const PFValues = json.map(x => x.PF)
   const PAValues = json.map(x => x.PA)
 
-  const colorScale = ["#ff4040", "black", "#3695ff"]
+  const colorScale = ["#ff52a0", "#1b2a3d", "#00dc9a"]
+  const revColorScale = ["#00dc9a", "#1b2a3d", "#ff52a0"]
 
 
   const ratingScale = chroma.scale(colorScale).domain([Math.min(...RatingValues), Math.max(...RatingValues)]);
   const pfScale = chroma.scale(colorScale).domain([Math.min(...PFValues), Math.max(...PFValues)]);
-  const paScale = chroma.scale(colorScale).domain([Math.min(...PAValues), Math.max(...PAValues)]);
+  const paScale = chroma.scale(revColorScale).domain([Math.min(...PAValues), Math.max(...PAValues)]);
 
   const columnHelper = createColumnHelper<Ranking>()
 
@@ -150,14 +151,14 @@ const ReactTable = (props: { data: Ranking[]; }) => {
   })
 
   return (
-    <div className='overflow-x-auto'>
-      <table className='text-lg'>
-        <thead className='border-b-2 border-black font-Grotesk whitespace-nowrap'>
+    <div className='max-w-none bg-slate-800 rounded-xl overflow-scroll'>
+      <table className='text-lg w-full'>
+        <thead className='font-Grotesk whitespace-nowrap'>
           {table.getHeaderGroups().map(headerGroup => (
             <tr key={headerGroup.id}>
               {headerGroup.headers.map(header => {
                 return (
-                  <th key={header.id} colSpan={header.colSpan}>
+                  <th key={header.id} colSpan={header.colSpan} className="text-left p-2 first:pl-4 last:pr-4">
                     {header.isPlaceholder ? null : (
                       <div
                         {...{
@@ -192,7 +193,7 @@ const ReactTable = (props: { data: Ranking[]; }) => {
                 <tr key={row.id}>
                   {row.getVisibleCells().map(cell => {
                     return (
-                      <td key={cell.id} className={'border-b-[1px] border-y-zinc-400 border-opacity-50 ' + cell.column.columnDef.meta?.class}
+                      <td key={cell.id} className={'border-b-[1px] border-y-slate-700 border-opacity-20 p-2 first:pl-4 last:pr-4 ' + cell.column.columnDef.meta?.class}
                         {...cell.column.columnDef.meta?.style(cell.getContext())}
                       >
                         {flexRender(

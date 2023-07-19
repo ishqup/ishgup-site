@@ -311,15 +311,29 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
         class: "font-IBM"
       }
     }),
-    columnHelper.accessor('Difference', {
-      cell: info => info.getValue(),
+    columnHelper.accessor("Difference", {
+      cell: info => {
+        const ishanProjTotal = info.row.getValue("IshanProj");
+        if (ishanProjTotal == 0) {
+          return "N/A";
+        }
+        return info.getValue();
+      },
       meta: {
         style: (context: CellContext<PlayerRow, unknown>) => {
+          const ishanProjTotal = context.row.getValue('IshanProj');
+          if (ishanProjTotal == 0) {
+            return {
+              style: {
+                backgroundColor: differenceScale(0).hex()
+              }
+            };
+          }
           return {
             style: {
               backgroundColor: differenceScale(context.cell.getValue<number>()).hex()
             }
-          }
+          };
         },
         class: numberClass
       }
@@ -328,8 +342,8 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
 
   const differenceValues = masterTableData.map(x => x.Difference)
 
-  const colorScale = ["#ff4040", "#111827", "#3695ff"]
-  const differenceScale = (chroma.scale(colorScale).domain([Math.min(...differenceValues), 0, Math.max(...differenceValues)]))
+  const colorScale = ["#ff52a0", "#1b2a3d", "#00dc9a"]
+  const differenceScale = (chroma.scale(colorScale).domain([-25, 0, 25]))
 
 
 
@@ -350,10 +364,10 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
   }
 
   const posToTWClass: { [key: string]: string } = {
-    "RB": "bg-green-800",
-    "WR": "bg-blue-800",
-    "TE": "bg-amber-800",
-    "QB": "bg-red-800"
+    "RB": "bg-[#219426]",
+    "WR": "bg-[#216494]",
+    "TE": "bg-[#bda20b]",
+    "QB": "bg-[#942134]"
   }
 
 
@@ -363,7 +377,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       <input type="checkbox" defaultChecked={true} onChange={() => updateFilter(1)} />
       <input type="checkbox" defaultChecked={true} onChange={() => updateFilter(2)} />
       <input type="checkbox" defaultChecked={true} onChange={() => updateFilter(3)} /> */}
-      <div className='max-w-none bg-slate-800 rounded-md overflow-scroll'>
+      <div className='max-w-none bg-slate-800 rounded-xl overflow-scroll'>
         <table className='text-lg w-full'>
           <thead className='font-Grotesk whitespace-nowrap'>
             {table.getHeaderGroups().map(headerGroup => (
@@ -410,7 +424,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
                           key={cell.id}
                           className=
                           {
-                            'border-b-[1px] border-y-zinc-800 border-opacity-50 p-2 first:pl-4 last:pr-4 '
+                            'border-b-[1px] border-y-slate-700 border-opacity-20 p-2 first:pl-4 last:pr-4 '
                             + cell.column.columnDef.meta?.class + ' '
                             + posToTWClass[row.getValue("Pos") as string]
                           }

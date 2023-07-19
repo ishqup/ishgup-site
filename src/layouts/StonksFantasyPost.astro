@@ -11,7 +11,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 
 <BaseLayout title={title} description={description} image={heroImage}>
     <main
-        class="mx-auto max-w-2xl p-5 break-words leading-normal text-left font-Verdana"
+        class="mx-auto max-w-2xl p-5 break-words leading-normal text-left font-sans"
     >
         <div class="mb-3">
             {
@@ -24,7 +24,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
                     />
                 )
             }
-            <h1 class="my-4 font-bold text-4xl">{title}</h1>
+            <h1 class="my-4 font-sans font-bold text-4xl">{title}</h1>
             <FormattedDate date={pubDate} />
             {
                 updatedDate && (
