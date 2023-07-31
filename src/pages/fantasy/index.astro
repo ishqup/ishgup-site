@@ -28,7 +28,7 @@ const posts = (await getCollection("fantasy")).sort(
     {
         posts.map((post) => (
             <a href={`/fantasy/${post.slug}/`}>
-                    <PostCard title={post.data.title} description={post.data.description} date={post.data.pubDate} image={"./fantasy/" + post.slug + "/og-image.png"}>
+                    <PostCard title={post.data.title} description={post.data.description} date={post.data.pubDate} image={post.slug + "/og-image.png"}>
             </a>
         ))
     }
