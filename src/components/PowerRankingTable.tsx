@@ -151,8 +151,8 @@ const ReactTable = (props: { data: Ranking[]; }) => {
   })
 
   return (
-    <div className='max-w-none bg-slate-800 rounded-xl overflow-scroll'>
-      <table className='text-lg w-full'>
+    <div className='max-w-none bg-slate-800 rounded-xl overflow-auto'>
+      <table className='text-lg w-full my-0'>
         <thead className='font-Grotesk whitespace-nowrap'>
           {table.getHeaderGroups().map(headerGroup => (
             <tr key={headerGroup.id}>
@@ -163,7 +163,7 @@ const ReactTable = (props: { data: Ranking[]; }) => {
                       <div
                         {...{
                           className: header.column.getCanSort()
-                            ? 'cursor-pointer select-none hover:opacity-50 transition-all'
+                            ? 'cursor-pointer select-none hover:text-teal-400 transition-all'
                             : '',
                           onClick: header.column.getToggleSortingHandler(),
                         }}

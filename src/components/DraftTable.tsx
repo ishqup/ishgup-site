@@ -193,14 +193,13 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       }
     }).then((res) => {
       const espnPlayers: ESPNPlayer[] = res.data["players"];
-      console.log(espnPlayers[7])
       let playerRatings: PlayerRow[] = espnPlayers.map((x, i) => {
         return {
           Name: x.player.fullName,
           Pos: espnPosIdToString[x.player.defaultPositionId],
           EspnRank: i + 1,
           EspnADP: Number.parseFloat(x.player.ownership.averageDraftPosition.toFixed(1)),
-          EspnProj: x.player.stats.find(x => x.externalId == "2023" && x.statSourceId == 1)?.appliedTotal ?? 0,
+          EspnProj: x.player.stats?.find(x => x.externalId == "2023" && x.statSourceId == 1)?.appliedTotal ?? 0,
           IshanRank: 0,
           IshanProj: 0,
           Difference: 0,
@@ -377,7 +376,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       <input type="checkbox" defaultChecked={true} onChange={() => updateFilter(1)} />
       <input type="checkbox" defaultChecked={true} onChange={() => updateFilter(2)} />
       <input type="checkbox" defaultChecked={true} onChange={() => updateFilter(3)} /> */}
-      <div className='max-w-none bg-slate-800 rounded-xl overflow-scroll'>
+      <div className='max-w-none bg-slate-800 rounded-xl overflow-auto'>
         <table className='text-lg w-full'>
           <thead className='font-Grotesk whitespace-nowrap'>
             {table.getHeaderGroups().map(headerGroup => (

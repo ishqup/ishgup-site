@@ -1,17 +1,14 @@
 ---
 import { getCollection, getEntry } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Header from "../components/Header.astro";
 import Card from "../components/Card.astro";
 import PowerRankingTable from "../components/PowerRankingTable";
 import Section from "../components/Section.astro";
-import PostCard from "../components/PostCard.astro";
+import FormattedDate from "../components/FormattedDate.astro";
 
-const post = (await getCollection("stonksFantasyBlog")).sort(
-    (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+const post = (await getCollection("fantasy")).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 )[0];
-
-const { data } = await getEntry("stonksFantasyData", post.slug);
 
 const { Content } = await post.render();
 ---
@@ -28,7 +25,7 @@ const { Content } = await post.render();
             <div class="text-center text-xl sm:text-4xl">Data Science & Sports</div>
         </div>
     </div>
-    
+
     <Section heading="">
         <div class="max-w-lg mx-auto">
             <div class="grid grid-cols-3 gap-2">
@@ -39,13 +36,39 @@ const { Content } = await post.render();
             </div>
         </div>
     </Section>
-    <Section heading="Current Power Rankings">
-        <PowerRankingTable client:load data={data}/>
-    </Section>
+
+
+    <div class="grid grid-cols-1 xl:grid-cols-2">
+        <Section heading="Current Power Rankings">
+            <PowerRankingTable client:load data={post.data.prData}/>
+        </Section>
+        
+        <Section heading="Latest">
+            <div class="mb-3">
+                {
+                    <img
+                        width={720}
+                        height={360}
+                        src={"./fantasy/" + post.slug + "/og-image.png"}
+                        alt=""
+                    />
+                }
+                <h1 class="my-4 font-sans font-bold text-4xl">{post.data.title}</h1>
+                <FormattedDate date={post.data.pubDate} />
+                {
+                    post.data.updatedDate && (
+                        <div class="last-updated-on">
+                            Last updated on <FormattedDate date={post.data.updatedDate} />
+                        </div>
+                    )
+                }
+                <hr class="h-px my-4 bg-gray-300 border-0" />
+            </div>
+            <article class="prose prose-invert prose-md">
+                <Content/>
+            </article>
+        </Section>
+    </div>
     
-    <Section heading="Latest">
-        <div class="prose prose-invert prose-md">
-            <Content data={data} />
-        </div>
-    </Section>
+    
 </BaseLayout>

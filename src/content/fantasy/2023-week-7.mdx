@@ -1,0 +1,93 @@
+---
+title: "2023 Power Rankings Week 7"
+description: "Lorem ipsum dolor sit amet"
+pubDate: "Jun 27 2023"
+imagePerson: "mike"
+prData: [
+	{
+	  "Team": "Ishan",
+	  "W": 10,
+	  "L": 4,
+	  "Rating": 17.12,
+	  "Rank": 1,
+	  "PF": 2095.76,
+	  "PA": 1821.88
+	},
+	{
+	  "Team": "Mike",
+	  "W": 10,
+	  "L": 4,
+	  "Rating": 14.08,
+	  "Rank": 2,
+	  "PF": 2074.08,
+	  "PA": 1848.8
+	},
+	{
+	  "Team": "Prad",
+	  "W": 10,
+	  "L": 4,
+	  "Rating": 8.94,
+	  "Rank": 3,
+	  "PF": 2075.96,
+	  "PA": 1932.98
+	},
+	{
+	  "Team": "Savan",
+	  "W": 8,
+	  "L": 6,
+	  "Rating": 1.8,
+	  "Rank": 4,
+	  "PF": 1909.44,
+	  "PA": 1880.6
+	},
+	{
+	  "Team": "Ian",
+	  "W": 7,
+	  "L": 7,
+	  "Rating": -0.43,
+	  "Rank": 5,
+	  "PF": 1972.54,
+	  "PA": 1979.4
+	},
+	{
+	  "Team": "Neil",
+	  "W": 5,
+	  "L": 9,
+	  "Rating": -9.67,
+	  "Rank": 6,
+	  "PF": 1783.96,
+	  "PA": 1938.72
+	},
+	{
+	  "Team": "Joey",
+	  "W": 4,
+	  "L": 10,
+	  "Rating": -11.04,
+	  "Rank": 7,
+	  "PF": 1886.74,
+	  "PA": 2063.42
+	},
+	{
+	  "Team": "Sam",
+	  "W": 2,
+	  "L": 12,
+	  "Rating": -20.79,
+	  "Rank": 8,
+	  "PF": 1755.7,
+	  "PA": 2088.38
+	}
+  ]
+---
+
+import PowerRankingTable from "../../components/PowerRankingTable";
+export const test = "hello";
+
+## Week Recap
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mattis purus, ornare gravida tellus. Aenean bibendum rutrum placerat. Morbi accumsan mollis est scelerisque tincidunt. Sed vel urna a leo finibus facilisis. Mauris lobortis non eros et semper. Duis pretium quam metus, non iaculis arcu sollicitudin nec. Praesent est augue, venenatis quis pulvinar nec, convallis quis erat. Duis iaculis turpis nec ipsum pulvinar blandit. Curabitur tellus orci, sodales aliquet libero quis, vehicula viverra leo. Cras pretium diam non fringilla bibendum. In eleifend enim et maximus malesuada. Phasellus id pulvinar lorem, vel dignissim justo. Duis pulvinar mi lectus, ac bibendum augue imperdiet non. Nulla a hendrerit quam.
+
+## Rankings
+
+<PowerRankingTable client:load data={frontmatter.prData} />
+
+## Notes

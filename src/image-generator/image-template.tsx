@@ -1,32 +1,24 @@
-import * as React from 'react';
-
-const OGTemplate = (image: string) => {
+const OGTemplate = (person: string, num: string) => {
     return (
         <div style={{
             display: 'flex',
             height: '100%',
             width: '100%',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            backgroundImage: 'linear-gradient(to bottom, #8cdcff, #fff1f1)',
+            backgroundColor: '#7b68d0',
             fontSize: 60,
             letterSpacing: -2,
             fontWeight: 700,
-            padding: 150
+            padding: 150,
+            color: "white"
         }}>
+            <div style={{ display: 'flex' }}>
+                <div style={{ fontSize: 600, left: 300, top: -250, }}>{num}</div>
+            </div>
+            <div style={{ display: 'flex', right: 1100, bottom: 135 }}>
+                <img src={`https://raw.githubusercontent.com/ishqup/ishgup-site/master/src/image-generator/stonks-players/${person}.png`} width={1100} />
+            </div>
 
-            <div style={{
-                display: 'flex',
-                flexDirection: 'column',
-            }}>
-                <div style={{ fontSize: 80 }}>Stonks Fantasy</div>
-                <div style={{ fontSize: 80 }}>Week 10</div>
-            </div>
-            <div style={{
-                display: 'flex',
-            }}>
-                {/* <img src={image} width={200} height={300} /> */}
-            </div>
+
         </div>
 
     )
