@@ -5,6 +5,8 @@ import Section from '../components/Section.astro';
 import ishanData from '../data/draft/predict.json';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
+import { getCollection, getEntry } from "astro:content";
+import Card from "../components/Card.astro";
 
 export interface Team {
     abbrev: string;
@@ -104,9 +106,198 @@ export interface LeagueInfo {
 
 
 ---
-<BaseLayout title={"Stonks Fantasy ADP - ishgup"} description={"2023 Fantasy ADP Analysis"}>
-    
+<BaseLayout title={"Stonks Fantasy Draft - ishgup"} description={"2023 Fantasy ADP Analysis"}>
+    <Section heading="">
+        <div class="max-w-lg mx-auto">
+            <div class="grid grid-cols-3 gap-2">
+                <Card title="Home" href="/"></Card>
+                <Card title="Fantasy" href="/fantasy"></Card>
+                <Card title="Projects" href="/projects"></Card>
+               
+            </div>
+        </div>
+    </Section>
+    <Section heading="2023 Draft Order">
+        <div>
+            1. Prad<br>
+            2. Neil<br>
+            3. Joey<br>
+            4. Sam<br>
+            5. Savan<br>
+            6. Ishan<br>
+            7. Mike<br>
+            8. Ian
+        </div>
+    </Section>
+    <Section heading="Mock Draft">    
+        <style>
+            .overflow-auto {
+                overflow-x: auto;
+            }
+            div {
+                border-radius: 10px;
+            }
+            table {
+                border-collapse: separate;
+                border-radius: 10px;
+                border-spacing: 0;
+                background-color: rgb(30 41 59);
+                padding: 8px;
+            }
+            td, th {
+              padding: 8px;
+              text-align: left;
+              min-width: 100px;
+              white-space: nowrap;
+            }
+            td {
+                border-top: 1px solid white;
+                border-top-color: rgba(51, 65, 85, 0.2);
+            }
+            td:first-child { font-weight: bold; }
+        </style>
+        <div style="margin-bottom: 20px;">
+            There are a few possibilities that I could see for the first two rounds of the draft, the first outcome is shown below. 
+            My major concerns with this is that Savan could go with a different RB besides Derrick Henry in the second round or even 
+            AJ Brown at WR. Neil expressed interest in taking QB early with the possibility of taking Mahomes before Prad however I could 
+            easily see him avoiding this strategy as well. Prad may want an RB at the turn however I am unsure of his opinion on Jacobs but 
+            in my opinion he may be the best option there as he is the last of the top tier workhorse backs left at the spot.
+        </div>
+        <div class="overflow-auto" style="margin-bottom: 20px">
+            <table>
+                <tr>
+                  <th></th>
+                  <th>1. Prad</th>
+                  <th>2. Neil</th>
+                  <th>3. Joey</th>
+                  <th>4. Sam</th>
+                  <th>5. Savan</th>
+                  <th>6. Ishan</th>
+                  <th>7. Mike</th>
+                  <th>8. Ian</th>
+                </tr>
+                <tr>
+                  <td>Round 1</td>
+                  <td>J.Jefferson</td>
+                  <td>J.Chase</td>
+                  <td>C.McCaffrey</td>
+                  <td>T.Kelce</td>
+                  <td>A.Ekeler</td>
+                  <td>T.Hill</td>
+                  <td>C.Kupp</td>
+                  <td>B.Robinson</td>
+                </tr>
+                <tr>
+                  <td>Round 2</td>
+                  <td>J.Jacobs</td>
+                  <td>P.Mahomes</td>
+                  <td>A.Brown</td>
+                  <td>N.Chubb</td>
+                  <td>D.Henry</td>
+                  <td>D.Adams</td>
+                  <td>S.Barkley</td>
+                  <td>S.Diggs</td>
+                </tr>
+              </table>  
+          </div> 
+          <div style="margin-bottom: 20px">
+            Accounting for Sam messing with everyone and not taking Kelce at 4, this is the next possible outcome that I could see occuring.
+            This could shake up the second round with Mike flipping to WR if Ekeler falls to him and the rest of the RBs shuffle. I could also
+            see Neil avoiding QB to get RB leaving Prad with less options at the position and at least taking Amon Ra St. Brown with one of
+            his two picks on the turn.
+          </div>
+          <div class="overflow-auto" style="margin-bottom: 20px">
+            <table>
+                <tr>
+                  <th></th>
+                  <th>1. Prad</th>
+                  <th>2. Neil</th>
+                  <th>3. Joey</th>
+                  <th>4. Sam</th>
+                  <th>5. Savan</th>
+                  <th>6. Ishan</th>
+                  <th>7. Mike</th>
+                  <th>8. Ian</th>
+                </tr>
+                <tr>
+                  <td>Round 1</td>
+                  <td>J.Jefferson</td>
+                  <td>J.Chase</td>
+                  <td>C.McCaffrey</td>
+                  <td>C.Kupp</td>
+                  <td>T.Kelce</td>
+                  <td>T.Hill</td>
+                  <td>A.Ekeler</td>
+                  <td>B.Robinson</td>
+                </tr>
+                <tr>
+                  <td>Round 2</td>
+                  <td>A.St.Brown</td>
+                  <td>J.Jacobs</td>
+                  <td>A.Brown</td>
+                  <td>D.Henry</td>
+                  <td>S.Barkley</td>
+                  <td>N.Chubb</td>
+                  <td>D.Adams</td>
+                  <td>S.Diggs</td>
+                </tr>
+              </table>  
+          </div>
+          <div style="margin-bottom: 20px">
+            The last scenario could involve Prad taking Kelce as usual at 1, which would shake things up quite a bit. Most picks would 
+            shift down, I could see Joey still picking CMC over Chase. I also accounted for the fact that since I got Tyreek in both of
+            the other scenarios that I may not be the only one who values him over Kupp, but I think Sam would be more likely to take him 
+            than Savan despite displaying the opposite. Everything else would stay relatively the same, however my mock drafts never reflect
+            remotely close to what happens when we actually draft.
+          </div>
+          <div class="overflow-auto">
+            <table>
+                <tr>
+                  <th></th>
+                  <th>1. Prad</th>
+                  <th>2. Neil</th>
+                  <th>3. Joey</th>
+                  <th>4. Sam</th>
+                  <th>5. Savan</th>
+                  <th>6. Ishan</th>
+                  <th>7. Mike</th>
+                  <th>8. Ian</th>
+                </tr>
+                <tr>
+                  <td>Round 1</td>
+                  <td>T.Kelce</td>
+                  <td>J.Jefferson</td>
+                  <td>C.McCaffrey</td>
+                  <td>J.Chase</td>
+                  <td>T.Hill</td>
+                  <td>A.Ekeler</td>
+                  <td>C.Kupp</td>
+                  <td>B.Robinson</td>
+                </tr>
+                <tr>
+                  <td>Round 2</td>
+                  <td>A.St.Brown</td>
+                  <td>J.Jacobs</td>
+                  <td>A.Brown</td>
+                  <td>D.Henry</td>
+                  <td>N.Chubb</td>
+                  <td>D.Adams</td>
+                  <td>S.Barkley</td>
+                  <td>S.Diggs</td>
+                </tr>
+              </table>  
+          </div>
+    </Section>
     <Section heading="ESPN vs Ishan Projections">
+        
+        <div style="margin-bottom: 20px;">This table pulls data from ESPN's PPR Fantasy Rankings, displaying each player's average draft position (ADP) and 
+        season total projection. Players are ranked by their ADP in the field ESPN Rank. These rankings are then compared 
+        to Ishan's projections and rankings which were created using a machine learning linear regression model. More about 
+        this model can be learned within the Projects tab. The recommended way to use this table is to look at the Difference 
+        column, if there is a negative difference the player is overvalued by ESPN and if there is a positive difference the 
+        player is undervalued by ESPN. Ishan's rankings should be taken with a grain of salt as they do not include rookies or 
+        take into account players changing teams, this means you should heavily evaluate player situations prior to
+        relying on these projections to draft.</div>
         <DraftTable client:load ishanData={ishanData}></DraftTable>
     </Section>
     
