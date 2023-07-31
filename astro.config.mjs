@@ -7,6 +7,6 @@ import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
-    site: "https://ishgup.github.io/",
+    site: "https://ishqup.github.io/",
     integrations: [react(), tailwind(), sitemap(), mdx()],
 });
