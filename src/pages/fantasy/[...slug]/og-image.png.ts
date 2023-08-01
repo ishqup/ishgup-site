@@ -35,6 +35,7 @@ export const get: APIRoute = async function get({ params }: APIContext) {
         } else {
             week = slugWeek;
         }
+        
     }
 
     const svg = await satori(
