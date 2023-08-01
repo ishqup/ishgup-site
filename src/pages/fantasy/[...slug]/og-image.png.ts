@@ -32,6 +32,8 @@ export const get: APIRoute = async function get({ params }: APIContext) {
         const slugWeek = post.slug.split("-")[2]
         if (slugWeek.length <= 1) {
             week = "0" + slugWeek;
+        } else {
+            week = slugWeek;
         }
     }
 
