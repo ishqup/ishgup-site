@@ -15,7 +15,8 @@ const fantasy = defineCollection({
             .string()
             .optional()
             .transform((str) => (str ? new Date(str) : undefined)),
-        imagePerson: z.string(),
+        imagePerson1: z.string(),
+        imagePerson2: z.string().optional(),
         prData: z.array(z.object({
             Team: z.string(),
             W: z.number(),

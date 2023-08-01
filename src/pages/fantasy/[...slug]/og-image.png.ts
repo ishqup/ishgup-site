@@ -22,11 +22,13 @@ export const get: APIRoute = async function get({ params }: APIContext) {
     const post = await getEntryBySlug("fantasy", params.slug as string);
 
     // defaults
-    let person = "ishan";
+    let person1 = "ishan";
+    let person2 = undefined;
     let week = "00";
 
-    if (post && post.data && post.data.imagePerson && post.slug) {
-        person = post.data.imagePerson;
+    if (post && post.data && post.data.imagePerson1 && post.slug) {
+        person1 = post.data.imagePerson1;
+        person2 = post.data.imagePerson2;
         const slugWeek = post.slug.split("-")[2]
         if (slugWeek.length <= 1) {
             week = "0" + slugWeek;
@@ -34,7 +36,7 @@ export const get: APIRoute = async function get({ params }: APIContext) {
     }
 
     const svg = await satori(
-        OGTemplate(person, week),
+        OGTemplate(person1, person2, week),
         {
             width: 1200,
             height: 630,

@@ -1,4 +1,5 @@
-const OGTemplate = (person: string, num: string) => {
+const OGTemplate = (person1: string, person2: string | undefined, num: string) => {
+    person2 ? console.log(person2) : console.log("cap")
     return (
         <div style={{
             display: 'flex',
@@ -11,14 +12,28 @@ const OGTemplate = (person: string, num: string) => {
             padding: 150,
             color: "white"
         }}>
-            <div style={{ display: 'flex' }}>
-                <div style={{ fontSize: 600, left: 300, top: -250, }}>{num}</div>
-            </div>
-            <div style={{ display: 'flex', right: 1100, bottom: 135 }}>
-                <img src={`https://raw.githubusercontent.com/ishqup/ishgup-site/master/src/image-generator/stonks-players/${person}.png`} width={1100} />
-            </div>
-
-
+            {person2 ?
+                <div style={{ display: 'flex' }}>
+                    <div style={{ display: 'flex' }}>
+                        <div style={{ fontSize: 500, left: 175, top: -200, }}>{num}</div>
+                    </div>
+                    <div style={{ display: 'flex', right: 1050, bottom: 135 }}>
+                        <img src={`https://raw.githubusercontent.com/ishqup/ishgup-site/master/src/image-generator/stonks-players/${person1}.png`} width={1100} />
+                    </div>
+                    <div style={{ display: 'flex', right: 1350, bottom: 135 }}>
+                        <img src={`https://raw.githubusercontent.com/ishqup/ishgup-site/master/src/image-generator/stonks-players/${person2}.png`} width={1100} />
+                    </div>
+                </div>
+                :
+                <div style={{ display: 'flex' }}>
+                    <div style={{ display: 'flex' }}>
+                        <div style={{ fontSize: 600, left: 300, top: -250, }}>{num}</div>
+                    </div>
+                    <div style={{ display: 'flex', right: 1100, bottom: 135 }}>
+                        <img src={`https://raw.githubusercontent.com/ishqup/ishgup-site/master/src/image-generator/stonks-players/${person1}.png`} width={1100} />
+                    </div>
+                </div>
+            }
         </div>
 
     )
