@@ -195,10 +195,10 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       const espnPlayers: ESPNPlayer[] = res.data["players"];
       let playerRatings: PlayerRow[] = espnPlayers.map((x, i) => {
         return {
-          Name: x.player.fullName,
-          Pos: espnPosIdToString[x.player.defaultPositionId],
+          Name: x.player && x.player.fullName ? x.player.fullName : "",
+          Pos: x.player && x.player.defaultPositionId ? espnPosIdToString[x.player.defaultPositionId] : "N/A",
           EspnRank: i + 1,
-          EspnADP: Number.parseFloat(x.player.ownership.averageDraftPosition.toFixed(1)),
+          EspnADP: x.player.ownership && x.player.ownership.averageDraftPosition ? Number.parseFloat(x.player.ownership.averageDraftPosition.toFixed(1)) : 0,
           EspnProj: x.player.stats?.find(x => x.externalId == "2023" && x.statSourceId == 1)?.appliedTotal ?? 0,
           IshanRank: 0,
           IshanProj: 0,

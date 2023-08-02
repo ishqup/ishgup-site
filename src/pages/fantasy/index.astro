@@ -12,7 +12,7 @@ const posts = (await getCollection("fantasy")).sort(
 );
 ---
 <BaseLayout title="Stonks Fantasy - ishgup" description="Stonks Fantasy Blog Posts">
-    <Section heading="">
+    <Section>
         <div class="max-w-lg mx-auto">
             <div class="grid grid-cols-3 gap-2">
                 <Card title="Home" href="/"></Card>
@@ -22,11 +22,13 @@ const posts = (await getCollection("fantasy")).sort(
             </div>
         </div>
     </Section>
-    {
-        posts.map((post) => (
-            <a href={`/fantasy/${post.slug}/`}>
-                    <PostCard title={post.data.title} description={post.data.description} date={post.data.pubDate} image={post.slug + "/og-image.png"}>
-            </a>
-        ))
-    }
+    <Section>
+        {
+            posts.map((post) => (
+                <>
+                <PostCard href={`/fantasy/${post.slug}/`} title={post.data.title} description={post.data.description} date={post.data.pubDate} image={post.slug + "/og-image.png"}>
+                </>
+            ))
+        }
+    </Section>
 </BaseLayout>

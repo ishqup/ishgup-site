@@ -163,7 +163,8 @@ const ReactTable = (props: { data: Ranking[]; }) => {
                       <div
                         {...{
                           className: header.column.getCanSort()
-                            ? 'cursor-pointer select-none hover:text-teal-400 transition-all'
+                            ? 'cursor-pointer select-none hover:text-teal-400 transition-all ' +
+                            (header.column.getIsSorted() != false ? "text-teal-400" : "")
                             : '',
                           onClick: header.column.getToggleSortingHandler(),
                         }}

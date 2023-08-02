@@ -4,8 +4,8 @@ const fantasy = defineCollection({
     type: 'content',
     // Type-check frontmatter using a schema
     schema: z.object({
-        title: z.string(),
-        description: z.string(),
+        title: z.string().max(45),
+        description: z.string().max(80),
         // Transform string to Date object
         pubDate: z
             .string()
@@ -15,8 +15,8 @@ const fantasy = defineCollection({
             .string()
             .optional()
             .transform((str) => (str ? new Date(str) : undefined)),
-        imagePerson1: z.string(),
-        imagePerson2: z.string().optional(),
+        imagePerson1: z.enum(["ishan", "mike", "prad", "joey", "sam", "neil", "ian", "savan", "brian"]),
+        imagePerson2: z.enum(["ishan", "mike", "prad", "joey", "sam", "neil", "ian", "savan", "brian"]).optional(),
         prData: z.array(z.object({
             Team: z.string(),
             W: z.number(),

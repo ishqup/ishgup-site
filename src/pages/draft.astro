@@ -1,11 +1,8 @@
 ---
 import DraftTable from '../components/DraftTable'
 import Section from '../components/Section.astro';
-
 import ishanData from '../data/draft/predict.json';
 import BaseLayout from '../layouts/BaseLayout.astro';
-
-import { getCollection, getEntry } from "astro:content";
 import Card from "../components/Card.astro";
 
 export interface Team {
@@ -83,28 +80,6 @@ export interface LeagueInfo {
     },
     teams: Team[]
 }
-
-// const espnespnLeagueURL = "https://fantasy.espn.com/apis/v3/games/ffl/seasons/2023/segments/0/leagues/429806?view=mTeam&view=mRoster&view=mMatchup&view=mSettings&view=mStandings"
-
-// const espnLeagueReq = await fetch(espnespnLeagueURL, {
-//       method: 'GET',
-//       headers: { 
-//         "Cookie": `SWID={${import.meta.env.ESPN_SWID}}; espn_s2=${import.meta.env.ESPN_ESPN_S2}`}
-// })
-
-
-// const leagueInfo: LeagueInfo = await espnLeagueReq.json()
-
-// const draftOrder: Number[] = leagueInfo["settings"]["draftSettings"]["pickOrder"]
-
-// const teams = leagueInfo["teams"].map(x => x.id)
-
-// // console.log(draftOrder, teams)
-
-// console.log(JSON.stringify(leagueInfo["teams"][0]))
-
-
-
 ---
 <BaseLayout title={"Stonks Fantasy Draft - ishgup"} description={"2023 Fantasy ADP Analysis"}>
     <Section heading="">

@@ -1,5 +1,4 @@
 const OGTemplate = (person1: string, person2: string | undefined, num: string) => {
-    person2 ? console.log(person2) : console.log("cap")
     return (
         <div style={{
             display: 'flex',
