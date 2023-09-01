@@ -1,0 +1,39 @@
+---
+import type { CollectionEntry } from "astro:content";
+import BaseLayout from "./BaseLayout.astro";
+import FormattedDate from "../components/FormattedDate.astro";
+
+type Props = CollectionEntry<"project">["data"];
+
+const { title, description, pubDate, updatedDate, cover, coverAlt } = Astro.props;
+---
+
+<BaseLayout title={title} description={description} image="./og-image.png">
+    <main
+        class="mx-auto max-w-2xl p-5 break-words leading-normal text-left font-Grotesk"
+    >
+        <div class="mb-3">
+            {
+                <img
+                        width={720}
+                        height={360}
+                        src={cover.src}
+                        alt={coverAlt}
+                    />
+            }
+            <h1 class="my-4 font-sans font-bold text-4xl">{title}</h1>
+            <FormattedDate date={pubDate} />
+            {
+                updatedDate && (
+                    <div class="last-updated-on">
+                        Last updated on <FormattedDate date={updatedDate} />
+                    </div>
+                )
+            }
+            <hr class="h-px my-4 bg-gray-300 border-0" />
+        </div>
+        <article class="prose prose-invert prose-md prose-table:text-white prose-p:text-white">
+            <slot />
+        </article>
+    </main>
+</BaseLayout>

@@ -6,11 +6,15 @@ import PowerRankingTable from "../components/PowerRankingTable";
 import Section from "../components/Section.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 
-const post = (await getCollection("fantasy")).sort(
+const fantasyPost = (await getCollection("fantasy")).sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 )[0];
 
-const { Content } = await post.render();
+const projectPost = (await getCollection("project")).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+)[0];
+
+const { Content } = await projectPost.render();
 ---
 
 <BaseLayout title="ishgup" description="Homepage">
@@ -40,25 +44,25 @@ const { Content } = await post.render();
 
     <div class="grid grid-cols-1 xl:grid-cols-2">
         <Section heading="Current Power Rankings">
-            <PowerRankingTable client:load data={post.data.prData}/>
+            <PowerRankingTable client:load data={fantasyPost.data.prData}/>
         </Section>
         
-        <Section heading="Latest">
+        <Section heading="Latest Project">
             <div class="mb-3">
                 {
                     <img
                         width={720}
                         height={360}
-                        src={"./fantasy/" + post.slug + "/og-image.png"}
+                        src={projectPost.data.cover.src}
                         alt=""
                     />
                 }
-                <h1 class="my-4 font-sans font-bold text-4xl">{post.data.title}</h1>
-                <FormattedDate date={post.data.pubDate} />
+                <h1 class="my-4 font-sans font-bold text-4xl">{projectPost.data.title}</h1>
+                <FormattedDate date={projectPost.data.pubDate} />
                 {
-                    post.data.updatedDate && (
+                    projectPost.data.updatedDate && (
                         <div class="last-updated-on">
-                            Last updated on <FormattedDate date={post.data.updatedDate} />
+                            Last updated on <FormattedDate date={projectPost.data.updatedDate} />
                         </div>
                     )
                 }

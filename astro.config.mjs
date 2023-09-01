@@ -9,4 +9,7 @@ import mdx from "@astrojs/mdx";
 export default defineConfig({
     site: "https://ishqup.github.io/",
     integrations: [react(), tailwind(), sitemap(), mdx()],
+    experimental: {
+        assets: true
+    }
 });

@@ -7,11 +7,11 @@ import PostCard from "../../components/PostCard.astro";
 import Card from "../../components/Card.astro";
 import Section from "../../components/Section.astro";
 
-const posts = (await getCollection("fantasy")).sort(
+const posts = (await getCollection("project")).sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 ---
-<BaseLayout title="Stonks Fantasy - ishgup" description="Stonks Fantasy Blog Posts">
+<BaseLayout title="Projects - ishgup" description="Projects">
     <Section>
         <div class="max-w-lg mx-auto">
             <div class="grid grid-cols-3 gap-2">
@@ -26,7 +26,7 @@ const posts = (await getCollection("fantasy")).sort(
         {
             posts.map((post) => (
                 <>
-                <PostCard href={`/fantasy/${post.slug}/`} title={post.data.title} description={post.data.description} date={post.data.pubDate} image={new URL(Astro.url.pathname + "/" + post.slug + "/og-image.png", Astro.url).toString()}>
+                <PostCard href={`/projects/${post.slug}/`} title={post.data.title} description={post.data.description} date={post.data.pubDate} image={post.data.cover.src}>
                 </>
             ))
         }
