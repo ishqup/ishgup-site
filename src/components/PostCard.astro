@@ -2,15 +2,13 @@
 import FormattedDate from "./FormattedDate.astro";
 
 const { href, title, description, date, image } = Astro.props;
-
-const imgURL = new URL(Astro.url.pathname + "/" + image, Astro.url).toString();
 ---
 <a href={href} class="md:min-w-[400px] md:max-w-[900px] md:w-full md:h-40 md:block mx-auto mb-6 md:mb-3">
     <div
         class="flex flex-col w-full md:flex-row overflow-hidden bg-slate-800 rounded-xl bg-opacity-60 backdrop-filter backdrop-blur-xl drop-shadow-sm hover:drop-shadow-xl transition-all mb-5 md:mb-3"
     >
         <div class="md:mr-1">
-            <img class="md:h-40 md:min-w-[304.75px] w-auto" src={imgURL} alt="" />
+            <img class="md:h-40 md:min-w-[304.75px] w-auto object-cover" src={image} alt="" />
         </div>
         <div class="flex flex-col p-2 justify-between">
             <div>
