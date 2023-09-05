@@ -3,16 +3,27 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import { Image } from 'astro:assets';
 import headshotImg from "../headshot.jpg";
 import Section from "../components/Section.astro";
+import Card from "../components/Card.astro";
 ---
 
 <BaseLayout title="About - ishgup" description="About ishgup">
+    <Section heading="">
+        <div class="max-w-lg mx-auto">
+            <div class="grid grid-cols-3 gap-2">
+                <Card title="Home" href="/"></Card>
+                <Card title="Projects" href="/projects"></Card>
+                <Card title="Fantasy" href="/fantasy"></Card>
+               
+            </div>
+        </div>
+    </Section>
     <div class="max-w-5xl mx-auto">
         <div class="flex mt-3 md:flex-row flex-col">
-            <div>
-                <Image src={headshotImg} alt="headshot of ishgup" height={5000} width={5000}/>
+            <div class="mr-8">
+                <Image src={headshotImg} alt="headshot of ishgup" height={2000} width={2000}/>
             </div>
             <div>
-                <h1><b>Hi, my name is Ishan</b></h1>
+                <h1 class="text-4xl"><b>Hi, my name is Ishan Gupta!</b></h1>
                 <br>
                 I am a student at the University of Pittsburgh studying Finance, Computer Science, and Data Analytics.
                 It has been very interesting to see how statistics and artificial intelligence has transformed 
