@@ -17,30 +17,32 @@ import Card from "../components/Card.astro";
             </div>
         </div>
     </Section>
-    <div class="max-w-5xl mx-auto">
-        <div class="flex mt-3 md:flex-row flex-col">
-            <div class="mr-8">
-                <Image src={headshotImg} alt="headshot of ishgup" height={2000} width={2000}/>
+    <Section>
+        <div class="max-w-5xl mx-auto">
+            <div class="flex mt-3 md:flex-row flex-col">
+                <div class="mr-8">
+                    <Image src={headshotImg} alt="headshot of ishgup" height={2000} width={2000} style="margin-bottom: 2rem;"/>
+                </div>
+                <div style="text-align: center;">
+                    <h1 class="text-4xl"><b>Hi, my name is Ishan!</b></h1>
+                    <br>
+                    I am a student at the University of Pittsburgh studying Finance, Computer Science, and Data Analytics.
+                    It has been very interesting to see how statistics and artificial intelligence has transformed 
+                    industries and business processes. I find the collection and utilization of data to be very interesting
+                    and provide insights that human bias overlooks. I want to apply this thinking in a business setting that
+                    could transform and optimize the way companies run their day-to-day. I currently apply the things I have
+                    learned so far to sports, as it has very extensive and in-depth records. It is very exciting to see the                     
+                    models I have created and how they align with the outcomes of games and seasons, and I hope to bring the 
+                    same insight and analysis into all the work I produce.
+                </div>
             </div>
-            <div>
-                <h1 class="text-4xl"><b>Hi, my name is Ishan Gupta!</b></h1>
-                <br>
-                I am a student at the University of Pittsburgh studying Finance, Computer Science, and Data Analytics.
-                It has been very interesting to see how statistics and artificial intelligence has transformed 
-                industries and business processes. I find the collection and utilization of data to be very interesting
-                and provide insights that human bias overlooks. I want to apply this thinking in a business setting that
-                could transform and optimize the way companies run their day-to-day. I currently apply the things I have
-                learned so far to sports, as it has very extensive and in-depth records. It is very exciting to see the                     
-                models I have created and how they align with the outcomes of games and seasons, and I hope to bring the 
-                same insight and analysis into all the work I produce.
+            <div class="mt-5">
+                <object 
+                    class="w-full h-[1100px]"
+                    data="/Resume.pdf" 
+                    >
+            </object>
             </div>
         </div>
-        <div class="mt-5">
-            <object 
-                class="w-full h-[1100px]"
-                data="/Resume.pdf" 
-                >
-        </object>
-        </div>
-    </div>
+    </Section>
 </BaseLayout>
