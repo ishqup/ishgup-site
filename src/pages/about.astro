@@ -2,17 +2,27 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { Image } from 'astro:assets';
 import headshotImg from "../headshot.jpg";
+import Section from "../components/Section.astro";
 ---
 
 <BaseLayout title="About - ishgup" description="About ishgup">
     <div class="max-w-5xl mx-auto">
         <div class="flex mt-3 md:flex-row flex-col">
-            <div class="text-lg md:text-xl">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor lacus eu faucibus posuere. Quisque tellus tellus, bibendum eu placerat sit amet, iaculis vitae ante. Cras eget molestie magna. Aliquam congue ligula erat, in consequat ex auctor non. Mauris in enim id felis placerat malesuada. Vestibulum mattis semper viverra. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi ligula mi, dictum vel ex in, semper feugiat dui. Aenean dapibus et velit sed commodo. Suspendisse eget tincidunt nunc. Nunc sapien mauris, dictum in pharetra non, lobortis et nulla. Maecenas a leo fringilla, egestas dui sit amet, porttitor lectus. Duis sit amet euismod odio, eget varius ipsum. Suspendisse sodales ornare nisl sed finibus. Proin sit amet vestibulum metus. Suspendisse in consectetur libero.
-            </div>
             <div>
                 <Image src={headshotImg} alt="headshot of ishgup" height={5000} width={5000}/>
             </div>
+            <Section heading="Hi, my name is Ishan">
+                <div>
+                    I am a student at the University of Pittsburgh studying Finance, Computer Science, and Data Analytics.
+                    It has been very interesting to see how statistics and artificial intelligence has transformed 
+                    industries and business processes. I find the collection and utilization of data to be very interesting
+                    and provide insights that human bias overlooks. I want to apply this thinking in a business setting that
+                    could transform and optimize the way companies run their day-to-day. I currently apply the things I have
+                    learned so far to sports, as it has very extensive and in-depth records. It is very exciting to see the 
+                    models I have created and how they align with the outcomes of games and seasons, and I hope to bring the 
+                    same insight and analysis into all the work I produce.
+                </div>
+            </Section>
         </div>
         <div class="mt-5">
             <object 
