@@ -71,9 +71,8 @@ const HeaderReact = ({ activePath }: Props) => {
                 </svg>
             </button>
         </div>
-        <div style={{ visibility: (open && !isDesktopOrLaptop) ? "visible" : "hidden" }}>
-
-            <div className="text-lg font-IBM [&>a]:my-2 [&>a]:inline-block font-bold">
+        {
+            (open && !isDesktopOrLaptop) ? <div className="text-lg font-IBM [&>a]:my-2 [&>a]:inline-block font-bold">
                 <a href="/" className={(activePath == "home" ? "text-teal-400" : "")}>Home</a> <br />
                 <a href="/projects" className={(activePath == "projects" ? "text-teal-400" : "")}>Projects</a> <br />
                 <a href="/fantasy" className={(activePath == "experience" ? "text-teal-400" : "")}>Fantasy</a> <br />
@@ -83,9 +82,8 @@ const HeaderReact = ({ activePath }: Props) => {
                     {linkedin}
                     {github}
                 </div>
-            </div>
-
-        </div>
+            </div> : <></>
+        }
     </>;
 
     return (
@@ -93,7 +91,7 @@ const HeaderReact = ({ activePath }: Props) => {
         <div className={"top-0 z-20 w-full h-14 bg-slate-800 md:pt-1 " + ((open && !isDesktopOrLaptop) ? "sticky" : "")}>
             <div className="absolute w-full">
                 <div
-                    className={"px-4 sm:px-5 pb-1 pt-2 md:mb-6 items-center sm:max-w-screen-xl mx-auto " + ((open && !isDesktopOrLaptop) ? "bg-[#121725]" : "")}
+                    className={"px-4 sm:px-5 pb-1 pt-2 md:mb-6 items-center sm:max-w-screen-xl mx-auto " + ((open && !isDesktopOrLaptop) ? "bg-slate-800" : "")}
                     style={{ transition: "all .1s ease-in-out" }}
                 >
                     {isDesktopOrLaptop ? desktopHeader : mobileHeader}
