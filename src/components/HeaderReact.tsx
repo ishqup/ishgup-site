@@ -75,7 +75,7 @@ const HeaderReact = ({ activePath }: Props) => {
             (open && !isDesktopOrLaptop) ? <div className="text-lg font-IBM [&>a]:my-2 [&>a]:inline-block font-bold">
                 <a href="/" className={(activePath == "home" ? "text-teal-400" : "")}>Home</a> <br />
                 <a href="/projects" className={(activePath == "projects" ? "text-teal-400" : "")}>Projects</a> <br />
-                <a href="/fantasy" className={(activePath == "experience" ? "text-teal-400" : "")}>Fantasy</a> <br />
+                <a href="/fantasy" className={(activePath == "fantasy" ? "text-teal-400" : "")}>Fantasy</a> <br />
                 <a href="/about" className={(activePath == "about" ? "text-teal-400" : "")}>About Me</a> <br />
                 <div className="flex [&>:first-child]:ml-0 my-2">
                     {twitter}
