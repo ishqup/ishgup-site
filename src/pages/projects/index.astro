@@ -11,17 +11,7 @@ const posts = (await getCollection("project")).sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 ---
-<BaseLayout title="Projects - ishgup" description="Projects">
-    <Section>
-        <div class="max-w-lg mx-auto">
-            <div class="grid grid-cols-3 gap-2">
-                <Card title="Home" href="/"></Card>
-                <Card title="Fantasy" href="/fantasy"></Card>
-                <Card title="Draft" href="/draft"></Card>
-               
-            </div>
-        </div>
-    </Section>
+<BaseLayout title="Projects - ishgup" description="Projects"  activePath="projects">
     <Section>
         {
             posts.map((post) => (

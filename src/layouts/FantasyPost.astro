@@ -9,7 +9,7 @@ type Props = CollectionEntry<"fantasy">["data"];
 const { title, description, pubDate, updatedDate } = Astro.props;
 ---
 
-<BaseLayout title={title} description={description} image="./og-image.png">
+<BaseLayout title={title} description={description} image="./og-image.png"  activePath="fantasy">
     <main
         class="mx-auto max-w-2xl p-5 break-words leading-normal text-left font-Grotesk"
     >

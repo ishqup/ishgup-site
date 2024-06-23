@@ -8,7 +8,7 @@ type Props = CollectionEntry<"project">["data"];
 const { title, description, pubDate, updatedDate, cover, coverAlt } = Astro.props;
 ---
 
-<BaseLayout title={title} description={description} image="./og-image.png">
+<BaseLayout title={title} description={description} image="./og-image.png"  activePath="projects">
     <main
         class="mx-auto max-w-2xl p-5 break-words leading-normal text-left font-Grotesk"
     >

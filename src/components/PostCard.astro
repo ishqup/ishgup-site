@@ -12,7 +12,7 @@ const { href, title, description, date, image } = Astro.props;
         </div>
         <div class="flex flex-col p-2 justify-between">
             <div>
-                <div class="font-sans font-bold text-xl md:text-2xl">{title}</div>
+                <div class="font-sans font-bold text-xl md:text-2xl title-holder transition-all duration-150 ease-in-out">{title}</div>
                 <div class="text-md md:text-lg">{description}</div>
             </div>
 
@@ -20,3 +20,9 @@ const { href, title, description, date, image } = Astro.props;
         </div>
     </div>
 </a>
+
+<style>
+    a:hover div.title-holder{
+        color: rgb(45 212 191);
+    }
+</style>

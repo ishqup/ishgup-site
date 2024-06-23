@@ -6,6 +6,7 @@ const fantasy = defineCollection({
     schema: z.object({
         title: z.string().max(45),
         description: z.string().max(80),
+        season: z.enum(["2022", "2023", "2024"]),
         // Transform string to Date object
         pubDate: z
             .string()

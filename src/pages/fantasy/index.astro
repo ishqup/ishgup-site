@@ -6,42 +6,46 @@ import FormattedDate from "../../components/FormattedDate.astro";
 import PostCard from "../../components/PostCard.astro";
 import Card from "../../components/Card.astro";
 import Section from "../../components/Section.astro";
+import SeasonHeader from "../../components/SeasonHeader.astro";
+import AccoladesDropdown from "../../components/AccoladesDropdown";
 
 const posts = (await getCollection("fantasy")).sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 ---
-<BaseLayout title="Stonks Fantasy - ishgup" description="Stonks Fantasy Blog Posts">
+<BaseLayout title="Stonks Fantasy - ishgup" description="Stonks Fantasy Blog Posts"  activePath="fantasy">
     <Section>
         <div class="max-w-lg mx-auto">
-            <div class="grid grid-cols-3 gap-2">
-                <Card title="Home" href="/"></Card>
-                <Card title="Projects" href="/projects"></Card>
                 <Card title="Draft" href="/draft"></Card>
-               
-            </div>
         </div>
     </Section>
     <Section>
-        <div style="text-align: center;">
-            <h1 style="text-decoration: underline;">Accolades</h1>
-            <table class="mx-auto text-left border-spacing-1 border-separate">
-                <tbody>
-                    <tr><td>Neil</td> <td>🏆'23, 🏆'22, 💩'21</td></tr>
-                    <tr><td>Sam</td> <td>🏆'21</td></tr>
-                    <tr><td>Prad</td> <td>🏆'20</td></tr>
-                    <tr><td>Savan</td> <td>💩'20, 🏆'16</td></tr>
-                    <tr><td>Ian</td> <td>—</td></tr>
-                    <tr><td>Ishan</td> <td>—</td></tr>
-                    <tr><td>Mike</td> <td>💩'23, 💩'18</td></tr>
-                    <tr><td>Joey</td> <td>💩'22</td></tr>
-                </tbody>
-            </table>
-        </div>
+        <AccoladesDropdown client:load></AccoladesDropdown>
     </Section>
+    
     <Section>
+        <!-- uncomment below when 2024 posts are created -->
+        <!-- <SeasonHeader season="2024"></SeasonHeader>
         {
-            posts.map((post) => (
+            posts.filter(p => p.data.season == "2024").map((post) => (
+                <>
+                <PostCard href={`/fantasy/${post.slug}/`} title={post.data.title} description={post.data.description} date={post.data.pubDate} image={new URL(Astro.url.pathname + "/" + post.slug + "/og-image.png", Astro.url).toString()}>
+                </>
+            ))
+        } -->
+
+        <SeasonHeader season="2023"></SeasonHeader>
+        {
+            posts.filter(p => p.data.season == "2023").map((post) => (
+                <>
+                <PostCard href={`/fantasy/${post.slug}/`} title={post.data.title} description={post.data.description} date={post.data.pubDate} image={new URL(Astro.url.pathname + "/" + post.slug + "/og-image.png", Astro.url).toString()}>
+                </>
+            ))
+        }
+
+        <SeasonHeader season="2022"></SeasonHeader>
+        {
+            posts.filter(p => p.data.season == "2022").map((post) => (
                 <>
                 <PostCard href={`/fantasy/${post.slug}/`} title={post.data.title} description={post.data.description} date={post.data.pubDate} image={new URL(Astro.url.pathname + "/" + post.slug + "/og-image.png", Astro.url).toString()}>
                 </>

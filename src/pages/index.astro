@@ -17,7 +17,7 @@ const projectPost = (await getCollection("project")).sort(
 const { Content } = await projectPost.render();
 ---
 
-<BaseLayout title="ishgup" description="Homepage">
+<BaseLayout title="ishgup" description="Homepage" activePath="home">
 
     <div class="flex justify-center items-center pt-10">
         <div>
@@ -29,17 +29,6 @@ const { Content } = await projectPost.render();
             <div class="text-center text-xl sm:text-4xl">Data Science & Sports</div>
         </div>
     </div>
-
-    <Section heading="">
-        <div class="max-w-lg mx-auto">
-            <div class="grid grid-cols-3 gap-2">
-                <Card title="Projects" href="/projects"></Card>
-                <Card title="Fantasy" href="/fantasy"></Card>
-                <Card title="About Me" href="/about"></Card>
-               
-            </div>
-        </div>
-    </Section>
 
 
     <div class="grid grid-cols-1 xl:grid-cols-2">

@@ -1,15 +1,16 @@
 ---
-import Header from "../components/Header.astro";
+import HeaderReact from "../components/HeaderReact";
 
 export interface Props {
     title: string;
     description: string;
     image?: string;
+    activePath: string;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, description, image } = Astro.props;
+const { title, description, image, activePath } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -59,7 +60,7 @@ const { title, description, image } = Astro.props;
         </style>
     </head>
     <body class="h-full  bg-gray-900 font-sans text-white">
-        <Header></Header>
+        <HeaderReact activePath={activePath} client:load></HeaderReact>
         <main class="max-w-[1500px] mx-auto">
             <slot/>
         </main>
