@@ -121,7 +121,7 @@ export interface The0 {
 
 
 
-const ESPN_URL = "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2023/segments/0/leaguedefaults/3?view=kona_player_info";
+const ESPN_URL = "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2024/segments/0/leaguedefaults/3?view=kona_player_info";
 const ESPN_FILTER = { "players": { "filterSlotIds": { "value": [0, 23] }, "sortAdp": { "sortPriority": 1, "sortAsc": true }, "sortDraftRanks": { "sortPriority": 100, "sortAsc": true, "value": "PPR" }, "filterRanksForSlotIds": { "value": [0, 2, 4, 6, 17, 16] }, "filterStatsForTopScoringPeriodIds": { "value": 2, "additionalValue": ["002023", "102023", "002022", "022023"] } } }
 
 type IshanPlayer = {
