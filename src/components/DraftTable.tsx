@@ -196,7 +196,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       let playerRatings: PlayerRow[] = espnPlayers.map((x, i) => {
         return {
           Name: x.player && x.player.fullName ? x.player.fullName : "",
-          Pos: x.player && x.player.defaultPositionId ? espnPosIdToString[x.player.defaultPositionId] : "N/A",
+          Pos: x.player && x.player.defaultPositionId ? espnPosIdToString[x.player.defaultPositionId] : "--",
           EspnRank: i + 1,
           EspnADP: x.player.ownership && x.player.ownership.averageDraftPosition ? Number.parseFloat(x.player.ownership.averageDraftPosition.toFixed(1)) : 0,
           EspnProj: x.player.stats?.find(x => x.externalId == "2024" && x.statSourceId == 1)?.appliedTotal ?? 0,
@@ -292,7 +292,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
     }),
     columnHelper.accessor('IshanRank', {
       header: "iRk",
-      cell: info => info.getValue() == 0 ? "N/A" : info.getValue(),
+      cell: info => info.getValue() == 0 ? "--" : info.getValue(),
       meta: {
         style: (context: CellContext<PlayerRow, unknown>) => {
           return { style: {} }
@@ -302,7 +302,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
     }),
     columnHelper.accessor('IshanProj', {
       header: "iProj",
-      cell: info => info.getValue() == 0 ? "N/A" : info.getValue().toFixed(2),
+      cell: info => info.getValue() == 0 ? "--" : info.getValue().toFixed(2),
       meta: {
         style: (context: CellContext<PlayerRow, unknown>) => {
           return { style: {} }
@@ -314,8 +314,16 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       header: "Diff",
       cell: info => {
         const ishanProjTotal = info.row.getValue("IshanProj");
+        const ishanRank = info.row.getValue("IshanRank");
+        const espnRank = info.row.getValue("EspnRank");
         if (ishanProjTotal == 0) {
-          return "N/A";
+          return "--";
+        }
+        if (ishanRank == espnRank) {
+          return "--";
+        }
+        if (info.getValue() > 0) {
+          return "+" + info.getValue();
         }
         return info.getValue();
       },
