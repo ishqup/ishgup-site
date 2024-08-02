@@ -199,7 +199,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
           Pos: x.player && x.player.defaultPositionId ? espnPosIdToString[x.player.defaultPositionId] : "N/A",
           EspnRank: i + 1,
           EspnADP: x.player.ownership && x.player.ownership.averageDraftPosition ? Number.parseFloat(x.player.ownership.averageDraftPosition.toFixed(1)) : 0,
-          EspnProj: x.player.stats?.find(x => x.externalId == "2023" && x.statSourceId == 1)?.appliedTotal ?? 0,
+          EspnProj: x.player.stats?.find(x => x.externalId == "2024" && x.statSourceId == 1)?.appliedTotal ?? 0,
           IshanRank: 0,
           IshanProj: 0,
           Difference: 0,
@@ -363,10 +363,10 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
   }
 
   const posToTWClass: { [key: string]: string } = {
-    "RB": "bg-[#219426]",
-    "WR": "bg-[#216494]",
-    "TE": "bg-[#bda20b]",
-    "QB": "bg-[#942134]"
+    "RB": "bg-[#336149]",
+    "WR": "bg-[#335261]",
+    "TE": "bg-[#615933]",
+    "QB": "bg-[#613349]"
   }
 
 
