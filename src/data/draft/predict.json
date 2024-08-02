@@ -1,3866 +1,3670 @@
 [
     {
-        "index": 0,
-        "Player": "Josh Jacobs",
-        "Pos": "RB",
-        "p2023": 272.5971218222,
-        "eADP": 8.0
+       "index":0,
+       "Player":"Christian McCaffrey",
+       "Pos":"RB",
+       "p2024":340.5418791277,
+       "eADP":1.0
     },
     {
-        "index": 1,
-        "Player": "Derrick Henry ",
-        "Pos": "RB",
-        "p2023": 260.1676044677,
-        "eADP": 12.0
+       "index":1,
+       "Player":"CeeDee Lamb",
+       "Pos":"WR",
+       "p2024":336.2740684331,
+       "eADP":3.0
     },
     {
-        "index": 2,
-        "Player": "Christian McCaffrey",
-        "Pos": "RB",
-        "p2023": 294.3958653421,
-        "eADP": 3.0
+       "index":2,
+       "Player":"Tyreek Hill",
+       "Pos":"WR",
+       "p2024":339.0051606073,
+       "eADP":2.0
     },
     {
-        "index": 3,
-        "Player": "Justin Jefferson",
-        "Pos": "WR",
-        "p2023": 308.8032848131,
-        "eADP": 1.0
+       "index":3,
+       "Player":"Breece Hall",
+       "Pos":"RB",
+       "p2024":250.4137315315,
+       "eADP":11.0
     },
     {
-        "index": 4,
-        "Player": "Nick Chubb",
-        "Pos": "RB",
-        "p2023": 239.1668393841,
-        "eADP": 16.0
+       "index":4,
+       "Player":"Puka Nacua",
+       "Pos":"WR",
+       "p2024":261.2884338805,
+       "eADP":8.0
     },
     {
-        "index": 5,
-        "Player": "Tyreek Hill",
-        "Pos": "WR",
-        "p2023": 291.2809510708,
-        "eADP": 4.0
+       "index":5,
+       "Player":"James Cook",
+       "Pos":"RB",
+       "p2024":207.2463460934,
+       "eADP":38.0
     },
     {
-        "index": 6,
-        "Player": "Saquon Barkley",
-        "Pos": "RB",
-        "p2023": 250.3329612183,
-        "eADP": 14.0
+       "index":6,
+       "Player":"Amon-Ra St. Brown",
+       "Pos":"WR",
+       "p2024":297.2903234735,
+       "eADP":4.0
     },
     {
-        "index": 7,
-        "Player": "Austin Ekeler",
-        "Pos": "RB",
-        "p2023": 307.7002250168,
-        "eADP": 2.0
+       "index":7,
+       "Player":"Rachaad White",
+       "Pos":"RB",
+       "p2024":233.4369278307,
+       "eADP":19.0
     },
     {
-        "index": 8,
-        "Player": "Aaron Jones",
-        "Pos": "RB",
-        "p2023": 214.0883060467,
-        "eADP": 24.0
+       "index":8,
+       "Player":"Travis Etienne",
+       "Pos":"RB",
+       "p2024":236.4723094882,
+       "eADP":17.0
     },
     {
-        "index": 9,
-        "Player": "Davante Adams",
-        "Pos": "WR",
-        "p2023": 285.9276727482,
-        "eADP": 5.0
+       "index":9,
+       "Player":"Bijan Robinson",
+       "Pos":"RB",
+       "p2024":215.9743356209,
+       "eADP":28.0
     },
     {
-        "index": 10,
-        "Player": "A.J. Brown",
-        "Pos": "WR",
-        "p2023": 261.2954822237,
-        "eADP": 11.0
+       "index":10,
+       "Player":"A.J. Brown",
+       "Pos":"WR",
+       "p2024":258.6584012128,
+       "eADP":9.0
     },
     {
-        "index": 11,
-        "Player": "Dalvin Cook",
-        "Pos": "RB",
-        "p2023": 213.7366346075,
-        "eADP": 25.0
+       "index":11,
+       "Player":"Joe Mixon",
+       "Pos":"RB",
+       "p2024":231.2325896198,
+       "eADP":22.0
     },
     {
-        "index": 12,
-        "Player": "Rhamondre Stevenson",
-        "Pos": "RB",
-        "p2023": 204.1887738104,
-        "eADP": 32.0
+       "index":12,
+       "Player":"D.J. Moore",
+       "Pos":"WR",
+       "p2024":254.6428054953,
+       "eADP":10.0
     },
     {
-        "index": 13,
-        "Player": "Travis Etienne",
-        "Pos": "RB",
-        "p2023": 174.9309021735,
-        "eADP": 64.0
+       "index":13,
+       "Player":"Derrick Henry",
+       "Pos":"RB",
+       "p2024":211.5447198751,
+       "eADP":31.0
     },
     {
-        "index": 14,
-        "Player": "Stefon Diggs",
-        "Pos": "WR",
-        "p2023": 279.6314745135,
-        "eADP": 6.0
+       "index":14,
+       "Player":"Kyren Williams",
+       "Pos":"RB",
+       "p2024":274.6053496449,
+       "eADP":6.0
     },
     {
-        "index": 15,
-        "Player": "CeeDee Lamb",
-        "Pos": "WR",
-        "p2023": 259.8956001465,
-        "eADP": 13.0
+       "index":15,
+       "Player":"Brandon Aiyuk",
+       "Pos":"WR",
+       "p2024":236.1523843122,
+       "eADP":18.0
     },
     {
-        "index": 16,
-        "Player": "Alvin Kamara",
-        "Pos": "RB",
-        "p2023": 203.3029076223,
-        "eADP": 34.0
+       "index":16,
+       "Player":"Tony Pollard",
+       "Pos":"RB",
+       "p2024":203.1854311442,
+       "eADP":40.0
     },
     {
-        "index": 17,
-        "Player": "Jaylen Waddle",
-        "Pos": "WR",
-        "p2023": 231.3730269922,
-        "eADP": 18.0
+       "index":17,
+       "Player":"Nico Collins",
+       "Pos":"WR",
+       "p2024":244.508470698,
+       "eADP":14.0
     },
     {
-        "index": 18,
-        "Player": "Tony Pollard",
-        "Pos": "RB",
-        "p2023": 211.9293064293,
-        "eADP": 26.0
+       "index":18,
+       "Player":"D'Andre Swift",
+       "Pos":"RB",
+       "p2024":190.9154424377,
+       "eADP":59.0
     },
     {
-        "index": 19,
-        "Player": "Miles Sanders",
-        "Pos": "RB",
-        "p2023": 194.1675137233,
-        "eADP": 44.0
+       "index":19,
+       "Player":"Jahmyr Gibbs",
+       "Pos":"RB",
+       "p2024":213.9971942531,
+       "eADP":29.0
     },
     {
-        "index": 20,
-        "Player": "Travis Kelce",
-        "Pos": "TE",
-        "p2023": 267.4524777303,
-        "eADP": 9.0
+       "index":20,
+       "Player":"Mike Evans",
+       "Pos":"WR",
+       "p2024":250.143700139,
+       "eADP":12.0
     },
     {
-        "index": 21,
-        "Player": "Najee Harris",
-        "Pos": "RB",
-        "p2023": 196.6634483362,
-        "eADP": 42.0
+       "index":21,
+       "Player":"Amari Cooper",
+       "Pos":"WR",
+       "p2024":221.9059653283,
+       "eADP":25.0
     },
     {
-        "index": 22,
-        "Player": "Amon-Ra St. Brown",
-        "Pos": "WR",
-        "p2023": 242.9698869567,
-        "eADP": 15.0
+       "index":22,
+       "Player":"Keenan Allen",
+       "Pos":"WR",
+       "p2024":282.5712218763,
+       "eADP":5.0
     },
     {
-        "index": 23,
-        "Player": "Joe Mixon",
-        "Pos": "RB",
-        "p2023": 233.1535824289,
-        "eADP": 17.0
+       "index":23,
+       "Player":"Saquon Barkley",
+       "Pos":"RB",
+       "p2024":219.2501575439,
+       "eADP":26.0
     },
     {
-        "index": 24,
-        "Player": "Terry McLaurin",
-        "Pos": "WR",
-        "p2023": 205.1930174409,
-        "eADP": 30.0
+       "index":24,
+       "Player":"Ja'Marr Chase",
+       "Pos":"WR",
+       "p2024":240.4579348832,
+       "eADP":15.0
     },
     {
-        "index": 25,
-        "Player": "Kenneth Walker III",
-        "Pos": "RB",
-        "p2023": 188.9509059273,
-        "eADP": 48.0
+       "index":25,
+       "Player":"James Conner",
+       "Pos":"RB",
+       "p2024":210.5149778778,
+       "eADP":34.0
     },
     {
-        "index": 26,
-        "Player": "DeVonta Smith",
-        "Pos": "WR",
-        "p2023": 222.3683732232,
-        "eADP": 19.0
+       "index":26,
+       "Player":"Najee Harris",
+       "Pos":"RB",
+       "p2024":177.5901867204,
+       "eADP":73.0
     },
     {
-        "index": 27,
-        "Player": "Leonard Fournette",
-        "Pos": "RB",
-        "p2023": 197.9368885,
-        "eADP": 39.0
+       "index":27,
+       "Player":"Stefon Diggs",
+       "Pos":"WR",
+       "p2024":238.4485382391,
+       "eADP":16.0
     },
     {
-        "index": 28,
-        "Player": "Tyler Allgeier",
-        "Pos": "RB",
-        "p2023": 142.9307989243,
-        "eADP": 104.0
+       "index":28,
+       "Player":"Raheem Mostert",
+       "Pos":"RB",
+       "p2024":248.0756133431,
+       "eADP":13.0
     },
     {
-        "index": 29,
-        "Player": "Amari Cooper",
-        "Pos": "WR",
-        "p2023": 220.3831584777,
-        "eADP": 20.0
+       "index":29,
+       "Player":"Isiah Pacheco",
+       "Pos":"RB",
+       "p2024":208.5747963871,
+       "eADP":36.0
     },
     {
-        "index": 30,
-        "Player": "Jamaal Williams",
-        "Pos": "RB",
-        "p2023": 190.8652129011,
-        "eADP": 45.0
+       "index":30,
+       "Player":"Kenneth Walker III",
+       "Pos":"RB",
+       "p2024":189.8627715102,
+       "eADP":61.0
     },
     {
-        "index": 31,
-        "Player": "Mike Evans",
-        "Pos": "WR",
-        "p2023": 214.9142533405,
-        "eADP": 23.0
+       "index":31,
+       "Player":"Alvin Kamara",
+       "Pos":"RB",
+       "p2024":229.8046365357,
+       "eADP":23.0
     },
     {
-        "index": 32,
-        "Player": "Christian Kirk",
-        "Pos": "WR",
-        "p2023": 218.0246753303,
-        "eADP": 21.0
+       "index":32,
+       "Player":"George Pickens",
+       "Pos":"WR",
+       "p2024":193.838587031,
+       "eADP":54.0
     },
     {
-        "index": 33,
-        "Player": "David Montgomery",
-        "Pos": "RB",
-        "p2023": 170.2279081385,
-        "eADP": 69.0
+       "index":33,
+       "Player":"Jaylen Warren",
+       "Pos":"RB",
+       "p2024":162.2117161462,
+       "eADP":88.0
     },
     {
-        "index": 34,
-        "Player": "Garrett Wilson",
-        "Pos": "WR",
-        "p2023": 189.8079186647,
-        "eADP": 47.0
+       "index":34,
+       "Player":"Michael Pittman Jr.",
+       "Pos":"WR",
+       "p2024":222.94178,
+       "eADP":24.0
     },
     {
-        "index": 35,
-        "Player": "Dameon Pierce",
-        "Pos": "RB",
-        "p2023": 172.8700796336,
-        "eADP": 66.0
+       "index":35,
+       "Player":"Davante Adams",
+       "Pos":"WR",
+       "p2024":232.6368706614,
+       "eADP":20.0
     },
     {
-        "index": 36,
-        "Player": "Devin Singletary",
-        "Pos": "RB",
-        "p2023": 168.2358128611,
-        "eADP": 70.0
+       "index":36,
+       "Player":"Chuba Hubbard",
+       "Pos":"RB",
+       "p2024":163.4619005653,
+       "eADP":86.0
     },
     {
-        "index": 37,
-        "Player": "Raheem Mostert",
-        "Pos": "RB",
-        "p2023": 163.7493145242,
-        "eADP": 75.0
+       "index":37,
+       "Player":"Jerome Ford",
+       "Pos":"RB",
+       "p2024":182.1556128007,
+       "eADP":72.0
     },
     {
-        "index": 38,
-        "Player": "James Conner",
-        "Pos": "RB",
-        "p2023": 205.8427309508,
-        "eADP": 29.0
+       "index":38,
+       "Player":"David Montgomery",
+       "Pos":"RB",
+       "p2024":202.5821365953,
+       "eADP":42.0
     },
     {
-        "index": 39,
-        "Player": "Ja'Marr Chase",
-        "Pos": "WR",
-        "p2023": 264.5328406896,
-        "eADP": 10.0
+       "index":39,
+       "Player":"Chris Olave",
+       "Pos":"WR",
+       "p2024":209.9115252924,
+       "eADP":35.0
     },
     {
-        "index": 40,
-        "Player": "D.K. Metcalf",
-        "Pos": "WR",
-        "p2023": 201.4573579811,
-        "eADP": 35.0
+       "index":40,
+       "Player":"Deebo Samuel",
+       "Pos":"WR",
+       "p2024":231.9131394606,
+       "eADP":21.0
     },
     {
-        "index": 41,
-        "Player": "Jeff Wilson",
-        "Pos": "RB",
-        "p2023": 144.8910015357,
-        "eADP": 102.0
+       "index":41,
+       "Player":"D.K. Metcalf",
+       "Pos":"WR",
+       "p2024":211.7593517604,
+       "eADP":30.0
     },
     {
-        "index": 42,
-        "Player": "Chris Olave",
-        "Pos": "WR",
-        "p2023": 187.6536214673,
-        "eADP": 51.0
+       "index":42,
+       "Player":"Josh Jacobs",
+       "Pos":"RB",
+       "p2024":184.5821146966,
+       "eADP":68.0
     },
     {
-        "index": 43,
-        "Player": "Brandon Aiyuk",
-        "Pos": "WR",
-        "p2023": 204.6840005579,
-        "eADP": 31.0
+       "index":43,
+       "Player":"Brian Robinson Jr.",
+       "Pos":"RB",
+       "p2024":191.5849945367,
+       "eADP":58.0
     },
     {
-        "index": 44,
-        "Player": "Tyler Lockett",
-        "Pos": "WR",
-        "p2023": 217.0375767618,
-        "eADP": 22.0
+       "index":44,
+       "Player":"Devin Singletary",
+       "Pos":"RB",
+       "p2024":142.7202392796,
+       "eADP":109.0
     },
     {
-        "index": 45,
-        "Player": "Tee Higgins",
-        "Pos": "WR",
-        "p2023": 201.0836871555,
-        "eADP": 37.0
+       "index":45,
+       "Player":"DeAndre Hopkins",
+       "Pos":"WR",
+       "p2024":203.9535297334,
+       "eADP":39.0
     },
     {
-        "index": 46,
-        "Player": "Chris Godwin",
-        "Pos": "WR",
-        "p2023": 209.0170806092,
-        "eADP": 27.0
+       "index":46,
+       "Player":"DeVonta Smith",
+       "Pos":"WR",
+       "p2024":210.6747586981,
+       "eADP":33.0
     },
     {
-        "index": 47,
-        "Player": "Jerry Jeudy",
-        "Pos": "WR",
-        "p2023": 199.1489169621,
-        "eADP": 38.0
+       "index":47,
+       "Player":"Austin Ekeler",
+       "Pos":"RB",
+       "p2024":190.5329157051,
+       "eADP":60.0
     },
     {
-        "index": 48,
-        "Player": "Jonathan Taylor",
-        "Pos": "RB",
-        "p2023": 171.2915420265,
-        "eADP": 68.0
+       "index":48,
+       "Player":"Chris Godwin",
+       "Pos":"WR",
+       "p2024":193.8139243427,
+       "eADP":55.0
     },
     {
-        "index": 49,
-        "Player": "AJ Dillon ",
-        "Pos": "RB",
-        "p2023": 142.1958817113,
-        "eADP": 106.0
+       "index":49,
+       "Player":"Justin Jefferson",
+       "Pos":"WR",
+       "p2024":262.5975509674,
+       "eADP":7.0
     },
     {
-        "index": 50,
-        "Player": "Ezekiel Elliott",
-        "Pos": "RB",
-        "p2023": 179.2745125754,
-        "eADP": 59.0
+       "index":50,
+       "Player":"Garrett Wilson",
+       "Pos":"WR",
+       "p2024":197.3097509406,
+       "eADP":49.0
     },
     {
-        "index": 51,
-        "Player": "Isiah Pacheco",
-        "Pos": "RB",
-        "p2023": 122.7220404908,
-        "eADP": 129.0
+       "index":51,
+       "Player":"Calvin Ridley",
+       "Pos":"WR",
+       "p2024":211.1478660796,
+       "eADP":32.0
     },
     {
-        "index": 52,
-        "Player": "Michael Pittman Jr.",
-        "Pos": "WR",
-        "p2023": 197.2715704161,
-        "eADP": 40.0
+       "index":52,
+       "Player":"Jaylen Waddle",
+       "Pos":"WR",
+       "p2024":200.7986775774,
+       "eADP":46.0
     },
     {
-        "index": 53,
-        "Player": "D.J. Moore",
-        "Pos": "WR",
-        "p2023": 184.4362569646,
-        "eADP": 55.0
+       "index":53,
+       "Player":"George Kittle",
+       "Pos":"TE",
+       "p2024":196.5300193958,
+       "eADP":51.0
     },
     {
-        "index": 54,
-        "Player": "D'Onta Foreman",
-        "Pos": "RB",
-        "p2023": 126.1071777891,
-        "eADP": 124.0
+       "index":54,
+       "Player":"Adam Thielen",
+       "Pos":"WR",
+       "p2024":202.9263440576,
+       "eADP":41.0
     },
     {
-        "index": 55,
-        "Player": "JuJu Smith-Schuster",
-        "Pos": "WR",
-        "p2023": 175.6285002113,
-        "eADP": 62.0
+       "index":55,
+       "Player":"Terry McLaurin",
+       "Pos":"WR",
+       "p2024":187.4437306138,
+       "eADP":64.0
     },
     {
-        "index": 56,
-        "Player": "D'Andre Swift",
-        "Pos": "RB",
-        "p2023": 184.7618730414,
-        "eADP": 54.0
+       "index":56,
+       "Player":"Javonte Williams",
+       "Pos":"RB",
+       "p2024":170.4250050701,
+       "eADP":78.0
     },
     {
-        "index": 57,
-        "Player": "T.J. Hockenson",
-        "Pos": "TE",
-        "p2023": 187.3841963585,
-        "eADP": 53.0
+       "index":57,
+       "Player":"De'Von Achane",
+       "Pos":"RB",
+       "p2024":218.5321346231,
+       "eADP":27.0
     },
     {
-        "index": 58,
-        "Player": "Diontae Johnson",
-        "Pos": "WR",
-        "p2023": 165.2879723083,
-        "eADP": 73.0
+       "index":58,
+       "Player":"Gus Edwards",
+       "Pos":"RB",
+       "p2024":160.8093773675,
+       "eADP":91.0
     },
     {
-        "index": 59,
-        "Player": "Cam Akers",
-        "Pos": "RB",
-        "p2023": 140.4356457477,
-        "eADP": 109.0
+       "index":59,
+       "Player":"Zack Moss",
+       "Pos":"RB",
+       "p2024":165.7731620429,
+       "eADP":82.0
     },
     {
-        "index": 60,
-        "Player": "Antonio Gibson ",
-        "Pos": "RB",
-        "p2023": 148.2945076102,
-        "eADP": 100.0
+       "index":60,
+       "Player":"Travis Kelce",
+       "Pos":"TE",
+       "p2024":208.1971329426,
+       "eADP":37.0
     },
     {
-        "index": 61,
-        "Player": "Mike Williams",
-        "Pos": "WR",
-        "p2023": 188.7573267926,
-        "eADP": 49.0
+       "index":61,
+       "Player":"Evan Engram",
+       "Pos":"TE",
+       "p2024":201.7047546455,
+       "eADP":44.0
     },
     {
-        "index": 62,
-        "Player": "Latavius Murray",
-        "Pos": "RB",
-        "p2023": 150.1766242271,
-        "eADP": 96.0
+       "index":62,
+       "Player":"T.J. Hockenson",
+       "Pos":"TE",
+       "p2024":201.4494881264,
+       "eADP":45.0
     },
     {
-        "index": 63,
-        "Player": "Drake London",
-        "Pos": "WR",
-        "p2023": 163.2867295245,
-        "eADP": 76.0
+       "index":63,
+       "Player":"Ezekiel Elliott",
+       "Pos":"RB",
+       "p2024":143.0790830938,
+       "eADP":107.0
     },
     {
-        "index": 64,
-        "Player": "Cooper Kupp",
-        "Pos": "WR",
-        "p2023": 273.9429959371,
-        "eADP": 7.0
+       "index":64,
+       "Player":"Rashee Rice",
+       "Pos":"WR",
+       "p2024":189.5939880791,
+       "eADP":62.0
     },
     {
-        "index": 65,
-        "Player": "Deebo Samuel",
-        "Pos": "WR",
-        "p2023": 178.7973888231,
-        "eADP": 60.0
+       "index":65,
+       "Player":"Zay Flowers",
+       "Pos":"WR",
+       "p2024":188.6087552404,
+       "eADP":63.0
     },
     {
-        "index": 66,
-        "Player": "Brian Robinson Jr.",
-        "Pos": "RB",
-        "p2023": 122.206868873,
-        "eADP": 132.0
+       "index":66,
+       "Player":"Jordan Addison",
+       "Pos":"WR",
+       "p2024":195.0274058547,
+       "eADP":52.0
     },
     {
-        "index": 67,
-        "Player": "Mark Andrews",
-        "Pos": "TE",
-        "p2023": 188.1679436297,
-        "eADP": 50.0
+       "index":67,
+       "Player":"Jayden Reed",
+       "Pos":"WR",
+       "p2024":192.4976223687,
+       "eADP":56.0
     },
     {
-        "index": 68,
-        "Player": "Curtis Samuel",
-        "Pos": "WR",
-        "p2023": 162.2887616051,
-        "eADP": 79.0
+       "index":68,
+       "Player":"Drake London",
+       "Pos":"WR",
+       "p2024":166.6751798553,
+       "eADP":80.0
     },
     {
-        "index": 69,
-        "Player": "Zay Jones",
-        "Pos": "WR",
-        "p2023": 181.9043446872,
-        "eADP": 56.0
+       "index":69,
+       "Player":"Tyler Lockett",
+       "Pos":"WR",
+       "p2024":182.9802889959,
+       "eADP":71.0
     },
     {
-        "index": 70,
-        "Player": "Donovan Peoples-Jones",
-        "Pos": "WR",
-        "p2023": 154.8915789592,
-        "eADP": 91.0
+       "index":70,
+       "Player":"Jonathan Taylor",
+       "Pos":"RB",
+       "p2024":186.4926833664,
+       "eADP":65.0
     },
     {
-        "index": 71,
-        "Player": "Gabriel Davis",
-        "Pos": "WR",
-        "p2023": 173.8907148307,
-        "eADP": 65.0
+       "index":71,
+       "Player":"Sam LaPorta",
+       "Pos":"TE",
+       "p2024":202.2314513281,
+       "eADP":43.0
     },
     {
-        "index": 72,
-        "Player": "Courtland Sutton",
-        "Pos": "WR",
-        "p2023": 161.6035477992,
-        "eADP": 81.0
+       "index":72,
+       "Player":"Alexander Mattison",
+       "Pos":"RB",
+       "p2024":138.9317276366,
+       "eADP":117.0
     },
     {
-        "index": 73,
-        "Player": "George Pickens",
-        "Pos": "WR",
-        "p2023": 151.6904765539,
-        "eADP": 95.0
+       "index":73,
+       "Player":"Aaron Jones",
+       "Pos":"RB",
+       "p2024":156.6830566466,
+       "eADP":95.0
     },
     {
-        "index": 74,
-        "Player": "Cordarrelle Patterson",
-        "Pos": "RB",
-        "p2023": 157.2415060204,
-        "eADP": 86.0
+       "index":74,
+       "Player":"David Njoku",
+       "Pos":"TE",
+       "p2024":192.3140210442,
+       "eADP":57.0
     },
     {
-        "index": 75,
-        "Player": "Jerick McKinnon",
-        "Pos": "RB",
-        "p2023": 154.5145285091,
-        "eADP": 92.0
+       "index":75,
+       "Player":"Tyler Allgeier",
+       "Pos":"RB",
+       "p2024":117.1257123064,
+       "eADP":141.0
     },
     {
-        "index": 76,
-        "Player": "Jakobi Meyers",
-        "Pos": "WR",
-        "p2023": 181.7248764852,
-        "eADP": 57.0
+       "index":76,
+       "Player":"Rhamondre Stevenson",
+       "Pos":"RB",
+       "p2024":166.1058312594,
+       "eADP":81.0
     },
     {
-        "index": 77,
-        "Player": "Khalil Herbert",
-        "Pos": "RB",
-        "p2023": 116.9404737159,
-        "eADP": 146.0
+       "index":77,
+       "Player":"Tyjae Spears",
+       "Pos":"RB",
+       "p2024":131.1057980499,
+       "eADP":125.0
     },
     {
-        "index": 78,
-        "Player": "Allen Lazard ",
-        "Pos": "WR",
-        "p2023": 176.3055062752,
-        "eADP": 61.0
+       "index":78,
+       "Player":"AJ Dillon",
+       "Pos":"RB",
+       "p2024":114.7926065255,
+       "eADP":145.0
     },
     {
-        "index": 79,
-        "Player": "Evan Engram",
-        "Pos": "TE",
-        "p2023": 161.6113103651,
-        "eADP": 80.0
+       "index":79,
+       "Player":"Jakobi Meyers",
+       "Pos":"WR",
+       "p2024":199.2016403571,
+       "eADP":47.0
     },
     {
-        "index": 80,
-        "Player": "Josh Palmer",
-        "Pos": "WR",
-        "p2023": 155.3195904708,
-        "eADP": 90.0
+       "index":80,
+       "Player":"Trey McBride",
+       "Pos":"TE",
+       "p2024":158.192223922,
+       "eADP":94.0
     },
     {
-        "index": 81,
-        "Player": "Rachaad White",
-        "Pos": "RB",
-        "p2023": 126.7268431354,
-        "eADP": 123.0
+       "index":81,
+       "Player":"Christian Kirk",
+       "Pos":"WR",
+       "p2024":174.5205562895,
+       "eADP":74.0
     },
     {
-        "index": 82,
-        "Player": "George Kittle",
-        "Pos": "TE",
-        "p2023": 195.4183567803,
-        "eADP": 43.0
+       "index":82,
+       "Player":"Courtland Sutton",
+       "Pos":"WR",
+       "p2024":183.7869258586,
+       "eADP":70.0
     },
     {
-        "index": 83,
-        "Player": "Tyler Boyd",
-        "Pos": "WR",
-        "p2023": 161.1659176844,
-        "eADP": 82.0
+       "index":83,
+       "Player":"Josh Downs",
+       "Pos":"WR",
+       "p2024":142.0037016827,
+       "eADP":110.0
     },
     {
-        "index": 84,
-        "Player": "Keenan Allen",
-        "Pos": "WR",
-        "p2023": 207.223852236,
-        "eADP": 28.0
+       "index":84,
+       "Player":"Darius Slayton",
+       "Pos":"WR",
+       "p2024":145.476587415,
+       "eADP":104.0
     },
     {
-        "index": 85,
-        "Player": "Pat Freiermuth",
-        "Pos": "TE",
-        "p2023": 137.7615306778,
-        "eADP": 113.0
+       "index":85,
+       "Player":"Jake Ferguson",
+       "Pos":"TE",
+       "p2024":163.3205258593,
+       "eADP":87.0
     },
     {
-        "index": 86,
-        "Player": "Mack Hollins",
-        "Pos": "WR",
-        "p2023": 152.5923319075,
-        "eADP": 93.0
+       "index":86,
+       "Player":"Tank Dell",
+       "Pos":"WR",
+       "p2024":194.7674541396,
+       "eADP":53.0
     },
     {
-        "index": 87,
-        "Player": "Darius Slayton",
-        "Pos": "WR",
-        "p2023": 125.9662719633,
-        "eADP": 125.0
+       "index":87,
+       "Player":"Jerry Jeudy",
+       "Pos":"WR",
+       "p2024":138.6391321428,
+       "eADP":118.0
     },
     {
-        "index": 88,
-        "Player": "Adam Thielen",
-        "Pos": "WR",
-        "p2023": 167.3026767501,
-        "eADP": 71.0
+       "index":88,
+       "Player":"Rashid Shaheed",
+       "Pos":"WR",
+       "p2024":147.5196410999,
+       "eADP":103.0
     },
     {
-        "index": 89,
-        "Player": "DeAndre Hopkins",
-        "Pos": "WR",
-        "p2023": 201.2574794376,
-        "eADP": 36.0
+       "index":89,
+       "Player":"Khalil Herbert",
+       "Pos":"RB",
+       "p2024":127.2888150239,
+       "eADP":133.0
     },
     {
-        "index": 90,
-        "Player": "Marquise Brown",
-        "Pos": "WR",
-        "p2023": 166.8445212012,
-        "eADP": 72.0
+       "index":90,
+       "Player":"Gabriel Davis",
+       "Pos":"WR",
+       "p2024":159.0195857167,
+       "eADP":93.0
     },
     {
-        "index": 91,
-        "Player": "Brandin Cooks",
-        "Pos": "WR",
-        "p2023": 156.0405064625,
-        "eADP": 88.0
+       "index":91,
+       "Player":"Cooper Kupp",
+       "Pos":"WR",
+       "p2024":184.6677317633,
+       "eADP":67.0
     },
     {
-        "index": 92,
-        "Player": "Dallas Goedert",
-        "Pos": "TE",
-        "p2023": 160.054089445,
-        "eADP": 84.0
+       "index":92,
+       "Player":"Cole Kmet",
+       "Pos":"TE",
+       "p2024":163.7141331761,
+       "eADP":84.0
     },
     {
-        "index": 93,
-        "Player": "Christian Watson",
-        "Pos": "WR",
-        "p2023": 164.944629165,
-        "eADP": 74.0
+       "index":93,
+       "Player":"Diontae Johnson",
+       "Pos":"WR",
+       "p2024":161.4604243547,
+       "eADP":90.0
     },
     {
-        "index": 94,
-        "Player": "Michael Carter",
-        "Pos": "RB",
-        "p2023": 118.6141105027,
-        "eADP": 140.0
+       "index":94,
+       "Player":"Samaje Perine",
+       "Pos":"RB",
+       "p2024":106.9817395908,
+       "eADP":158.0
     },
     {
-        "index": 95,
-        "Player": "James Cook",
-        "Pos": "RB",
-        "p2023": 96.1708008535,
-        "eADP": 184.0
+       "index":95,
+       "Player":"Brandin Cooks",
+       "Pos":"WR",
+       "p2024":163.616616072,
+       "eADP":85.0
     },
     {
-        "index": 96,
-        "Player": "Marquez Valdes-Scantling",
-        "Pos": "WR",
-        "p2023": 118.8134736873,
-        "eADP": 137.0
+       "index":96,
+       "Player":"Tyler Boyd",
+       "Pos":"WR",
+       "p2024":139.7632430837,
+       "eADP":115.0
     },
     {
-        "index": 97,
-        "Player": "Parris Campbell",
-        "Pos": "WR",
-        "p2023": 149.3000145867,
-        "eADP": 99.0
+       "index":97,
+       "Player":"Romeo Doubs",
+       "Pos":"WR",
+       "p2024":164.0462852615,
+       "eADP":83.0
     },
     {
-        "index": 98,
-        "Player": "Breece Hall",
-        "Pos": "RB",
-        "p2023": 190.6943626866,
-        "eADP": 46.0
+       "index":98,
+       "Player":"Dalton Kincaid",
+       "Pos":"TE",
+       "p2024":139.9396608112,
+       "eADP":114.0
     },
     {
-        "index": 99,
-        "Player": "Samaje Perine",
-        "Pos": "RB",
-        "p2023": 123.1920771575,
-        "eADP": 127.0
+       "index":99,
+       "Player":"Zach Charbonnet",
+       "Pos":"RB",
+       "p2024":99.7095386928,
+       "eADP":168.0
     },
     {
-        "index": 100,
-        "Player": "Kareem Hunt",
-        "Pos": "RB",
-        "p2023": 105.5171971847,
-        "eADP": 174.0
+       "index":100,
+       "Player":"Kyle Pitts",
+       "Pos":"TE",
+       "p2024":135.8950899668,
+       "eADP":120.0
     },
     {
-        "index": 101,
-        "Player": "K.J. Osborn",
-        "Pos": "WR",
-        "p2023": 140.170844923,
-        "eADP": 110.0
+       "index":101,
+       "Player":"Tee Higgins",
+       "Pos":"WR",
+       "p2024":155.2512240667,
+       "eADP":98.0
     },
     {
-        "index": 102,
-        "Player": "Kalif Raymond",
-        "Pos": "WR",
-        "p2023": 104.4672074689,
-        "eADP": 175.0
+       "index":102,
+       "Player":"Antonio Gibson",
+       "Pos":"RB",
+       "p2024":111.9778171344,
+       "eADP":149.0
     },
     {
-        "index": 103,
-        "Player": "Chuba Hubbard",
-        "Pos": "RB",
-        "p2023": 78.3717095604,
-        "eADP": 226.0
+       "index":103,
+       "Player":"Curtis Samuel",
+       "Pos":"WR",
+       "p2024":152.622830735,
+       "eADP":101.0
     },
     {
-        "index": 104,
-        "Player": "Tyler Higbee",
-        "Pos": "TE",
-        "p2023": 142.6088255889,
-        "eADP": 105.0
+       "index":104,
+       "Player":"Elijah Moore",
+       "Pos":"WR",
+       "p2024":131.1360478272,
+       "eADP":124.0
     },
     {
-        "index": 105,
-        "Player": "David Njoku",
-        "Pos": "TE",
-        "p2023": 149.7517320399,
-        "eADP": 97.0
+       "index":105,
+       "Player":"Dalton Schultz",
+       "Pos":"TE",
+       "p2024":139.1963266007,
+       "eADP":116.0
     },
     {
-        "index": 106,
-        "Player": "Alec Pierce",
-        "Pos": "WR",
-        "p2023": 112.1548581618,
-        "eADP": 154.0
+       "index":106,
+       "Player":"Jaxon Smith-Njigba",
+       "Pos":"WR",
+       "p2024":128.988558448,
+       "eADP":131.0
     },
     {
-        "index": 107,
-        "Player": "Jaylen Warren",
-        "Pos": "RB",
-        "p2023": 85.1285289984,
-        "eADP": 210.0
+       "index":107,
+       "Player":"Tyler Conklin",
+       "Pos":"TE",
+       "p2024":118.6768919395,
+       "eADP":139.0
     },
     {
-        "index": 108,
-        "Player": "Dalton Schultz",
-        "Pos": "TE",
-        "p2023": 145.1784952987,
-        "eADP": 101.0
+       "index":108,
+       "Player":"Khalil Shakir",
+       "Pos":"WR",
+       "p2024":113.1329309017,
+       "eADP":147.0
     },
     {
-        "index": 109,
-        "Player": "Richie James",
-        "Pos": "WR",
-        "p2023": 117.3481115238,
-        "eADP": 144.0
+       "index":109,
+       "Player":"Ty Chandler",
+       "Pos":"RB",
+       "p2024":95.5308506182,
+       "eADP":178.0
     },
     {
-        "index": 110,
-        "Player": "Kenyan Drake",
-        "Pos": "RB",
-        "p2023": 109.5036721034,
-        "eADP": 158.0
+       "index":110,
+       "Player":"Wan'Dale Robinson",
+       "Pos":"WR",
+       "p2024":127.4994432546,
+       "eADP":132.0
     },
     {
-        "index": 111,
-        "Player": "J.K. Dobbins",
-        "Pos": "RB",
-        "p2023": 123.1175005201,
-        "eADP": 128.0
+       "index":111,
+       "Player":"Josh Reynolds",
+       "Pos":"WR",
+       "p2024":130.4950753971,
+       "eADP":127.0
     },
     {
-        "index": 112,
-        "Player": "Damien Harris",
-        "Pos": "RB",
-        "p2023": 106.3929735979,
-        "eADP": 168.0
+       "index":112,
+       "Player":"Demario Douglas",
+       "Pos":"WR",
+       "p2024":109.5343514583,
+       "eADP":155.0
     },
     {
-        "index": 113,
-        "Player": "Noah Brown",
-        "Pos": "WR",
-        "p2023": 122.4242255298,
-        "eADP": 131.0
+       "index":113,
+       "Player":"Marquise Brown",
+       "Pos":"WR",
+       "p2024":140.2489124692,
+       "eADP":113.0
     },
     {
-        "index": 114,
-        "Player": "Tyler Conklin",
-        "Pos": "TE",
-        "p2023": 130.5172248209,
-        "eADP": 119.0
+       "index":114,
+       "Player":"Dallas Goedert",
+       "Pos":"TE",
+       "p2024":141.6258760609,
+       "eADP":112.0
     },
     {
-        "index": 115,
-        "Player": "Gerald Everett",
-        "Pos": "TE",
-        "p2023": 133.7259560001,
-        "eADP": 115.0
+       "index":115,
+       "Player":"Justice Hill",
+       "Pos":"RB",
+       "p2024":106.4149760356,
+       "eADP":160.0
     },
     {
-        "index": 116,
-        "Player": "Cole Kmet",
-        "Pos": "TE",
-        "p2023": 141.0060794528,
-        "eADP": 108.0
+       "index":116,
+       "Player":"Josh Palmer",
+       "Pos":"WR",
+       "p2024":133.9545163121,
+       "eADP":122.0
     },
     {
-        "index": 117,
-        "Player": "Chris Moore",
-        "Pos": "WR",
-        "p2023": 112.5548473978,
-        "eADP": 152.0
+       "index":117,
+       "Player":"Miles Sanders",
+       "Pos":"RB",
+       "p2024":83.9067515988,
+       "eADP":199.0
     },
     {
-        "index": 118,
-        "Player": "Rashid Shaheed",
-        "Pos": "WR",
-        "p2023": 110.4704701899,
-        "eADP": 157.0
+       "index":118,
+       "Player":"Jonnu Smith",
+       "Pos":"TE",
+       "p2024":107.7371553002,
+       "eADP":157.0
     },
     {
-        "index": 119,
-        "Player": "Melvin Gordon",
-        "Pos": "RB",
-        "p2023": 95.5375768011,
-        "eADP": 185.0
+       "index":119,
+       "Player":"Dontayvion Wicks",
+       "Pos":"WR",
+       "p2024":116.5179992878,
+       "eADP":144.0
     },
     {
-        "index": 120,
-        "Player": "Olamide Zaccheaus",
-        "Pos": "WR",
-        "p2023": 116.3238674782,
-        "eADP": 147.0
+       "index":120,
+       "Player":"Jaleel McLaughlin",
+       "Pos":"RB",
+       "p2024":99.8936578498,
+       "eADP":166.0
     },
     {
-        "index": 121,
-        "Player": "DeVante Parker",
-        "Pos": "WR",
-        "p2023": 115.7295401069,
-        "eADP": 148.0
+       "index":121,
+       "Player":"Noah Brown",
+       "Pos":"WR",
+       "p2024":129.3830434829,
+       "eADP":129.0
     },
     {
-        "index": 122,
-        "Player": "Corey Davis",
-        "Pos": "WR",
-        "p2023": 107.4531133188,
-        "eADP": 164.0
+       "index":122,
+       "Player":"Odell Beckham Jr.",
+       "Pos":"WR",
+       "p2024":110.9968181291,
+       "eADP":152.0
     },
     {
-        "index": 123,
-        "Player": "Marvin Jones",
-        "Pos": "WR",
-        "p2023": 112.6659007452,
-        "eADP": 151.0
+       "index":123,
+       "Player":"Michael Wilson",
+       "Pos":"WR",
+       "p2024":124.0623923582,
+       "eADP":135.0
     },
     {
-        "index": 124,
-        "Player": "Robert Woods",
-        "Pos": "WR",
-        "p2023": 118.2945192873,
-        "eADP": 142.0
+       "index":124,
+       "Player":"Kalif Raymond",
+       "Pos":"WR",
+       "p2024":87.1899248625,
+       "eADP":196.0
     },
     {
-        "index": 125,
-        "Player": "DeAndre Carter",
-        "Pos": "WR",
-        "p2023": 106.0376932169,
-        "eADP": 172.0
+       "index":125,
+       "Player":"Roschon Johnson",
+       "Pos":"RB",
+       "p2024":95.53291504,
+       "eADP":177.0
     },
     {
-        "index": 126,
-        "Player": "Dawson Knox",
-        "Pos": "TE",
-        "p2023": 138.0756028135,
-        "eADP": 111.0
+       "index":126,
+       "Player":"Darren Waller",
+       "Pos":"TE",
+       "p2024":129.1001888997,
+       "eADP":130.0
     },
     {
-        "index": 127,
-        "Player": "Jahan Dotson",
-        "Pos": "WR",
-        "p2023": 144.3393248799,
-        "eADP": 103.0
+       "index":127,
+       "Player":"Zamir White",
+       "Pos":"RB",
+       "p2024":75.8742232012,
+       "eADP":215.0
     },
     {
-        "index": 128,
-        "Player": "Greg Dortch",
-        "Pos": "WR",
-        "p2023": 106.3370358468,
-        "eADP": 169.0
+       "index":128,
+       "Player":"Kenneth Gainwell",
+       "Pos":"RB",
+       "p2024":90.0384698864,
+       "eADP":189.0
     },
     {
-        "index": 129,
-        "Player": "Chase Claypool",
-        "Pos": "WR",
-        "p2023": 106.1597699094,
-        "eADP": 170.0
+       "index":129,
+       "Player":"Mark Andrews",
+       "Pos":"TE",
+       "p2024":170.343368332,
+       "eADP":79.0
     },
     {
-        "index": 130,
-        "Player": "Hunter Henry",
-        "Pos": "TE",
-        "p2023": 108.3829945391,
-        "eADP": 162.0
+       "index":130,
+       "Player":"K.J. Osborn",
+       "Pos":"WR",
+       "p2024":120.3887967528,
+       "eADP":138.0
     },
     {
-        "index": 131,
-        "Player": "Juwan Johnson",
-        "Pos": "TE",
-        "p2023": 133.6608995472,
-        "eADP": 116.0
+       "index":131,
+       "Player":"Chigoziem Okonkwo",
+       "Pos":"TE",
+       "p2024":108.8731273817,
+       "eADP":156.0
     },
     {
-        "index": 132,
-        "Player": "Eno Benjamin",
-        "Pos": "RB",
-        "p2023": 85.9063125154,
-        "eADP": 206.0
+       "index":132,
+       "Player":"Rondale Moore",
+       "Pos":"WR",
+       "p2024":97.6107059021,
+       "eADP":171.0
     },
     {
-        "index": 133,
-        "Player": "DJ Chark",
-        "Pos": "WR",
-        "p2023": 120.6554422917,
-        "eADP": 136.0
+       "index":133,
+       "Player":"DJ Chark",
+       "Pos":"WR",
+       "p2024":121.9139034375,
+       "eADP":137.0
     },
     {
-        "index": 134,
-        "Player": "Jordan Akins",
-        "Pos": "TE",
-        "p2023": 105.8991117191,
-        "eADP": 173.0
+       "index":134,
+       "Player":"Jahan Dotson",
+       "Pos":"WR",
+       "p2024":125.3909142194,
+       "eADP":134.0
     },
     {
-        "index": 135,
-        "Player": "Darnell Mooney",
-        "Pos": "WR",
-        "p2023": 117.7222458711,
-        "eADP": 143.0
+       "index":135,
+       "Player":"Dameon Pierce",
+       "Pos":"RB",
+       "p2024":79.248686879,
+       "eADP":208.0
     },
     {
-        "index": 136,
-        "Player": "Zack Moss",
-        "Pos": "RB",
-        "p2023": 72.0415235982,
-        "eADP": 240.0
+       "index":136,
+       "Player":"Tutu Atwell",
+       "Pos":"WR",
+       "p2024":116.9356925565,
+       "eADP":142.0
     },
     {
-        "index": 137,
-        "Player": "Treylon Burks",
-        "Pos": "WR",
-        "p2023": 104.1193119466,
-        "eADP": 176.0
+       "index":137,
+       "Player":"Alec Pierce",
+       "Pos":"WR",
+       "p2024":105.2120637148,
+       "eADP":162.0
     },
     {
-        "index": 138,
-        "Player": "Devin Duvernay",
-        "Pos": "WR",
-        "p2023": 118.8114746785,
-        "eADP": 138.0
+       "index":138,
+       "Player":"Rico Dowdle",
+       "Pos":"RB",
+       "p2024":79.9688865475,
+       "eADP":205.0
     },
     {
-        "index": 139,
-        "Player": "Terrace Marshall Jr.",
-        "Pos": "WR",
-        "p2023": 90.0487895511,
-        "eADP": 197.0
+       "index":139,
+       "Player":"D'Onta Foreman",
+       "Pos":"RB",
+       "p2024":123.1685223003,
+       "eADP":136.0
     },
     {
-        "index": 140,
-        "Player": "Noah Fant",
-        "Pos": "TE",
-        "p2023": 122.6989064973,
-        "eADP": 130.0
+       "index":140,
+       "Player":"Logan Thomas",
+       "Pos":"TE",
+       "p2024":129.5844334976,
+       "eADP":128.0
     },
     {
-        "index": 141,
-        "Player": "Nico Collins",
-        "Pos": "WR",
-        "p2023": 120.886883815,
-        "eADP": 135.0
+       "index":141,
+       "Player":"Tyler Higbee",
+       "Pos":"TE",
+       "p2024":111.0841851499,
+       "eADP":151.0
     },
     {
-        "index": 142,
-        "Player": "Josh Reynolds",
-        "Pos": "WR",
-        "p2023": 112.257160889,
-        "eADP": 153.0
+       "index":142,
+       "Player":"Kareem Hunt",
+       "Pos":"RB",
+       "p2024":106.7096691679,
+       "eADP":159.0
     },
     {
-        "index": 143,
-        "Player": "Isaiah McKenzie",
-        "Pos": "WR",
-        "p2023": 118.7970062258,
-        "eADP": 139.0
+       "index":143,
+       "Player":"Keaton Mitchell",
+       "Pos":"RB",
+       "p2024":99.8758870319,
+       "eADP":167.0
     },
     {
-        "index": 144,
-        "Player": "James Robinson",
-        "Pos": "RB",
-        "p2023": 96.4954797156,
-        "eADP": 183.0
+       "index":144,
+       "Player":"Chris Moore",
+       "Pos":"WR",
+       "p2024":72.4004376075,
+       "eADP":223.0
     },
     {
-        "index": 145,
-        "Player": "Kendrick Bourne",
-        "Pos": "WR",
-        "p2023": 81.4533025156,
-        "eADP": 216.0
+       "index":145,
+       "Player":"Justin Watson",
+       "Pos":"WR",
+       "p2024":95.5234031425,
+       "eADP":179.0
     },
     {
-        "index": 146,
-        "Player": "Robert Tonyan",
-        "Pos": "TE",
-        "p2023": 99.6252577733,
-        "eADP": 179.0
+       "index":146,
+       "Player":"Cade Otton",
+       "Pos":"TE",
+       "p2024":117.6671632604,
+       "eADP":140.0
     },
     {
-        "index": 147,
-        "Player": "Demarcus Robinson",
-        "Pos": "WR",
-        "p2023": 92.8654602311,
-        "eADP": 192.0
+       "index":147,
+       "Player":"Michael Thomas",
+       "Pos":"WR",
+       "p2024":109.5709626195,
+       "eADP":154.0
     },
     {
-        "index": 148,
-        "Player": "Clyde Edwards-Helaire",
-        "Pos": "RB",
-        "p2023": 117.2363065569,
-        "eADP": 145.0
+       "index":148,
+       "Player":"Quentin Johnston",
+       "Pos":"WR",
+       "p2024":93.8932868349,
+       "eADP":182.0
     },
     {
-        "index": 149,
-        "Player": "Chigoziem Okonkwo",
-        "Pos": "TE",
-        "p2023": 94.7225321487,
-        "eADP": 188.0
+       "index":149,
+       "Player":"Joshua Kelley",
+       "Pos":"RB",
+       "p2024":70.4707463877,
+       "eADP":227.0
     },
     {
-        "index": 150,
-        "Player": "Elijah Moore",
-        "Pos": "WR",
-        "p2023": 92.8121056217,
-        "eADP": 193.0
+       "index":150,
+       "Player":"Christian Watson",
+       "Pos":"WR",
+       "p2024":138.2250043013,
+       "eADP":119.0
     },
     {
-        "index": 151,
-        "Player": "Deon Jackson",
-        "Pos": "RB",
-        "p2023": 79.7798231849,
-        "eADP": 222.0
+       "index":151,
+       "Player":"Robert Woods",
+       "Pos":"WR",
+       "p2024":95.3550468775,
+       "eADP":180.0
     },
     {
-        "index": 152,
-        "Player": "Austin Hooper",
-        "Pos": "TE",
-        "p2023": 85.3546427404,
-        "eADP": 207.0
+       "index":152,
+       "Player":"Gerald Everett",
+       "Pos":"TE",
+       "p2024":111.8583027314,
+       "eADP":150.0
     },
     {
-        "index": 153,
-        "Player": "Romeo Doubs",
-        "Pos": "WR",
-        "p2023": 106.3954014131,
-        "eADP": 167.0
+       "index":153,
+       "Player":"Hunter Henry",
+       "Pos":"TE",
+       "p2024":116.6196458669,
+       "eADP":143.0
     },
     {
-        "index": 154,
-        "Player": "Gus Edwards",
-        "Pos": "RB",
-        "p2023": 78.2189998918,
-        "eADP": 227.0
+       "index":154,
+       "Player":"Darnell Mooney",
+       "Pos":"WR",
+       "p2024":91.6113353125,
+       "eADP":186.0
     },
     {
-        "index": 155,
-        "Player": "Russell Gage",
-        "Pos": "WR",
-        "p2023": 121.2646520582,
-        "eADP": 134.0
+       "index":155,
+       "Player":"Latavius Murray",
+       "Pos":"RB",
+       "p2024":77.9604137053,
+       "eADP":210.0
     },
     {
-        "index": 156,
-        "Player": "Michael Gallup",
-        "Pos": "WR",
-        "p2023": 110.9556396894,
-        "eADP": 156.0
+       "index":156,
+       "Player":"Michael Gallup",
+       "Pos":"WR",
+       "p2024":96.343115219,
+       "eADP":175.0
     },
     {
-        "index": 157,
-        "Player": "Foster Moreau",
-        "Pos": "TE",
-        "p2023": 97.6721445727,
-        "eADP": 182.0
+       "index":157,
+       "Player":"Jonathan Mingo",
+       "Pos":"WR",
+       "p2024":91.672629728,
+       "eADP":185.0
     },
     {
-        "index": 158,
-        "Player": "Randall Cobb",
-        "Pos": "WR",
-        "p2023": 80.3597755289,
-        "eADP": 221.0
+       "index":158,
+       "Player":"Noah Fant",
+       "Pos":"TE",
+       "p2024":88.4149086065,
+       "eADP":192.0
     },
     {
-        "index": 159,
-        "Player": "Trent Sherfield",
-        "Pos": "WR",
-        "p2023": 83.3991968555,
-        "eADP": 213.0
+       "index":159,
+       "Player":"Clyde Edwards-Helaire",
+       "Pos":"RB",
+       "p2024":66.9233791685,
+       "eADP":238.0
     },
     {
-        "index": 160,
-        "Player": "Jauan Jennings",
-        "Pos": "WR",
-        "p2023": 81.7162303425,
-        "eADP": 215.0
+       "index":160,
+       "Player":"Isaiah Likely",
+       "Pos":"TE",
+       "p2024":100.3952306344,
+       "eADP":165.0
     },
     {
-        "index": 161,
-        "Player": "Hayden Hurst",
-        "Pos": "TE",
-        "p2023": 118.3374134291,
-        "eADP": 141.0
+       "index":161,
+       "Player":"Kendrick Bourne",
+       "Pos":"WR",
+       "p2024":144.9962338784,
+       "eADP":105.0
     },
     {
-        "index": 162,
-        "Player": "Greg Dulcich",
-        "Pos": "TE",
-        "p2023": 107.4286812755,
-        "eADP": 165.0
+       "index":162,
+       "Player":"Tre Tucker",
+       "Pos":"WR",
+       "p2024":69.0690569566,
+       "eADP":232.0
     },
     {
-        "index": 163,
-        "Player": "Kenneth Gainwell",
-        "Pos": "RB",
-        "p2023": 81.0681263475,
-        "eADP": 219.0
+       "index":163,
+       "Player":"Marvin Mims",
+       "Pos":"WR",
+       "p2024":72.1261726654,
+       "eADP":224.0
     },
     {
-        "index": 164,
-        "Player": "Rondale Moore",
-        "Pos": "WR",
-        "p2023": 131.4162746985,
-        "eADP": 118.0
+       "index":164,
+       "Player":"Trey Palmer",
+       "Pos":"WR",
+       "p2024":92.2289769359,
+       "eADP":184.0
     },
     {
-        "index": 165,
-        "Player": "Zach Ertz",
-        "Pos": "TE",
-        "p2023": 137.9633100595,
-        "eADP": 112.0
+       "index":165,
+       "Player":"Emari Demercado",
+       "Pos":"RB",
+       "p2024":73.8611423395,
+       "eADP":221.0
     },
     {
-        "index": 166,
-        "Player": "Chase Edmonds",
-        "Pos": "RB",
-        "p2023": 75.1133486056,
-        "eADP": 229.0
+       "index":166,
+       "Player":"DeVante Parker",
+       "Pos":"WR",
+       "p2024":87.4650501731,
+       "eADP":194.0
     },
     {
-        "index": 167,
-        "Player": "Zonovan Knight",
-        "Pos": "RB",
-        "p2023": 86.1312159868,
-        "eADP": 204.0
+       "index":167,
+       "Player":"Demarcus Robinson",
+       "Pos":"WR",
+       "p2024":80.0486413912,
+       "eADP":204.0
     },
     {
-        "index": 168,
-        "Player": "Nick Westbrook-Ikhine",
-        "Pos": "WR",
-        "p2023": 94.6321958517,
-        "eADP": 189.0
+       "index":168,
+       "Player":"Rashod Bateman",
+       "Pos":"WR",
+       "p2024":89.6435012437,
+       "eADP":191.0
     },
     {
-        "index": 169,
-        "Player": "Ben Skowronek",
-        "Pos": "WR",
-        "p2023": 94.3900951325,
-        "eADP": 190.0
+       "index":169,
+       "Player":"Jameson Williams",
+       "Pos":"WR",
+       "p2024":96.7739395326,
+       "eADP":174.0
     },
     {
-        "index": 170,
-        "Player": "Marquise Goodwin",
-        "Pos": "WR",
-        "p2023": 88.002971722,
-        "eADP": 201.0
+       "index":170,
+       "Player":"Nelson Agholor",
+       "Pos":"WR",
+       "p2024":81.2253409974,
+       "eADP":203.0
     },
     {
-        "index": 171,
-        "Player": "Isaiah Hodgins",
-        "Pos": "WR",
-        "p2023": 121.3609830738,
-        "eADP": 133.0
+       "index":171,
+       "Player":"Jalin Hyatt",
+       "Pos":"WR",
+       "p2024":66.7142433407,
+       "eADP":240.0
     },
     {
-        "index": 172,
-        "Player": "Cade Otton",
-        "Pos": "TE",
-        "p2023": 95.3205178404,
-        "eADP": 186.0
+       "index":172,
+       "Player":"Kylen Granson",
+       "Pos":"TE",
+       "p2024":77.9060877145,
+       "eADP":211.0
     },
     {
-        "index": 173,
-        "Player": "Joshua Kelley",
-        "Pos": "RB",
-        "p2023": 66.3094263867,
-        "eADP": 254.0
+       "index":173,
+       "Player":"Nick Westbrook-Ikhine",
+       "Pos":"WR",
+       "p2024":87.2996195112,
+       "eADP":195.0
     },
     {
-        "index": 174,
-        "Player": "Darren Waller",
-        "Pos": "TE",
-        "p2023": 111.4124620687,
-        "eADP": 155.0
+       "index":174,
+       "Player":"Juwan Johnson",
+       "Pos":"TE",
+       "p2024":105.9799085417,
+       "eADP":161.0
     },
     {
-        "index": 175,
-        "Player": "Darrell Henderson",
-        "Pos": "RB",
-        "p2023": 89.1992174977,
-        "eADP": 199.0
+       "index":175,
+       "Player":"Jamaal Williams",
+       "Pos":"RB",
+       "p2024":62.5498352431,
+       "eADP":246.0
     },
     {
-        "index": 176,
-        "Player": "Equanimeous St. Brown",
-        "Pos": "WR",
-        "p2023": 85.1403270989,
-        "eADP": 209.0
+       "index":176,
+       "Player":"Durham Smythe",
+       "Pos":"TE",
+       "p2024":79.7331606167,
+       "eADP":206.0
     },
     {
-        "index": 177,
-        "Player": "Alexander Mattison",
-        "Pos": "RB",
-        "p2023": 81.4166931834,
-        "eADP": 217.0
+       "index":177,
+       "Player":"Tucker Kraft",
+       "Pos":"TE",
+       "p2024":79.3509350758,
+       "eADP":207.0
     },
     {
-        "index": 178,
-        "Player": "Isaiah Likely",
-        "Pos": "TE",
-        "p2023": 87.2081517381,
-        "eADP": 203.0
+       "index":178,
+       "Player":"Tanner Hudson",
+       "Pos":"TE",
+       "p2024":78.4516909904,
+       "eADP":209.0
     },
     {
-        "index": 179,
-        "Player": "Caleb Huntley",
-        "Pos": "RB",
-        "p2023": 47.9620023084,
-        "eADP": 299.0
+       "index":179,
+       "Player":"Luke Musgrave",
+       "Pos":"TE",
+       "p2024":87.5804027073,
+       "eADP":193.0
     },
     {
-        "index": 180,
-        "Player": "Van Jefferson",
-        "Pos": "WR",
-        "p2023": 93.7592691976,
-        "eADP": 191.0
+       "index":180,
+       "Player":"Brandon Powell",
+       "Pos":"WR",
+       "p2024":66.4708848506,
+       "eADP":242.0
     },
     {
-        "index": 181,
-        "Player": "Nelson Agholor",
-        "Pos": "WR",
-        "p2023": 74.5521694108,
-        "eADP": 230.0
+       "index":181,
+       "Player":"Pierre Strong",
+       "Pos":"RB",
+       "p2024":49.6785541193,
+       "eADP":283.0
     },
     {
-        "index": 182,
-        "Player": "Mike Gesicki",
-        "Pos": "TE",
-        "p2023": 86.01936624,
-        "eADP": 205.0
+       "index":182,
+       "Player":"Chase Brown",
+       "Pos":"RB",
+       "p2024":54.7382065154,
+       "eADP":266.0
     },
     {
-        "index": 183,
-        "Player": "Rashaad Penny",
-        "Pos": "RB",
-        "p2023": 108.121857346,
-        "eADP": 163.0
+       "index":183,
+       "Player":"Royce Freeman",
+       "Pos":"RB",
+       "p2024":43.2177017398,
+       "eADP":300.0
     },
     {
-        "index": 184,
-        "Player": "Kyle Pitts",
-        "Pos": "TE",
-        "p2023": 94.7749990173,
-        "eADP": 187.0
+       "index":184,
+       "Player":"Zay Jones",
+       "Pos":"WR",
+       "p2024":95.2400536887,
+       "eADP":181.0
     },
     {
-        "index": 185,
-        "Player": "Quez Watkins",
-        "Pos": "WR",
-        "p2023": 87.6762330564,
-        "eADP": 202.0
+       "index":185,
+       "Player":"Trenton Irwin",
+       "Pos":"WR",
+       "p2024":68.9411966667,
+       "eADP":233.0
     },
     {
-        "index": 186,
-        "Player": "Will Dissly",
-        "Pos": "TE",
-        "p2023": 99.3075326197,
-        "eADP": 180.0
+       "index":186,
+       "Player":"Marquez Valdes-Scantling",
+       "Pos":"WR",
+       "p2024":67.3311710426,
+       "eADP":236.0
     },
     {
-        "index": 187,
-        "Player": "Julio Jones",
-        "Pos": "WR",
-        "p2023": 81.2813873773,
-        "eADP": 218.0
+       "index":187,
+       "Player":"Allen Lazard",
+       "Pos":"WR",
+       "p2024":74.7790555875,
+       "eADP":216.0
     },
     {
-        "index": 188,
-        "Player": "Allen Robinson",
-        "Pos": "WR",
-        "p2023": 106.09347989,
-        "eADP": 171.0
+       "index":188,
+       "Player":"Pat Freiermuth",
+       "Pos":"TE",
+       "p2024":82.6945458459,
+       "eADP":202.0
     },
     {
-        "index": 189,
-        "Player": "Matt Breida",
-        "Pos": "RB",
-        "p2023": 59.9918158538,
-        "eADP": 267.0
+       "index":189,
+       "Player":"Noah Gray",
+       "Pos":"TE",
+       "p2024":77.8851129031,
+       "eADP":212.0
     },
     {
-        "index": 190,
-        "Player": "Laviska Shenault Jr.",
-        "Pos": "WR",
-        "p2023": 73.7499564796,
-        "eADP": 234.0
+       "index":190,
+       "Player":"Michael Mayer",
+       "Pos":"TE",
+       "p2024":76.6468421906,
+       "eADP":214.0
     },
     {
-        "index": 191,
-        "Player": "Tutu Atwell",
-        "Pos": "WR",
-        "p2023": 69.4658842729,
-        "eADP": 247.0
+       "index":191,
+       "Player":"Xavier Gipson",
+       "Pos":"WR",
+       "p2024":55.8270574535,
+       "eADP":262.0
     },
     {
-        "index": 192,
-        "Player": "Hunter Renfrow",
-        "Pos": "WR",
-        "p2023": 84.9261976639,
-        "eADP": 211.0
+       "index":192,
+       "Player":"Cedrick Wilson Jr.",
+       "Pos":"WR",
+       "p2024":69.5186523971,
+       "eADP":231.0
     },
     {
-        "index": 193,
-        "Player": "Mecole Hardman",
-        "Pos": "WR",
-        "p2023": 131.9126085998,
-        "eADP": 117.0
+       "index":193,
+       "Player":"Elijah Mitchell",
+       "Pos":"RB",
+       "p2024":52.2227126025,
+       "eADP":273.0
     },
     {
-        "index": 194,
-        "Player": "Sammy Watkins",
-        "Pos": "WR",
-        "p2023": 49.7421885183,
-        "eADP": 295.0
+       "index":194,
+       "Player":"Dalvin Cook",
+       "Pos":"RB",
+       "p2024":43.8613240334,
+       "eADP":298.0
     },
     {
-        "index": 195,
-        "Player": "Kendall Hinton",
-        "Pos": "WR",
-        "p2023": 65.1774336833,
-        "eADP": 255.0
+       "index":195,
+       "Player":"Michael Carter",
+       "Pos":"RB",
+       "p2024":57.3830558304,
+       "eADP":259.0
     },
     {
-        "index": 196,
-        "Player": "Logan Thomas",
-        "Pos": "TE",
-        "p2023": 90.3057357623,
-        "eADP": 196.0
+       "index":196,
+       "Player":"Greg Dortch",
+       "Pos":"WR",
+       "p2024":68.1585397123,
+       "eADP":235.0
     },
     {
-        "index": 197,
-        "Player": "Dontrell Hilliard",
-        "Pos": "RB",
-        "p2023": 79.2510200638,
-        "eADP": 223.0
+       "index":197,
+       "Player":"Donald Parham",
+       "Pos":"TE",
+       "p2024":83.1349747052,
+       "eADP":201.0
     },
     {
-        "index": 198,
-        "Player": "Colby Parkinson",
-        "Pos": "TE",
-        "p2023": 70.5613354742,
-        "eADP": 244.0
+       "index":198,
+       "Player":"Brandon Johnson",
+       "Pos":"WR",
+       "p2024":71.808234049,
+       "eADP":225.0
     },
     {
-        "index": 199,
-        "Player": "Ray-Ray McCloud",
-        "Pos": "WR",
-        "p2023": 59.2711358239,
-        "eADP": 268.0
+       "index":199,
+       "Player":"Allen Robinson",
+       "Pos":"WR",
+       "p2024":83.5163230776,
+       "eADP":200.0
     },
     {
-        "index": 200,
-        "Player": "Jamycal Hasty",
-        "Pos": "RB",
-        "p2023": 68.4970025845,
-        "eADP": 249.0
+       "index":200,
+       "Player":"Kendre Miller",
+       "Pos":"RB",
+       "p2024":52.7342652189,
+       "eADP":272.0
     },
     {
-        "index": 201,
-        "Player": "Justice Hill",
-        "Pos": "RB",
-        "p2023": 44.4498476254,
-        "eADP": 308.0
+       "index":201,
+       "Player":"Jeff Wilson",
+       "Pos":"RB",
+       "p2024":42.5156604123,
+       "eADP":303.0
     },
     {
-        "index": 202,
-        "Player": "Justin Watson",
-        "Pos": "WR",
-        "p2023": 67.2470034105,
-        "eADP": 251.0
+       "index":202,
+       "Player":"Jalen Tolbert",
+       "Pos":"WR",
+       "p2024":66.7330386671,
+       "eADP":239.0
     },
     {
-        "index": 203,
-        "Player": "DeeJay Dallas",
-        "Pos": "RB",
-        "p2023": 48.1177332421,
-        "eADP": 298.0
+       "index":203,
+       "Player":"Skyy Moore",
+       "Pos":"WR",
+       "p2024":60.89274316,
+       "eADP":250.0
     },
     {
-        "index": 204,
-        "Player": "Jelani Woods",
-        "Pos": "TE",
-        "p2023": 72.422944632,
-        "eADP": 238.0
+       "index":204,
+       "Player":"Jauan Jennings",
+       "Pos":"WR",
+       "p2024":51.1555802682,
+       "eADP":278.0
     },
     {
-        "index": 205,
-        "Player": "Kylen Granson",
-        "Pos": "TE",
-        "p2023": 64.343964014,
-        "eADP": 259.0
+       "index":205,
+       "Player":"JuJu Smith-Schuster",
+       "Pos":"WR",
+       "p2024":66.6281435793,
+       "eADP":241.0
     },
     {
-        "index": 206,
-        "Player": "Mark Ingram",
-        "Pos": "RB",
-        "p2023": 51.0267017074,
-        "eADP": 290.0
+       "index":206,
+       "Player":"Chris Rodriguez",
+       "Pos":"RB",
+       "p2024":44.083490625,
+       "eADP":297.0
     },
     {
-        "index": 207,
-        "Player": "Noah Gray",
-        "Pos": "TE",
-        "p2023": 77.6328896169,
-        "eADP": 228.0
+       "index":207,
+       "Player":"Chase Edmonds",
+       "Pos":"RB",
+       "p2024":39.3912207052,
+       "eADP":316.0
     },
     {
-        "index": 208,
-        "Player": "Shi Smith",
-        "Pos": "WR",
-        "p2023": 67.3074798147,
-        "eADP": 250.0
+       "index":208,
+       "Player":"Daniel Bellinger",
+       "Pos":"TE",
+       "p2024":64.484634795,
+       "eADP":243.0
     },
     {
-        "index": 209,
-        "Player": "Elijah Mitchell",
-        "Pos": "RB",
-        "p2023": 85.1689169481,
-        "eADP": 208.0
+       "index":209,
+       "Player":"Hunter Renfrow",
+       "Pos":"WR",
+       "p2024":54.4445442233,
+       "eADP":267.0
     },
     {
-        "index": 210,
-        "Player": "Rashod Bateman",
-        "Pos": "WR",
-        "p2023": 98.1430454585,
-        "eADP": 181.0
+       "index":210,
+       "Player":"Jerick McKinnon",
+       "Pos":"RB",
+       "p2024":77.4853481163,
+       "eADP":213.0
     },
     {
-        "index": 211,
-        "Player": "Rex Burkhead",
-        "Pos": "RB",
-        "p2023": 64.9596286684,
-        "eADP": 257.0
+       "index":211,
+       "Player":"Mike Williams",
+       "Pos":"WR",
+       "p2024":170.6558400636,
+       "eADP":77.0
     },
     {
-        "index": 212,
-        "Player": "Robbie Anderson",
-        "Pos": "WR",
-        "p2023": 57.1908828466,
-        "eADP": 276.0
+       "index":212,
+       "Player":"Mack Hollins",
+       "Pos":"WR",
+       "p2024":41.6466619547,
+       "eADP":305.0
     },
     {
-        "index": 213,
-        "Player": "Dante Pettis",
-        "Pos": "WR",
-        "p2023": 73.3771867487,
-        "eADP": 236.0
+       "index":213,
+       "Player":"Braxton Berrios",
+       "Pos":"WR",
+       "p2024":54.9089761549,
+       "eADP":265.0
     },
     {
-        "index": 214,
-        "Player": "Javonte Williams",
-        "Pos": "RB",
-        "p2023": 108.5152235359,
-        "eADP": 160.0
+       "index":214,
+       "Player":"D'Ernest Johnson",
+       "Pos":"RB",
+       "p2024":37.4250546572,
+       "eADP":323.0
     },
     {
-        "index": 215,
-        "Player": "Tre'Quan Smith",
-        "Pos": "WR",
-        "p2023": 58.9944444099,
-        "eADP": 271.0
+       "index":215,
+       "Player":"Colby Parkinson",
+       "Pos":"TE",
+       "p2024":59.9191193077,
+       "eADP":251.0
     },
     {
-        "index": 216,
-        "Player": "Nyheim Hines",
-        "Pos": "RB",
-        "p2023": 68.5976607815,
-        "eADP": 248.0
+       "index":216,
+       "Player":"A.T. Perry",
+       "Pos":"WR",
+       "p2024":68.4894434546,
+       "eADP":234.0
     },
     {
-        "index": 217,
-        "Player": "Skyy Moore",
-        "Pos": "WR",
-        "p2023": 51.0871695712,
-        "eADP": 289.0
+       "index":217,
+       "Player":"Mike Gesicki",
+       "Pos":"TE",
+       "p2024":74.3193727297,
+       "eADP":217.0
     },
     {
-        "index": 218,
-        "Player": "Jarvis Landry",
-        "Pos": "WR",
-        "p2023": 62.6403892902,
-        "eADP": 264.0
+       "index":218,
+       "Player":"Matt Breida",
+       "Pos":"RB",
+       "p2024":56.642011918,
+       "eADP":260.0
     },
     {
-        "index": 219,
-        "Player": "Justin Jackson",
-        "Pos": "RB",
-        "p2023": 51.8546617542,
-        "eADP": 286.0
+       "index":219,
+       "Player":"Treylon Burks",
+       "Pos":"WR",
+       "p2024":51.1642998469,
+       "eADP":277.0
     },
     {
-        "index": 220,
-        "Player": "Daniel Bellinger",
-        "Pos": "TE",
-        "p2023": 84.7918261713,
-        "eADP": 212.0
+       "index":220,
+       "Player":"Bo Melton",
+       "Pos":"WR",
+       "p2024":90.4546760104,
+       "eADP":187.0
     },
     {
-        "index": 221,
-        "Player": "Damiere Byrd",
-        "Pos": "WR",
-        "p2023": 56.7002444023,
-        "eADP": 278.0
+       "index":221,
+       "Player":"Cam Akers",
+       "Pos":"RB",
+       "p2024":61.7657311431,
+       "eADP":249.0
     },
     {
-        "index": 222,
-        "Player": "J.D. McKissic",
-        "Pos": "RB",
-        "p2023": 65.0841392905,
-        "eADP": 256.0
+       "index":222,
+       "Player":"Calvin Austin",
+       "Pos":"WR",
+       "p2024":51.3867083085,
+       "eADP":276.0
     },
     {
-        "index": 223,
-        "Player": "Trey McBride",
-        "Pos": "TE",
-        "p2023": 70.327719552,
-        "eADP": 245.0
+       "index":223,
+       "Player":"Jordan Mason",
+       "Pos":"RB",
+       "p2024":46.3190413898,
+       "eADP":291.0
     },
     {
-        "index": 224,
-        "Player": "Tyquan Thornton",
-        "Pos": "WR",
-        "p2023": 74.2547709109,
-        "eADP": 232.0
+       "index":224,
+       "Player":"KaVontae Turpin",
+       "Pos":"WR",
+       "p2024":58.9674558313,
+       "eADP":255.0
     },
     {
-        "index": 225,
-        "Player": "Jordan Mason",
-        "Pos": "RB",
-        "p2023": 41.1271712604,
-        "eADP": 313.0
+       "index":225,
+       "Player":"Austin Hooper",
+       "Pos":"TE",
+       "p2024":59.1124256487,
+       "eADP":254.0
     },
     {
-        "index": 226,
-        "Player": "Phillip Dorsett",
-        "Pos": "WR",
-        "p2023": 57.3672289575,
-        "eADP": 274.0
+       "index":226,
+       "Player":"Alex Erickson",
+       "Pos":"WR",
+       "p2024":54.0441351751,
+       "eADP":270.0
     },
     {
-        "index": 227,
-        "Player": "Kadarius Toney",
-        "Pos": "WR",
-        "p2023": 74.3745605629,
-        "eADP": 231.0
+       "index":227,
+       "Player":"KhaDarel Hodge",
+       "Pos":"WR",
+       "p2024":47.5224018731,
+       "eADP":289.0
     },
     {
-        "index": 228,
-        "Player": "Jonnu Smith",
-        "Pos": "TE",
-        "p2023": 52.8677452793,
-        "eADP": 284.0
+       "index":228,
+       "Player":"Cedric Tillman",
+       "Pos":"WR",
+       "p2024":46.1142460799,
+       "eADP":293.0
     },
     {
-        "index": 229,
-        "Player": "Ty Johnson",
-        "Pos": "RB",
-        "p2023": 49.3441664345,
-        "eADP": 296.0
+       "index":229,
+       "Player":"Isaiah Hodgins",
+       "Pos":"WR",
+       "p2024":73.1990080842,
+       "eADP":222.0
     },
     {
-        "index": 230,
-        "Player": "Harrison Bryant",
-        "Pos": "TE",
-        "p2023": 70.5740068729,
-        "eADP": 243.0
+       "index":230,
+       "Player":"Craig Reynolds",
+       "Pos":"RB",
+       "p2024":43.4941219109,
+       "eADP":299.0
     },
     {
-        "index": 231,
-        "Player": "Trenton Irwin",
-        "Pos": "WR",
-        "p2023": 79.0738039197,
-        "eADP": 225.0
+       "index":231,
+       "Player":"Ameer Abdullah",
+       "Pos":"RB",
+       "p2024":47.4610356525,
+       "eADP":290.0
     },
     {
-        "index": 232,
-        "Player": "Braxton Berrios",
-        "Pos": "WR",
-        "p2023": 57.2369845292,
-        "eADP": 275.0
+       "index":232,
+       "Player":"Brevin Jordan",
+       "Pos":"TE",
+       "p2024":57.7058992023,
+       "eADP":258.0
     },
     {
-        "index": 233,
-        "Player": "A.J. Green",
-        "Pos": "WR",
-        "p2023": 66.7948795379,
-        "eADP": 253.0
+       "index":233,
+       "Player":"Cordarrelle Patterson",
+       "Pos":"RB",
+       "p2024":33.8568439997,
+       "eADP":336.0
     },
     {
-        "index": 234,
-        "Player": "Brandon Powell",
-        "Pos": "WR",
-        "p2023": 58.3786965274,
-        "eADP": 273.0
+       "index":234,
+       "Player":"Darrell Henderson",
+       "Pos":"RB",
+       "p2024":99.3040828609,
+       "eADP":170.0
     },
     {
-        "index": 235,
-        "Player": "Boston Scott",
-        "Pos": "RB",
-        "p2023": 51.4761060677,
-        "eADP": 287.0
+       "index":235,
+       "Player":"Van Jefferson",
+       "Pos":"WR",
+       "p2024":53.6644604351,
+       "eADP":271.0
     },
     {
-        "index": 236,
-        "Player": "C.J. Uzomah",
-        "Pos": "TE",
-        "p2023": 70.939174461,
-        "eADP": 241.0
+       "index":236,
+       "Player":"Josh Oliver",
+       "Pos":"TE",
+       "p2024":74.0165112347,
+       "eADP":220.0
     },
     {
-        "index": 237,
-        "Player": "Ameer Abdullah",
-        "Pos": "RB",
-        "p2023": 52.1565391419,
-        "eADP": 285.0
+       "index":237,
+       "Player":"Tyler Scott",
+       "Pos":"WR",
+       "p2024":44.3697773711,
+       "eADP":296.0
     },
     {
-        "index": 238,
-        "Player": "Travis Homer",
-        "Pos": "RB",
-        "p2023": 44.8158721095,
-        "eADP": 305.0
+       "index":238,
+       "Player":"Pharaoh Brown",
+       "Pos":"TE",
+       "p2024":55.9739165295,
+       "eADP":261.0
     },
     {
-        "index": 239,
-        "Player": "Dare Ogunbowale",
-        "Pos": "RB",
-        "p2023": 56.1522404251,
-        "eADP": 282.0
+       "index":239,
+       "Player":"Will Mallory",
+       "Pos":"TE",
+       "p2024":37.9637943864,
+       "eADP":321.0
     },
     {
-        "index": 240,
-        "Player": "Kyle Juszczyk",
-        "Pos": "WR",
-        "p2023": 64.6642697443,
-        "eADP": 258.0
+       "index":240,
+       "Player":"Adam Trautman",
+       "Pos":"TE",
+       "p2024":70.2196700914,
+       "eADP":229.0
     },
     {
-        "index": 241,
-        "Player": "Wan'Dale Robinson",
-        "Pos": "WR",
-        "p2023": 89.9043089591,
-        "eADP": 198.0
+       "index":241,
+       "Player":"Kadarius Toney",
+       "Pos":"WR",
+       "p2024":50.5431224147,
+       "eADP":280.0
     },
     {
-        "index": 242,
-        "Player": "Malik Davis",
-        "Pos": "RB",
-        "p2023": 33.0112884073,
-        "eADP": 341.0
+       "index":242,
+       "Player":"Jake Bobo",
+       "Pos":"WR",
+       "p2024":54.2904079328,
+       "eADP":268.0
     },
     {
-        "index": 243,
-        "Player": "Craig Reynolds",
-        "Pos": "RB",
-        "p2023": 27.6157326097,
-        "eADP": 365.0
+       "index":243,
+       "Player":"Ty Johnson",
+       "Pos":"RB",
+       "p2024":30.3543149769,
+       "eADP":348.0
     },
     {
-        "index": 244,
-        "Player": "Brock Wright",
-        "Pos": "TE",
-        "p2023": 74.1070857339,
-        "eADP": 233.0
+       "index":244,
+       "Player":"Tommy Tremble",
+       "Pos":"TE",
+       "p2024":63.46029525,
+       "eADP":245.0
     },
     {
-        "index": 245,
-        "Player": "Ashton Dulin",
-        "Pos": "WR",
-        "p2023": 45.4011818352,
-        "eADP": 303.0
+       "index":245,
+       "Player":"Foster Moreau",
+       "Pos":"TE",
+       "p2024":54.2548665439,
+       "eADP":269.0
     },
     {
-        "index": 246,
-        "Player": "Kyren Williams",
-        "Pos": "RB",
-        "p2023": 29.7601122501,
-        "eADP": 359.0
+       "index":246,
+       "Player":"Nick Chubb",
+       "Pos":"RB",
+       "p2024":102.0239181768,
+       "eADP":164.0
     },
     {
-        "index": 247,
-        "Player": "David Bell",
-        "Pos": "WR",
-        "p2023": 51.3104561158,
-        "eADP": 288.0
+       "index":247,
+       "Player":"Patrick Taylor",
+       "Pos":"RB",
+       "p2024":30.4321812123,
+       "eADP":347.0
     },
     {
-        "index": 248,
-        "Player": "Amari Rodgers",
-        "Pos": "WR",
-        "p2023": 39.6406849559,
-        "eADP": 320.0
+       "index":248,
+       "Player":"Zach Ertz",
+       "Pos":"TE",
+       "p2024":69.6717031519,
+       "eADP":230.0
     },
     {
-        "index": 249,
-        "Player": "Velus Jones Jr.",
-        "Pos": "WR",
-        "p2023": 35.2327389521,
-        "eADP": 333.0
+       "index":249,
+       "Player":"Dawson Knox",
+       "Pos":"TE",
+       "p2024":58.8472923473,
+       "eADP":256.0
     },
     {
-        "index": 250,
-        "Player": "Adam Trautman",
-        "Pos": "TE",
-        "p2023": 59.2011180841,
-        "eADP": 269.0
+       "index":250,
+       "Player":"Hayden Hurst",
+       "Pos":"TE",
+       "p2024":50.9827454287,
+       "eADP":279.0
     },
     {
-        "index": 251,
-        "Player": "KhaDarel Hodge",
-        "Pos": "WR",
-        "p2023": 46.2511510683,
-        "eADP": 301.0
+       "index":251,
+       "Player":"Kyle Philips",
+       "Pos":"WR",
+       "p2024":32.4942240457,
+       "eADP":340.0
     },
     {
-        "index": 252,
-        "Player": "Mike Boone",
-        "Pos": "RB",
-        "p2023": 24.3155176933,
-        "eADP": 373.0
+       "index":252,
+       "Player":"Trey Sermon",
+       "Pos":"RB",
+       "p2024":25.0235579184,
+       "eADP":369.0
     },
     {
-        "index": 253,
-        "Player": "Ian Thomas",
-        "Pos": "TE",
-        "p2023": 67.0897653414,
-        "eADP": 252.0
+       "index":253,
+       "Player":"Will Dissly",
+       "Pos":"TE",
+       "p2024":58.4864387745,
+       "eADP":257.0
     },
     {
-        "index": 254,
-        "Player": "Scott Miller",
-        "Pos": "WR",
-        "p2023": 44.4549481677,
-        "eADP": 307.0
+       "index":254,
+       "Player":"Johnny Mundt",
+       "Pos":"TE",
+       "p2024":40.2472472002,
+       "eADP":310.0
     },
     {
-        "index": 255,
-        "Player": "Jonathan Williams",
-        "Pos": "RB",
-        "p2023": 31.0111939293,
-        "eADP": 352.0
+       "index":255,
+       "Player":"Darrynton Evans",
+       "Pos":"RB",
+       "p2024":33.7234842996,
+       "eADP":337.0
     },
     {
-        "index": 256,
-        "Player": "Mo Alie-Cox",
-        "Pos": "TE",
-        "p2023": 69.7935267645,
-        "eADP": 246.0
+       "index":256,
+       "Player":"Dyami Brown",
+       "Pos":"WR",
+       "p2024":39.0110464763,
+       "eADP":317.0
     },
     {
-        "index": 257,
-        "Player": "KJ Hamler",
-        "Pos": "WR",
-        "p2023": 27.2741849593,
-        "eADP": 366.0
+       "index":257,
+       "Player":"David Bell",
+       "Pos":"WR",
+       "p2024":49.5138694894,
+       "eADP":284.0
     },
     {
-        "index": 258,
-        "Player": "Denzel Mims",
-        "Pos": "WR",
-        "p2023": 31.9568140542,
-        "eADP": 347.0
+       "index":258,
+       "Player":"Derius Davis",
+       "Pos":"WR",
+       "p2024":34.8035303461,
+       "eADP":332.0
     },
     {
-        "index": 259,
-        "Player": "Marlon Mack",
-        "Pos": "RB",
-        "p2023": 40.0430637826,
-        "eADP": 319.0
+       "index":259,
+       "Player":"Connor Heyward",
+       "Pos":"TE",
+       "p2024":51.4592870399,
+       "eADP":275.0
     },
     {
-        "index": 260,
-        "Player": "Irv Smith Jr.",
-        "Pos": "TE",
-        "p2023": 63.8796787577,
-        "eADP": 260.0
+       "index":260,
+       "Player":"Ray-Ray McCloud",
+       "Pos":"WR",
+       "p2024":23.1926046328,
+       "eADP":376.0
     },
     {
-        "index": 261,
-        "Player": "Gary Brightwell",
-        "Pos": "RB",
-        "p2023": 37.1184148195,
-        "eADP": 327.0
+       "index":261,
+       "Player":"Olamide Zaccheaus",
+       "Pos":"WR",
+       "p2024":40.1890798168,
+       "eADP":313.0
     },
     {
-        "index": 262,
-        "Player": "Jalen Nailor",
-        "Pos": "WR",
-        "p2023": 37.0984408475,
-        "eADP": 328.0
+       "index":262,
+       "Player":"Elijah Higgins",
+       "Pos":"TE",
+       "p2024":35.3461614582,
+       "eADP":329.0
     },
     {
-        "index": 263,
-        "Player": "Connor Heyward",
-        "Pos": "TE",
-        "p2023": 42.9593020056,
-        "eADP": 311.0
+       "index":263,
+       "Player":"Drew Sample",
+       "Pos":"TE",
+       "p2024":62.2187119261,
+       "eADP":247.0
     },
     {
-        "index": 264,
-        "Player": "Cameron Brate",
-        "Pos": "TE",
-        "p2023": 34.8558902402,
-        "eADP": 337.0
+       "index":264,
+       "Player":"Lil'Jordan Humphrey",
+       "Pos":"WR",
+       "p2024":62.0653148982,
+       "eADP":248.0
     },
     {
-        "index": 265,
-        "Player": "Jake Ferguson",
-        "Pos": "TE",
-        "p2023": 57.0451497496,
-        "eADP": 277.0
+       "index":265,
+       "Player":"John Metchie",
+       "Pos":"WR",
+       "p2024":35.0788702081,
+       "eADP":330.0
     },
     {
-        "index": 266,
-        "Player": "Steven Sims",
-        "Pos": "WR",
-        "p2023": 29.0364663687,
-        "eADP": 362.0
+       "index":266,
+       "Player":"Mo Alie-Cox",
+       "Pos":"TE",
+       "p2024":55.155099921,
+       "eADP":264.0
     },
     {
-        "index": 267,
-        "Player": "Tommy Tremble",
-        "Pos": "TE",
-        "p2023": 55.1753190578,
-        "eADP": 283.0
+       "index":267,
+       "Player":"Scott Miller",
+       "Pos":"WR",
+       "p2024":42.7902114869,
+       "eADP":302.0
     },
     {
-        "index": 268,
-        "Player": "Michael Thomas",
-        "Pos": "WR",
-        "p2023": 175.5563472594,
-        "eADP": 63.0
+       "index":268,
+       "Player":"Byron Pringle",
+       "Pos":"WR",
+       "p2024":34.3189593595,
+       "eADP":333.0
     },
     {
-        "index": 269,
-        "Player": "Raheem Blackshear",
-        "Pos": "RB",
-        "p2023": 42.657243395,
-        "eADP": 312.0
+       "index":269,
+       "Player":"Jamison Crowder",
+       "Pos":"WR",
+       "p2024":38.7594352432,
+       "eADP":318.0
     },
     {
-        "index": 270,
-        "Player": "Khalil Shakir",
-        "Pos": "WR",
-        "p2023": 36.5544986135,
-        "eADP": 329.0
+       "index":270,
+       "Player":"Luke Farrell",
+       "Pos":"TE",
+       "p2024":44.7714660116,
+       "eADP":294.0
     },
     {
-        "index": 271,
-        "Player": "Sony Michel",
-        "Pos": "RB",
-        "p2023": 16.9402343684,
-        "eADP": 408.0
+       "index":271,
+       "Player":"Donovan Peoples-Jones",
+       "Pos":"WR",
+       "p2024":35.3729119187,
+       "eADP":328.0
     },
     {
-        "index": 272,
-        "Player": "Dyami Brown",
-        "Pos": "WR",
-        "p2023": 33.5887666792,
-        "eADP": 339.0
+       "index":272,
+       "Player":"Jalen Reagor",
+       "Pos":"WR",
+       "p2024":13.5191656087,
+       "eADP":412.0
     },
     {
-        "index": 273,
-        "Player": "Marquez Callaway",
-        "Pos": "WR",
-        "p2023": 40.4802354723,
-        "eADP": 316.0
+       "index":273,
+       "Player":"Stone Smartt",
+       "Pos":"TE",
+       "p2024":39.7841505464,
+       "eADP":315.0
     },
     {
-        "index": 274,
-        "Player": "Sterling Shepard",
-        "Pos": "WR",
-        "p2023": 103.9256779879,
-        "eADP": 177.0
+       "index":274,
+       "Player":"John Bates",
+       "Pos":"TE",
+       "p2024":38.4435760962,
+       "eADP":319.0
     },
     {
-        "index": 275,
-        "Player": "DeSean Jackson",
-        "Pos": "WR",
-        "p2023": 16.5922007828,
-        "eADP": 410.0
+       "index":275,
+       "Player":"Ronnie Rivers",
+       "Pos":"RB",
+       "p2024":21.0024371771,
+       "eADP":386.0
     },
     {
-        "index": 276,
-        "Player": "Royce Freeman",
-        "Pos": "RB",
-        "p2023": 30.3734788998,
-        "eADP": 354.0
+       "index":276,
+       "Player":"Jeremy Ruckert",
+       "Pos":"TE",
+       "p2024":40.5063929942,
+       "eADP":309.0
     },
     {
-        "index": 277,
-        "Player": "Hassan Haskins",
-        "Pos": "RB",
-        "p2023": 32.483875895,
-        "eADP": 342.0
+       "index":277,
+       "Player":"Deonte Harty",
+       "Pos":"WR",
+       "p2024":40.6913062228,
+       "eADP":306.0
     },
     {
-        "index": 278,
-        "Player": "Zach Pascal",
-        "Pos": "WR",
-        "p2023": 38.1957000976,
-        "eADP": 323.0
+       "index":278,
+       "Player":"Salvon Ahmed",
+       "Pos":"RB",
+       "p2024":48.5597089566,
+       "eADP":287.0
     },
     {
-        "index": 279,
-        "Player": "MyCole Pruitt",
-        "Pos": "TE",
-        "p2023": 56.3972817423,
-        "eADP": 279.0
+       "index":279,
+       "Player":"Andrew Ogletree",
+       "Pos":"TE",
+       "p2024":40.5088748336,
+       "eADP":308.0
     },
     {
-        "index": 280,
-        "Player": "Josh Oliver",
-        "Pos": "TE",
-        "p2023": 59.005234958,
-        "eADP": 270.0
+       "index":280,
+       "Player":"Tyquan Thornton",
+       "Pos":"WR",
+       "p2024":20.0243177448,
+       "eADP":389.0
     },
     {
-        "index": 281,
-        "Player": "Eric Saubert",
-        "Pos": "TE",
-        "p2023": 50.1023409306,
-        "eADP": 292.0
+       "index":281,
+       "Player":"Quez Watkins",
+       "Pos":"WR",
+       "p2024":36.0803987716,
+       "eADP":327.0
     },
     {
-        "index": 282,
-        "Player": "O.J. Howard",
-        "Pos": "TE",
-        "p2023": 47.0113220735,
-        "eADP": 300.0
+       "index":282,
+       "Player":"Xavier Hutchinson",
+       "Pos":"WR",
+       "p2024":26.0958422223,
+       "eADP":365.0
     },
     {
-        "index": 283,
-        "Player": "Cedrick Wilson Jr.",
-        "Pos": "WR",
-        "p2023": 30.9417042458,
-        "eADP": 353.0
+       "index":283,
+       "Player":"Terrace Marshall Jr.",
+       "Pos":"WR",
+       "p2024":30.51437958,
+       "eADP":346.0
     },
     {
-        "index": 284,
-        "Player": "Pierre Strong",
-        "Pos": "RB",
-        "p2023": 36.3801030027,
-        "eADP": 330.0
+       "index":284,
+       "Player":"Deven Thompkins",
+       "Pos":"WR",
+       "p2024":40.2466297961,
+       "eADP":311.0
     },
     {
-        "index": 285,
-        "Player": "Keelan Cole",
-        "Pos": "WR",
-        "p2023": 31.2587440299,
-        "eADP": 348.0
+       "index":285,
+       "Player":"Tank Bigsby",
+       "Pos":"RB",
+       "p2024":31.1026726577,
+       "eADP":345.0
     },
     {
-        "index": 286,
-        "Player": "Tom Kennedy",
-        "Pos": "WR",
-        "p2023": 21.1599504862,
-        "eADP": 387.0
+       "index":286,
+       "Player":"Boston Scott",
+       "Pos":"RB",
+       "p2024":19.2251270001,
+       "eADP":391.0
     },
     {
-        "index": 287,
-        "Player": "Johnny Mundt",
-        "Pos": "TE",
-        "p2023": 62.4854971149,
-        "eADP": 266.0
+       "index":287,
+       "Player":"Jordan Akins",
+       "Pos":"TE",
+       "p2024":36.9680344255,
+       "eADP":325.0
     },
     {
-        "index": 288,
-        "Player": "Mitchell Wilcox",
-        "Pos": "TE",
-        "p2023": 45.179257174,
-        "eADP": 304.0
+       "index":288,
+       "Player":"Tony Jones",
+       "Pos":"RB",
+       "p2024":36.4166386461,
+       "eADP":326.0
     },
     {
-        "index": 289,
-        "Player": "Dan Arnold",
-        "Pos": "TE",
-        "p2023": 32.4100733271,
-        "eADP": 344.0
+       "index":289,
+       "Player":"Parker Washington",
+       "Pos":"WR",
+       "p2024":40.645117219,
+       "eADP":307.0
     },
     {
-        "index": 290,
-        "Player": "Byron Pringle",
-        "Pos": "WR",
-        "p2023": 38.9240911722,
-        "eADP": 321.0
+       "index":290,
+       "Player":"Isaiah Spiller",
+       "Pos":"RB",
+       "p2024":17.4686839891,
+       "eADP":397.0
     },
     {
-        "index": 291,
-        "Player": "Jeff Smith",
-        "Pos": "WR",
-        "p2023": 18.4793673825,
-        "eADP": 399.0
+       "index":291,
+       "Player":"Melvin Gordon",
+       "Pos":"RB",
+       "p2024":23.8823756213,
+       "eADP":373.0
     },
     {
-        "index": 292,
-        "Player": "Zach Gentry",
-        "Pos": "TE",
-        "p2023": 56.168215267,
-        "eADP": 281.0
+       "index":292,
+       "Player":"Mecole Hardman",
+       "Pos":"WR",
+       "p2024":21.8820583465,
+       "eADP":380.0
     },
     {
-        "index": 293,
-        "Player": "Tanner Hudson",
-        "Pos": "TE",
-        "p2023": 20.3146918038,
-        "eADP": 391.0
+       "index":293,
+       "Player":"Robbie Chosen",
+       "Pos":"WR",
+       "p2024":5.7029606776,
+       "eADP":439.0
     },
     {
-        "index": 294,
-        "Player": "Donald Parham",
-        "Pos": "TE",
-        "p2023": 33.8021661313,
-        "eADP": 338.0
+       "index":294,
+       "Player":"Malik Heath",
+       "Pos":"WR",
+       "p2024":31.5518309529,
+       "eADP":343.0
     },
     {
-        "index": 295,
-        "Player": "Durham Smythe",
-        "Pos": "TE",
-        "p2023": 58.9911821395,
-        "eADP": 272.0
+       "index":295,
+       "Player":"Kyle Juszczyk",
+       "Pos":"WR",
+       "p2024":59.5196892113,
+       "eADP":253.0
     },
     {
-        "index": 296,
-        "Player": "Jalen Reagor",
-        "Pos": "WR",
-        "p2023": 25.4544603966,
-        "eADP": 369.0
+       "index":296,
+       "Player":"Ihmir Smith-Marsette",
+       "Pos":"WR",
+       "p2024":29.9722825845,
+       "eADP":349.0
     },
     {
-        "index": 297,
-        "Player": "Brevin Jordan",
-        "Pos": "TE",
-        "p2023": 29.8723755706,
-        "eADP": 358.0
+       "index":297,
+       "Player":"Stephen Sullivan",
+       "Pos":"TE",
+       "p2024":18.9159600771,
+       "eADP":393.0
     },
     {
-        "index": 298,
-        "Player": "Brandon Bolden",
-        "Pos": "RB",
-        "p2023": 31.9924969877,
-        "eADP": 346.0
+       "index":298,
+       "Player":"Kevin Harris",
+       "Pos":"RB",
+       "p2024":29.2158806218,
+       "eADP":351.0
     },
     {
-        "index": 299,
-        "Player": "Jack Stoll",
-        "Pos": "TE",
-        "p2023": 44.6569668249,
-        "eADP": 306.0
+       "index":299,
+       "Player":"River Cracraft",
+       "Pos":"WR",
+       "p2024":22.6905586146,
+       "eADP":377.0
     },
     {
-        "index": 300,
-        "Player": "T.Y. Hilton",
-        "Pos": "WR",
-        "p2023": 35.0581753616,
-        "eADP": 334.0
+       "index":300,
+       "Player":"Tyler Goodson",
+       "Pos":"RB",
+       "p2024":19.0307701054,
+       "eADP":392.0
     },
     {
-        "index": 301,
-        "Player": "Malcolm Brown",
-        "Pos": "RB",
-        "p2023": 20.0826965546,
-        "eADP": 392.0
+       "index":301,
+       "Player":"Cole Turner",
+       "Pos":"TE",
+       "p2024":19.6036804228,
+       "eADP":390.0
     },
     {
-        "index": 302,
-        "Player": "Lawrence Cager",
-        "Pos": "TE",
-        "p2023": 40.667118181,
-        "eADP": 314.0
+       "index":302,
+       "Player":"Alec Ingold",
+       "Pos":"WR",
+       "p2024":48.2172597128,
+       "eADP":288.0
     },
     {
-        "index": 303,
-        "Player": "Pharaoh Brown",
-        "Pos": "TE",
-        "p2023": 38.0184461577,
-        "eADP": 325.0
+       "index":303,
+       "Player":"Andrei Iosivas",
+       "Pos":"WR",
+       "p2024":48.5815746229,
+       "eADP":286.0
     },
     {
-        "index": 304,
-        "Player": "N'Keal Harry",
-        "Pos": "WR",
-        "p2023": 20.6540054047,
-        "eADP": 389.0
+       "index":304,
+       "Player":"Lynn Bowden Jr.",
+       "Pos":"WR",
+       "p2024":28.1003825698,
+       "eADP":356.0
     },
     {
-        "index": 305,
-        "Player": "Josiah Deguara",
-        "Pos": "TE",
-        "p2023": 38.2732834176,
-        "eADP": 322.0
+       "index":305,
+       "Player":"Laviska Shenault Jr.",
+       "Pos":"WR",
+       "p2024":5.6383514464,
+       "eADP":440.0
     },
     {
-        "index": 306,
-        "Player": "Alec Ingold",
-        "Pos": "WR",
-        "p2023": 62.623700559,
-        "eADP": 265.0
+       "index":306,
+       "Player":"Irv Smith Jr.",
+       "Pos":"TE",
+       "p2024":37.2686842774,
+       "eADP":324.0
     },
     {
-        "index": 307,
-        "Player": "James Mitchell",
-        "Pos": "TE",
-        "p2023": 31.1809649248,
-        "eADP": 350.0
+       "index":307,
+       "Player":"Richie James",
+       "Pos":"WR",
+       "p2024":10.5291344341,
+       "eADP":423.0
     },
     {
-        "index": 308,
-        "Player": "Teagan Quitoriano",
-        "Pos": "TE",
-        "p2023": 35.0139890361,
-        "eADP": 335.0
+       "index":308,
+       "Player":"Israel Abanikanda",
+       "Pos":"RB",
+       "p2024":14.386835528,
+       "eADP":409.0
     },
     {
-        "index": 309,
-        "Player": "Darrel Williams",
-        "Pos": "RB",
-        "p2023": 22.9424354358,
-        "eADP": 378.0
+       "index":309,
+       "Player":"Robert Tonyan",
+       "Pos":"TE",
+       "p2024":37.6584060146,
+       "eADP":322.0
     },
     {
-        "index": 310,
-        "Player": "Corey Clement",
-        "Pos": "RB",
-        "p2023": 16.6223633063,
-        "eADP": 409.0
+       "index":310,
+       "Player":"Damien Harris",
+       "Pos":"RB",
+       "p2024":11.2946759955,
+       "eADP":420.0
     },
     {
-        "index": 311,
-        "Player": "Brycen Hopkins",
-        "Pos": "TE",
-        "p2023": 23.2425753605,
-        "eADP": 377.0
+       "index":311,
+       "Player":"La'Mical Perine",
+       "Pos":"RB",
+       "p2024":21.6485297844,
+       "eADP":382.0
     },
     {
-        "index": 312,
-        "Player": "John Bates",
-        "Pos": "TE",
-        "p2023": 40.2000268785,
-        "eADP": 317.0
+       "index":312,
+       "Player":"MyCole Pruitt",
+       "Pos":"TE",
+       "p2024":42.4234214725,
+       "eADP":304.0
     },
     {
-        "index": 313,
-        "Player": "Jody Fortson",
-        "Pos": "TE",
-        "p2023": 32.3859798859,
-        "eADP": 345.0
+       "index":313,
+       "Player":"Emanuel Wilson",
+       "Pos":"RB",
+       "p2024":9.8876151818,
+       "eADP":427.0
     },
     {
-        "index": 314,
-        "Player": "Anthony Schwartz",
-        "Pos": "WR",
-        "p2023": 17.4569931031,
-        "eADP": 403.0
+       "index":314,
+       "Player":"Chris Brooks",
+       "Pos":"RB",
+       "p2024":2.3017557327,
+       "eADP":451.0
     },
     {
-        "index": 315,
-        "Player": "Benny Snell Jr.",
-        "Pos": "RB",
-        "p2023": 28.9089516736,
-        "eADP": 363.0
+       "index":315,
+       "Player":"Parris Campbell",
+       "Pos":"WR",
+       "p2024":29.7902340017,
+       "eADP":350.0
     },
     {
-        "index": 316,
-        "Player": "David Sills",
-        "Pos": "WR",
-        "p2023": 23.5783043534,
-        "eADP": 376.0
+       "index":316,
+       "Player":"Marquise Goodwin",
+       "Pos":"WR",
+       "p2024":4.6658890435,
+       "eADP":443.0
     },
     {
-        "index": 317,
-        "Player": "Ross Dwelley",
-        "Pos": "TE",
-        "p2023": 13.6052407213,
-        "eADP": 425.0
+       "index":317,
+       "Player":"Keaontay Ingram",
+       "Pos":"RB",
+       "p2024":7.9623847074,
+       "eADP":430.0
     },
     {
-        "index": 318,
-        "Player": "Peyton Hendershot",
-        "Pos": "TE",
-        "p2023": 45.5446399418,
-        "eADP": 302.0
+       "index":318,
+       "Player":"Isaiah McKenzie",
+       "Pos":"WR",
+       "p2024":17.2763819664,
+       "eADP":400.0
     },
     {
-        "index": 319,
-        "Player": "Breshad Perriman",
-        "Pos": "WR",
-        "p2023": 22.4274580565,
-        "eADP": 380.0
+       "index":319,
+       "Player":"Davis Allen",
+       "Pos":"TE",
+       "p2024":27.7143282599,
+       "eADP":358.0
     },
     {
-        "index": 320,
-        "Player": "River Cracraft",
-        "Pos": "WR",
-        "p2023": 29.2713469646,
-        "eADP": 360.0
+       "index":320,
+       "Player":"Lucas Krull",
+       "Pos":"TE",
+       "p2024":21.5074544378,
+       "eADP":384.0
     },
     {
-        "index": 321,
-        "Player": "Anthony Firkser",
-        "Pos": "TE",
-        "p2023": 18.0005284499,
-        "eADP": 401.0
+       "index":321,
+       "Player":"David Moore",
+       "Pos":"WR",
+       "p2024":10.1369560721,
+       "eADP":426.0
     },
     {
-        "index": 322,
-        "Player": "Giovanni Ricci",
-        "Pos": "TE",
-        "p2023": 26.5883717621,
-        "eADP": 367.0
+       "index":322,
+       "Player":"Geoff Swaim",
+       "Pos":"TE",
+       "p2024":27.5249286765,
+       "eADP":362.0
     },
     {
-        "index": 323,
-        "Player": "Tyrion Davis-Price",
-        "Pos": "RB",
-        "p2023": 1.5059675269,
-        "eADP": 467.0
+       "index":323,
+       "Player":"Josh Whyle",
+       "Pos":"TE",
+       "p2024":21.5717976745,
+       "eADP":383.0
     },
     {
-        "index": 324,
-        "Player": "Marcus Johnson",
-        "Pos": "WR",
-        "p2023": 32.4583903801,
-        "eADP": 343.0
+       "index":324,
+       "Player":"Raheem Blackshear",
+       "Pos":"RB",
+       "p2024":14.1963818177,
+       "eADP":410.0
     },
     {
-        "index": 325,
-        "Player": "Darrynton Evans",
-        "Pos": "RB",
-        "p2023": -12.3530961464,
-        "eADP": 507.0
+       "index":325,
+       "Player":"Brock Wright",
+       "Pos":"TE",
+       "p2024":27.6128318319,
+       "eADP":360.0
     },
     {
-        "index": 326,
-        "Player": "Albert Okwuegbunam",
-        "Pos": "TE",
-        "p2023": 25.071252589,
-        "eADP": 370.0
+       "index":326,
+       "Player":"Harrison Bryant",
+       "Pos":"TE",
+       "p2024":50.2709850625,
+       "eADP":282.0
     },
     {
-        "index": 327,
-        "Player": "C.J. Ham",
-        "Pos": "WR",
-        "p2023": 40.0796849789,
-        "eADP": 318.0
+       "index":327,
+       "Player":"Jalen Guyton",
+       "Pos":"WR",
+       "p2024":22.1131665958,
+       "eADP":378.0
     },
     {
-        "index": 328,
-        "Player": "Ronald Jones II",
-        "Pos": "RB",
-        "p2023": 0.1252006103,
-        "eADP": 472.0
+       "index":328,
+       "Player":"Charlie Kolar",
+       "Pos":"TE",
+       "p2024":31.5655725096,
+       "eADP":342.0
     },
     {
-        "index": 329,
-        "Player": "Gunner Olszewski",
-        "Pos": "WR",
-        "p2023": 23.6063797556,
-        "eADP": 375.0
+       "index":329,
+       "Player":"Trent Sherfield",
+       "Pos":"WR",
+       "p2024":31.6013925505,
+       "eADP":341.0
     },
     {
-        "index": 330,
-        "Player": "Armani Rogers",
-        "Pos": "TE",
-        "p2023": 13.0900122167,
-        "eADP": 427.0
+       "index":330,
+       "Player":"Tim Jones",
+       "Pos":"WR",
+       "p2024":28.3342984068,
+       "eADP":354.0
     },
     {
-        "index": 331,
-        "Player": "Michael Bandy",
-        "Pos": "WR",
-        "p2023": 17.3810804414,
-        "eADP": 405.0
+       "index":331,
+       "Player":"Deuce Vaughn",
+       "Pos":"RB",
+       "p2024":9.3711490834,
+       "eADP":428.0
     },
     {
-        "index": 332,
-        "Player": "Cam Sims",
-        "Pos": "WR",
-        "p2023": 31.1983116191,
-        "eADP": 349.0
+       "index":332,
+       "Player":"Trayveon Williams",
+       "Pos":"RB",
+       "p2024":32.9730201422,
+       "eADP":339.0
     },
     {
-        "index": 333,
-        "Player": "Jordan Wilkins",
-        "Pos": "RB",
-        "p2023": 14.4461947248,
-        "eADP": 417.0
+       "index":333,
+       "Player":"Brycen Hopkins",
+       "Pos":"TE",
+       "p2024":16.8593380351,
+       "eADP":402.0
     },
     {
-        "index": 334,
-        "Player": "Quintin Morris",
-        "Pos": "TE",
-        "p2023": 24.9905940604,
-        "eADP": 372.0
+       "index":334,
+       "Player":"Samori Toure",
+       "Pos":"WR",
+       "p2024":7.2233564137,
+       "eADP":433.0
     },
     {
-        "index": 335,
-        "Player": "Samori Toure",
-        "Pos": "WR",
-        "p2023": 16.150613145,
-        "eADP": 413.0
+       "index":335,
+       "Player":"Chase Claypool",
+       "Pos":"WR",
+       "p2024":17.2776273056,
+       "eADP":399.0
     },
     {
-        "index": 336,
-        "Player": "Grant Calcaterra",
-        "Pos": "TE",
-        "p2023": 21.2867734784,
-        "eADP": 386.0
+       "index":336,
+       "Player":"Charlie Jones",
+       "Pos":"WR",
+       "p2024":7.5004831793,
+       "eADP":432.0
     },
     {
-        "index": 337,
-        "Player": "Kenny Golladay",
-        "Pos": "WR",
-        "p2023": 19.7005801644,
-        "eADP": 395.0
+       "index":337,
+       "Player":"Ben Skowronek",
+       "Pos":"WR",
+       "p2024":25.4627012192,
+       "eADP":367.0
     },
     {
-        "index": 338,
-        "Player": "Keaontay Ingram",
-        "Pos": "RB",
-        "p2023": 17.6061187743,
-        "eADP": 402.0
+       "index":338,
+       "Player":"Julio Jones",
+       "Pos":"WR",
+       "p2024":33.6771000367,
+       "eADP":338.0
     },
     {
-        "index": 339,
-        "Player": "Jameson Williams",
-        "Pos": "WR",
-        "p2023": 4.8386017822,
-        "eADP": 452.0
+       "index":339,
+       "Player":"Velus Jones Jr.",
+       "Pos":"WR",
+       "p2024":16.81060512,
+       "eADP":403.0
     },
     {
-        "index": 340,
-        "Player": "Ko Kieft",
-        "Pos": "TE",
-        "p2023": 40.6402472102,
-        "eADP": 315.0
+       "index":340,
+       "Player":"Eric Gray",
+       "Pos":"RB",
+       "p2024":15.6397194706,
+       "eADP":408.0
     },
     {
-        "index": 341,
-        "Player": "Eric Tomlinson",
-        "Pos": "TE",
-        "p2023": 49.9166885358,
-        "eADP": 293.0
+       "index":341,
+       "Player":"Chris Conley",
+       "Pos":"WR",
+       "p2024":-12.8287527579,
+       "eADP":482.0
     },
     {
-        "index": 342,
-        "Player": "Jaret Patterson",
-        "Pos": "RB",
-        "p2023": 3.0102192028,
-        "eADP": 463.0
+       "index":342,
+       "Player":"Ronnie Bell",
+       "Pos":"WR",
+       "p2024":34.2686251816,
+       "eADP":334.0
     },
     {
-        "index": 343,
-        "Player": "Kyle Philips",
-        "Pos": "WR",
-        "p2023": 9.4711632548,
-        "eADP": 435.0
+       "index":343,
+       "Player":"Gary Brightwell",
+       "Pos":"RB",
+       "p2024":-3.321978274,
+       "eADP":461.0
     },
     {
-        "index": 344,
-        "Player": "Trent Taylor",
-        "Pos": "WR",
-        "p2023": 22.911988045,
-        "eADP": 379.0
+       "index":344,
+       "Player":"Josiah Deguara",
+       "Pos":"TE",
+       "p2024":23.5288670027,
+       "eADP":374.0
     },
     {
-        "index": 345,
-        "Player": "Jalen Virgil",
-        "Pos": "WR",
-        "p2023": 5.2928520854,
-        "eADP": 451.0
+       "index":345,
+       "Player":"Luke Schoonmaker",
+       "Pos":"TE",
+       "p2024":31.3111741977,
+       "eADP":344.0
     },
     {
-        "index": 346,
-        "Player": "Freddie Swain",
-        "Pos": "WR",
-        "p2023": -3.257483113,
-        "eADP": 483.0
+       "index":346,
+       "Player":"Jalen Brooks",
+       "Pos":"WR",
+       "p2024":-0.5915278175,
+       "eADP":458.0
     },
     {
-        "index": 347,
-        "Player": "Kevin White",
-        "Pos": "WR",
-        "p2023": -2.7069399009,
-        "eADP": 478.0
+       "index":347,
+       "Player":"Mike Boone",
+       "Pos":"RB",
+       "p2024":5.7713527094,
+       "eADP":438.0
     },
     {
-        "index": 348,
-        "Player": "Salvon Ahmed",
-        "Pos": "RB",
-        "p2023": 14.8316053103,
-        "eADP": 414.0
+       "index":348,
+       "Player":"Sterling Shepard",
+       "Pos":"WR",
+       "p2024":23.9028873236,
+       "eADP":372.0
     },
     {
-        "index": 349,
-        "Player": "Tre' McKitty",
-        "Pos": "TE",
-        "p2023": 36.1294332331,
-        "eADP": 332.0
+       "index":349,
+       "Player":"DeeJay Dallas",
+       "Pos":"RB",
+       "p2024":27.5442139525,
+       "eADP":361.0
     },
     {
-        "index": 350,
-        "Player": "Ke'Shawn Vaughn",
-        "Pos": "RB",
-        "p2023": 17.268583544,
-        "eADP": 406.0
+       "index":350,
+       "Player":"Equanimeous St. Brown",
+       "Pos":"WR",
+       "p2024":-5.8582200005,
+       "eADP":464.0
     },
     {
-        "index": 351,
-        "Player": "David Johnson",
-        "Pos": "RB",
-        "p2023": -10.3093467377,
-        "eADP": 503.0
+       "index":351,
+       "Player":"Darnell Washington",
+       "Pos":"TE",
+       "p2024":28.4015663383,
+       "eADP":353.0
     },
     {
-        "index": 352,
-        "Player": "Tevin Coleman",
-        "Pos": "RB",
-        "p2023": 19.662240255,
-        "eADP": 396.0
+       "index":352,
+       "Player":"Rakim Jarrett",
+       "Pos":"WR",
+       "p2024":0.3491225582,
+       "eADP":456.0
     },
     {
-        "index": 353,
-        "Player": "Zamir White",
-        "Pos": "RB",
-        "p2023": 14.5268017929,
-        "eADP": 415.0
+       "index":353,
+       "Player":"Andrew Beck",
+       "Pos":"WR",
+       "p2024":50.5301581065,
+       "eADP":281.0
     },
     {
-        "index": 354,
-        "Player": "Andrew Beck",
-        "Pos": "WR",
-        "p2023": 17.4205797613,
-        "eADP": 404.0
+       "index":354,
+       "Player":"Payne Durham",
+       "Pos":"TE",
+       "p2024":10.415567057,
+       "eADP":424.0
     },
     {
-        "index": 355,
-        "Player": "Reggie Gilliam",
-        "Pos": "WR",
-        "p2023": 29.9244780974,
-        "eADP": 357.0
+       "index":355,
+       "Player":"C.J. Uzomah",
+       "Pos":"TE",
+       "p2024":21.7233336961,
+       "eADP":381.0
     },
     {
-        "index": 356,
-        "Player": "D'Wayne Eskridge",
-        "Pos": "WR",
-        "p2023": 8.893531445,
-        "eADP": 436.0
+       "index":356,
+       "Player":"DeAndre Carter",
+       "Pos":"WR",
+       "p2024":17.2270402387,
+       "eADP":401.0
     },
     {
-        "index": 357,
-        "Player": "Phillip Lindsay",
-        "Pos": "RB",
-        "p2023": 14.1896906834,
-        "eADP": 419.0
+       "index":357,
+       "Player":"Jason Brownlee",
+       "Pos":"WR",
+       "p2024":10.2988422888,
+       "eADP":425.0
     },
     {
-        "index": 358,
-        "Player": "Marcedes Lewis",
-        "Pos": "TE",
-        "p2023": 50.6682943018,
-        "eADP": 291.0
+       "index":358,
+       "Player":"D.J. Montgomery",
+       "Pos":"WR",
+       "p2024":2.4469394048,
+       "eADP":449.0
     },
     {
-        "index": 359,
-        "Player": "Chris Myarick",
-        "Pos": "WR",
-        "p2023": 38.1885665085,
-        "eADP": 324.0
+       "index":359,
+       "Player":"Ian Thomas",
+       "Pos":"TE",
+       "p2024":5.6167988608,
+       "eADP":442.0
     },
     {
-        "index": 360,
-        "Player": "Jalen Guyton",
-        "Pos": "WR",
-        "p2023": -8.3673605159,
-        "eADP": 499.0
+       "index":360,
+       "Player":"Mitchell Wilcox",
+       "Pos":"TE",
+       "p2024":27.2580756685,
+       "eADP":363.0
     },
     {
-        "index": 361,
-        "Player": "Jake Kumerow",
-        "Pos": "WR",
-        "p2023": -3.2667700849,
-        "eADP": 484.0
+       "index":361,
+       "Player":"Damien Williams",
+       "Pos":"RB",
+       "p2024":-4.592514745,
+       "eADP":463.0
     },
     {
-        "index": 362,
-        "Player": "Trestan Ebner",
-        "Pos": "RB",
-        "p2023": 19.6231171001,
-        "eADP": 397.0
+       "index":362,
+       "Player":"Dare Ogunbowale",
+       "Pos":"RB",
+       "p2024":1.2975490186,
+       "eADP":454.0
     },
     {
-        "index": 363,
-        "Player": "James Proche",
-        "Pos": "WR",
-        "p2023": 20.5667072923,
-        "eADP": 390.0
+       "index":363,
+       "Player":"Justyn Ross",
+       "Pos":"WR",
+       "p2024":2.4397403617,
+       "eADP":450.0
     },
     {
-        "index": 364,
-        "Player": "Jamison Crowder",
-        "Pos": "WR",
-        "p2023": -2.8413786501,
-        "eADP": 480.0
+       "index":364,
+       "Player":"Ty Montgomery",
+       "Pos":"WR",
+       "p2024":7.8052811733,
+       "eADP":431.0
     },
     {
-        "index": 365,
-        "Player": "Trayveon Williams",
-        "Pos": "RB",
-        "p2023": -8.0471559501,
-        "eADP": 497.0
+       "index":365,
+       "Player":"Julian Hill",
+       "Pos":"TE",
+       "p2024":17.3250099292,
+       "eADP":398.0
     },
     {
-        "index": 366,
-        "Player": "Shane Zylstra",
-        "Pos": "TE",
-        "p2023": 43.6876942133,
-        "eADP": 309.0
+       "index":366,
+       "Player":"Mike Strachan",
+       "Pos":"WR",
+       "p2024":-27.6250378626,
+       "eADP":512.0
     },
     {
-        "index": 367,
-        "Player": "Mike Strachan",
-        "Pos": "WR",
-        "p2023": 10.2764207996,
-        "eADP": 433.0
+       "index":367,
+       "Player":"Ke'Shawn Vaughn",
+       "Pos":"RB",
+       "p2024":-11.6500409564,
+       "eADP":479.0
     },
     {
-        "index": 368,
-        "Player": "Geoff Swaim",
-        "Pos": "TE",
-        "p2023": 49.8290342271,
-        "eADP": 294.0
+       "index":368,
+       "Player":"Britain Covey",
+       "Pos":"WR",
+       "p2024":13.3905479106,
+       "eADP":413.0
     },
     {
-        "index": 369,
-        "Player": "Deven Thompkins",
-        "Pos": "WR",
-        "p2023": -1.8913914586,
-        "eADP": 476.0
+       "index":369,
+       "Player":"Leonard Fournette",
+       "Pos":"RB",
+       "p2024":-15.478401065,
+       "eADP":492.0
     },
     {
-        "index": 370,
-        "Player": "Tyler Kroft",
-        "Pos": "TE",
-        "p2023": 6.1004930337,
-        "eADP": 445.0
+       "index":370,
+       "Player":"Grant Calcaterra",
+       "Pos":"TE",
+       "p2024":12.0786601876,
+       "eADP":417.0
     },
     {
-        "index": 371,
-        "Player": "Nick Vannett",
-        "Pos": "WR",
-        "p2023": 2.8233353184,
-        "eADP": 464.0
+       "index":371,
+       "Player":"Randall Cobb",
+       "Pos":"WR",
+       "p2024":6.6971335573,
+       "eADP":435.0
     },
     {
-        "index": 372,
-        "Player": "Myles Gaskin",
-        "Pos": "RB",
-        "p2023": -2.5727642509,
-        "eADP": 477.0
+       "index":372,
+       "Player":"Jimmy Graham",
+       "Pos":"TE",
+       "p2024":25.2237225928,
+       "eADP":368.0
     },
     {
-        "index": 373,
-        "Player": "Cody Hollister",
-        "Pos": "WR",
-        "p2023": 8.7511922864,
-        "eADP": 439.0
+       "index":373,
+       "Player":"Elijah Cooks",
+       "Pos":"WR",
+       "p2024":-7.2100383211,
+       "eADP":465.0
     },
     {
-        "index": 374,
-        "Player": "Tony Jones",
-        "Pos": "RB",
-        "p2023": -3.9098808765,
-        "eADP": 486.0
+       "index":374,
+       "Player":"Peyton Hendershot",
+       "Pos":"TE",
+       "p2024":-8.610309535,
+       "eADP":468.0
     },
     {
-        "index": 375,
-        "Player": "Isaiah Spiller",
-        "Pos": "RB",
-        "p2023": -3.1169488877,
-        "eADP": 481.0
+       "index":375,
+       "Player":"Rashaad Penny",
+       "Pos":"RB",
+       "p2024":-13.6640199424,
+       "eADP":485.0
     },
     {
-        "index": 376,
-        "Player": "Spencer Brown",
-        "Pos": "RB",
-        "p2023": 8.8259700401,
-        "eADP": 438.0
+       "index":376,
+       "Player":"Jack Stoll",
+       "Pos":"TE",
+       "p2024":28.9036553279,
+       "eADP":352.0
     },
     {
-        "index": 377,
-        "Player": "Julius Chestnut",
-        "Pos": "RB",
-        "p2023": -9.9246175046,
-        "eADP": 502.0
+       "index":377,
+       "Player":"J.K. Dobbins",
+       "Pos":"RB",
+       "p2024":96.3308007104,
+       "eADP":176.0
     },
     {
-        "index": 378,
-        "Player": "Kevin Harris",
-        "Pos": "RB",
-        "p2023": 5.5835531299,
-        "eADP": 449.0
+       "index":378,
+       "Player":"Keith Kirkwood",
+       "Pos":"WR",
+       "p2024":21.2418401655,
+       "eADP":385.0
     },
     {
-        "index": 379,
-        "Player": "Ronnie Rivers",
-        "Pos": "RB",
-        "p2023": 0.7964331439,
-        "eADP": 469.0
+       "index":379,
+       "Player":"Hunter Luepke",
+       "Pos":"RB",
+       "p2024":25.8954851599,
+       "eADP":366.0
     },
     {
-        "index": 380,
-        "Player": "Charlie Kolar",
-        "Pos": "TE",
-        "p2023": 16.4765480081,
-        "eADP": 411.0
+       "index":380,
+       "Player":"Lawrence Cager",
+       "Pos":"TE",
+       "p2024":7.1804160555,
+       "eADP":434.0
     },
     {
-        "index": 381,
-        "Player": "Patrick Taylor",
-        "Pos": "RB",
-        "p2023": 5.3421285557,
-        "eADP": 450.0
+       "index":381,
+       "Player":"Marvin Jones",
+       "Pos":"WR",
+       "p2024":-13.0531525189,
+       "eADP":483.0
     },
     {
-        "index": 382,
-        "Player": "Chris Conley",
-        "Pos": "WR",
-        "p2023": -6.1101887136,
-        "eADP": 490.0
+       "index":382,
+       "Player":"Brenton Strange",
+       "Pos":"TE",
+       "p2024":17.8780121069,
+       "eADP":395.0
     },
     {
-        "index": 383,
-        "Player": "Stephen Sullivan",
-        "Pos": "TE",
-        "p2023": 10.8512991063,
-        "eADP": 431.0
+       "index":383,
+       "Player":"Keelan Doss",
+       "Pos":"WR",
+       "p2024":-9.5038725116,
+       "eADP":472.0
     },
     {
-        "index": 384,
-        "Player": "Andre Baccellia",
-        "Pos": "WR",
-        "p2023": 2.0956950932,
-        "eADP": 465.0
+       "index":384,
+       "Player":"Devin Duvernay",
+       "Pos":"WR",
+       "p2024":2.8283191831,
+       "eADP":447.0
     },
     {
-        "index": 385,
-        "Player": "Dwayne Washington",
-        "Pos": "RB",
-        "p2023": 3.2660283779,
-        "eADP": 459.0
+       "index":385,
+       "Player":"Teagan Quitoriano",
+       "Pos":"TE",
+       "p2024":-10.977156333,
+       "eADP":477.0
     },
     {
-        "index": 386,
-        "Player": "Racey McMath",
-        "Pos": "WR",
-        "p2023": -12.0673742154,
-        "eADP": 505.0
+       "index":386,
+       "Player":"C.J. Ham",
+       "Pos":"WR",
+       "p2024":23.341372417,
+       "eADP":375.0
     },
     {
-        "index": 387,
-        "Player": "John Brown",
-        "Pos": "WR",
-        "p2023": -5.0015411484,
-        "eADP": 487.0
+       "index":387,
+       "Player":"Sean Tucker",
+       "Pos":"RB",
+       "p2024":4.2012929009,
+       "eADP":445.0
     },
     {
-        "index": 388,
-        "Player": "Snoop Conner",
-        "Pos": "RB",
-        "p2023": 3.1615521648,
-        "eADP": 460.0
+       "index":388,
+       "Player":"Charlie Woerner",
+       "Pos":"TE",
+       "p2024":18.6229692104,
+       "eADP":394.0
     },
     {
-        "index": 389,
-        "Player": "Brandon Johnson",
-        "Pos": "WR",
-        "p2023": 7.2742742743,
-        "eADP": 443.0
+       "index":389,
+       "Player":"Brandon Bolden",
+       "Pos":"RB",
+       "p2024":26.4702868177,
+       "eADP":364.0
     },
     {
-        "index": 390,
-        "Player": "Chris Manhertz",
-        "Pos": "TE",
-        "p2023": 34.856068384,
-        "eADP": 336.0
+       "index":390,
+       "Player":"Kenyan Drake",
+       "Pos":"RB",
+       "p2024":-30.2789107223,
+       "eADP":516.0
     },
     {
-        "index": 391,
-        "Player": "Laquon Treadwell",
-        "Pos": "WR",
-        "p2023": -5.6348471621,
-        "eADP": 489.0
+       "index":391,
+       "Player":"Deon Jackson",
+       "Pos":"RB",
+       "p2024":-10.8019548765,
+       "eADP":476.0
     },
     {
-        "index": 392,
-        "Player": "Anthony McFarland Jr.",
-        "Pos": "RB",
-        "p2023": 36.2141963863,
-        "eADP": 331.0
+       "index":392,
+       "Player":"Marcedes Lewis",
+       "Pos":"TE",
+       "p2024":16.7979579881,
+       "eADP":404.0
     },
     {
-        "index": 393,
-        "Player": "Luke Farrell",
-        "Pos": "TE",
-        "p2023": 19.8134324078,
-        "eADP": 394.0
+       "index":393,
+       "Player":"Jalen Nailor",
+       "Pos":"WR",
+       "p2024":-14.9468399344,
+       "eADP":491.0
     },
     {
-        "index": 394,
-        "Player": "Michael Woods II",
-        "Pos": "WR",
-        "p2023": 3.0294895411,
-        "eADP": 462.0
+       "index":394,
+       "Player":"Austin Trammell",
+       "Pos":"WR",
+       "p2024":14.1006470215,
+       "eADP":411.0
     },
     {
-        "index": 395,
-        "Player": "Chris Evans",
-        "Pos": "RB",
-        "p2023": 11.3172742367,
-        "eADP": 429.0
+       "index":395,
+       "Player":"Khari Blasingame",
+       "Pos":"WR",
+       "p2024":12.689026565,
+       "eADP":415.0
     },
     {
-        "index": 396,
-        "Player": "Mike Thomas",
-        "Pos": "WR",
-        "p2023": -0.0148426738,
-        "eADP": 473.0
+       "index":396,
+       "Player":"James Mitchell",
+       "Pos":"TE",
+       "p2024":10.7822346774,
+       "eADP":422.0
     },
     {
-        "index": 397,
-        "Player": "Dax Milne",
-        "Pos": "WR",
-        "p2023": 21.8590223006,
-        "eADP": 383.0
+       "index":397,
+       "Player":"Kenny Yeboah",
+       "Pos":"TE",
+       "p2024":-19.991016405,
+       "eADP":502.0
     },
     {
-        "index": 398,
-        "Player": "Cole Beasley",
-        "Pos": "WR",
-        "p2023": -3.7140164369,
-        "eADP": 485.0
+       "index":398,
+       "Player":"Blake Bell",
+       "Pos":"TE",
+       "p2024":24.4226151269,
+       "eADP":371.0
     },
     {
-        "index": 399,
-        "Player": "Kendall Blanton",
-        "Pos": "TE",
-        "p2023": -16.862040361,
-        "eADP": 521.0
+       "index":399,
+       "Player":"Derrick Gore",
+       "Pos":"RB",
+       "p2024":-14.0746606701,
+       "eADP":486.0
     },
     {
-        "index": 400,
-        "Player": "Kene Nwangwu",
-        "Pos": "RB",
-        "p2023": 17.0156506648,
-        "eADP": 407.0
+       "index":400,
+       "Player":"Quintin Morris",
+       "Pos":"TE",
+       "p2024":13.3481750665,
+       "eADP":414.0
     },
     {
-        "index": 401,
-        "Player": "Larry Rountree",
-        "Pos": "RB",
-        "p2023": -14.3192654703,
-        "eADP": 514.0
+       "index":401,
+       "Player":"Steven Sims",
+       "Pos":"WR",
+       "p2024":-16.4495136521,
+       "eADP":494.0
     },
     {
-        "index": 402,
-        "Player": "Tylan Wallace",
-        "Pos": "WR",
-        "p2023": -3.2176814026,
-        "eADP": 482.0
+       "index":402,
+       "Player":"Nick Bawden",
+       "Pos":"WR",
+       "p2024":20.4506826002,
+       "eADP":388.0
     },
     {
-        "index": 403,
-        "Player": "Jonathan Ward",
-        "Pos": "RB",
-        "p2023": -5.6167164048,
-        "eADP": 488.0
+       "index":403,
+       "Player":"Greg Dulcich",
+       "Pos":"TE",
+       "p2024":-9.6435041149,
+       "eADP":473.0
     },
     {
-        "index": 404,
-        "Player": "Montrell Washington",
-        "Pos": "WR",
-        "p2023": 13.9221048235,
-        "eADP": 422.0
+       "index":404,
+       "Player":"Adam Prentice",
+       "Pos":"RB",
+       "p2024":9.3444566692,
+       "eADP":429.0
     },
     {
-        "index": 405,
-        "Player": "Derek Watt",
-        "Pos": "RB",
-        "p2023": 33.2870260181,
-        "eADP": 340.0
+       "index":405,
+       "Player":"Nate Adkins",
+       "Pos":"TE",
+       "p2024":-4.1000471571,
+       "eADP":462.0
     },
     {
-        "index": 406,
-        "Player": "Tim Jones",
-        "Pos": "WR",
-        "p2023": 20.9610171231,
-        "eADP": 388.0
+       "index":406,
+       "Player":"Erik Ezukanma",
+       "Pos":"WR",
+       "p2024":-21.3044195312,
+       "eADP":505.0
     },
     {
-        "index": 407,
-        "Player": "Tyrie Cleveland",
-        "Pos": "WR",
-        "p2023": -14.3650424756,
-        "eADP": 515.0
+       "index":407,
+       "Player":"Jake Funk",
+       "Pos":"RB",
+       "p2024":-25.1966771275,
+       "eADP":511.0
     },
     {
-        "index": 408,
-        "Player": "Jaelon Darden",
-        "Pos": "WR",
-        "p2023": 10.3987409381,
-        "eADP": 432.0
+       "index":408,
+       "Player":"Nick Muse",
+       "Pos":"TE",
+       "p2024":-31.7837340477,
+       "eADP":520.0
     },
     {
-        "index": 409,
-        "Player": "Kyle Rudolph",
-        "Pos": "TE",
-        "p2023": -6.9294182554,
-        "eADP": 493.0
+       "index":409,
+       "Player":"Tyrion Davis-Price",
+       "Pos":"RB",
+       "p2024":-16.2055586633,
+       "eADP":493.0
     },
     {
-        "index": 410,
-        "Player": "Giovani Bernard",
-        "Pos": "RB",
-        "p2023": -6.6902046882,
-        "eADP": 492.0
+       "index":410,
+       "Player":"Zonovan Knight",
+       "Pos":"RB",
+       "p2024":-14.5013927698,
+       "eADP":489.0
     },
     {
-        "index": 411,
-        "Player": "Tyler Davis",
-        "Pos": "TE",
-        "p2023": 22.3662991751,
-        "eADP": 381.0
+       "index":411,
+       "Player":"Ben Sims",
+       "Pos":"TE",
+       "p2024":21.9081563617,
+       "eADP":379.0
     },
     {
-        "index": 412,
-        "Player": "Ben Ellefson",
-        "Pos": "TE",
-        "p2023": -14.3173000746,
-        "eADP": 512.0
+       "index":412,
+       "Player":"Trevon Wesco",
+       "Pos":"TE",
+       "p2024":20.7738067766,
+       "eADP":387.0
     },
     {
-        "index": 413,
-        "Player": "Ryan Griffin",
-        "Pos": "TE",
-        "p2023": 8.3119867023,
-        "eADP": 440.0
+       "index":413,
+       "Player":"Kayshon Boutte",
+       "Pos":"WR",
+       "p2024":-21.1189966699,
+       "eADP":504.0
     },
     {
-        "index": 414,
-        "Player": "DJ Turner",
-        "Pos": "WR",
-        "p2023": -7.0669984806,
-        "eADP": 494.0
+       "index":414,
+       "Player":"Elijah Dotson",
+       "Pos":"RB",
+       "p2024":-16.849610312,
+       "eADP":496.0
     },
     {
-        "index": 415,
-        "Player": "KaVontae Turpin",
-        "Pos": "WR",
-        "p2023": 13.4067625197,
-        "eADP": 426.0
+       "index":415,
+       "Player":"Zach Evans",
+       "Pos":"RB",
+       "p2024":-8.6807105394,
+       "eADP":469.0
     },
     {
-        "index": 416,
-        "Player": "Trevon Wesco",
-        "Pos": "TE",
-        "p2023": 7.1699374766,
-        "eADP": 444.0
+       "index":416,
+       "Player":"Zach Pascal",
+       "Pos":"WR",
+       "p2024":1.8329834161,
+       "eADP":452.0
     },
     {
-        "index": 417,
-        "Player": "Daylen Baldwin",
-        "Pos": "WR",
-        "p2023": 8.1405171911,
-        "eADP": 441.0
+       "index":417,
+       "Player":"Miles Boykin",
+       "Pos":"WR",
+       "p2024":11.2027189891,
+       "eADP":421.0
     },
     {
-        "index": 418,
-        "Player": "Tyler Badie",
-        "Pos": "RB",
-        "p2023": 63.7330155783,
-        "eADP": 261.0
+       "index":418,
+       "Player":"Michael Burton",
+       "Pos":"RB",
+       "p2024":24.7531733962,
+       "eADP":370.0
     },
     {
-        "index": 419,
-        "Player": "Simi Fehoko",
-        "Pos": "WR",
-        "p2023": -13.9628516144,
-        "eADP": 510.0
+       "index":419,
+       "Player":"Chris Manhertz",
+       "Pos":"TE",
+       "p2024":11.4261724591,
+       "eADP":419.0
     },
     {
-        "index": 420,
-        "Player": "D'Ernest Johnson",
-        "Pos": "RB",
-        "p2023": 16.4567584308,
-        "eADP": 412.0
+       "index":420,
+       "Player":"Laquon Treadwell",
+       "Pos":"WR",
+       "p2024":-28.5859563028,
+       "eADP":515.0
     },
     {
-        "index": 421,
-        "Player": "Dezmon Patmon",
-        "Pos": "WR",
-        "p2023": 3.4690567888,
-        "eADP": 458.0
+       "index":421,
+       "Player":"Willie Snead",
+       "Pos":"WR",
+       "p2024":-30.4924382503,
+       "eADP":517.0
     },
     {
-        "index": 422,
-        "Player": "Dareke Young",
-        "Pos": "WR",
-        "p2023": 6.0314337667,
-        "eADP": 446.0
+       "index":422,
+       "Player":"Alex Armah",
+       "Pos":"RB",
+       "p2024":-14.529544263,
+       "eADP":490.0
     },
     {
-        "index": 423,
-        "Player": "Cole Turner",
-        "Pos": "TE",
-        "p2023": -1.8163674196,
-        "eADP": 475.0
+       "index":423,
+       "Player":"Jashaun Corbin",
+       "Pos":"RB",
+       "p2024":-17.9086226942,
+       "eADP":498.0
     },
     {
-        "index": 424,
-        "Player": "Mike Davis",
-        "Pos": "RB",
-        "p2023": -11.2153344903,
-        "eADP": 504.0
+       "index":424,
+       "Player":"Kene Nwangwu",
+       "Pos":"RB",
+       "p2024":-10.2761408799,
+       "eADP":475.0
     },
     {
-        "index": 425,
-        "Player": "Andy Isabella",
-        "Pos": "WR",
-        "p2023": -17.7252854909,
-        "eADP": 524.0
+       "index":425,
+       "Player":"Devine Ozigbo",
+       "Pos":"RB",
+       "p2024":-25.1795417741,
+       "eADP":510.0
     },
     {
-        "index": 426,
-        "Player": "Pharoh Cooper",
-        "Pos": "WR",
-        "p2023": -15.5233236053,
-        "eADP": 517.0
+       "index":426,
+       "Player":"Malik Taylor",
+       "Pos":"WR",
+       "p2024":-28.3408637741,
+       "eADP":514.0
     },
     {
-        "index": 427,
-        "Player": "Cade Johnson",
-        "Pos": "WR",
-        "p2023": -18.2087616889,
-        "eADP": 525.0
+       "index":427,
+       "Player":"Ross Dwelley",
+       "Pos":"TE",
+       "p2024":-7.486358735,
+       "eADP":466.0
     },
     {
-        "index": 428,
-        "Player": "Blake Bell",
-        "Pos": "TE",
-        "p2023": 1.8155678036,
-        "eADP": 466.0
+       "index":428,
+       "Player":"John FitzPatrick",
+       "Pos":"TE",
+       "p2024":-13.4383835296,
+       "eADP":484.0
     },
     {
-        "index": 429,
-        "Player": "Ty Chandler",
-        "Pos": "RB",
-        "p2023": -22.0931285398,
-        "eADP": 531.0
+       "index":429,
+       "Player":"Jakob Johnson",
+       "Pos":"WR",
+       "p2024":1.3992465819,
+       "eADP":453.0
     },
     {
-        "index": 430,
-        "Player": "Keke Coutee",
-        "Pos": "WR",
-        "p2023": -21.4916824914,
-        "eADP": 530.0
+       "index":430,
+       "Player":"Eric Saubert",
+       "Pos":"WR",
+       "p2024":-8.7086712795,
+       "eADP":470.0
     },
     {
-        "index": 431,
-        "Player": "Penny Hart",
-        "Pos": "WR",
-        "p2023": -6.2561023707,
-        "eADP": 491.0
+       "index":431,
+       "Player":"Chris Evans",
+       "Pos":"RB",
+       "p2024":-16.610564499,
+       "eADP":495.0
     },
     {
-        "index": 432,
-        "Player": "Lil'Jordan Humphrey",
-        "Pos": "WR",
-        "p2023": -13.0399580425,
-        "eADP": 509.0
+       "index":432,
+       "Player":"Collin Johnson",
+       "Pos":"WR",
+       "p2024":-32.6188572703,
+       "eADP":522.0
     },
     {
-        "index": 433,
-        "Player": "Danny Gray",
-        "Pos": "WR",
-        "p2023": 4.5947794327,
-        "eADP": 453.0
+       "index":433,
+       "Player":"Anthony McFarland Jr.",
+       "Pos":"RB",
+       "p2024":-22.2749828512,
+       "eADP":508.0
     },
     {
-        "index": 434,
-        "Player": "Troy Hairston",
-        "Pos": "WR",
-        "p2023": 21.6502175693,
-        "eADP": 384.0
+       "index":434,
+       "Player":"Tylan Wallace",
+       "Pos":"WR",
+       "p2024":-7.8342569236,
+       "eADP":467.0
     },
     {
-        "index": 435,
-        "Player": "Jesper Horsted",
-        "Pos": "TE",
-        "p2023": 13.803573671,
-        "eADP": 423.0
+       "index":435,
+       "Player":"Jonathan Ward",
+       "Pos":"RB",
+       "p2024":-16.8929125632,
+       "eADP":497.0
     },
     {
-        "index": 436,
-        "Player": "Trey Sermon",
-        "Pos": "RB",
-        "p2023": -19.139138951,
-        "eADP": 527.0
+       "index":436,
+       "Player":"Cody Thompson",
+       "Pos":"WR",
+       "p2024":-20.7639375006,
+       "eADP":503.0
     },
     {
-        "index": 437,
-        "Player": "Michael Burton",
-        "Pos": "RB",
-        "p2023": 14.3586661135,
-        "eADP": 418.0
+       "index":437,
+       "Player":"Simi Fehoko",
+       "Pos":"WR",
+       "p2024":-11.7530573005,
+       "eADP":480.0
     },
     {
-        "index": 438,
-        "Player": "Keith Kirkwood",
-        "Pos": "WR",
-        "p2023": -16.0425426544,
-        "eADP": 518.0
+       "index":438,
+       "Player":"Tucker Fisk",
+       "Pos":"TE",
+       "p2024":-21.3956362399,
+       "eADP":506.0
     },
     {
-        "index": 439,
-        "Player": "Adam Prentice",
-        "Pos": "RB",
-        "p2023": 1.1313805444,
-        "eADP": 468.0
+       "index":439,
+       "Player":"Trishton Jackson",
+       "Pos":"WR",
+       "p2024":-18.4601678976,
+       "eADP":500.0
     },
     {
-        "index": 440,
-        "Player": "Maxx Williams",
-        "Pos": "TE",
-        "p2023": -2.749828776,
-        "eADP": 479.0
+       "index":440,
+       "Player":"Tyler Johnson",
+       "Pos":"WR",
+       "p2024":55.4294638255,
+       "eADP":263.0
     },
     {
-        "index": 441,
-        "Player": "Braylon Sanders",
-        "Pos": "WR",
-        "p2023": -26.0408188493,
-        "eADP": 540.0
+       "index":441,
+       "Player":"Evan Hull",
+       "Pos":"RB",
+       "p2024":-19.2356343891,
+       "eADP":501.0
     },
     {
-        "index": 442,
-        "Player": "Stone Smartt",
-        "Pos": "TE",
-        "p2023": -8.2584833624,
-        "eADP": 498.0
+       "index":442,
+       "Player":"Cole Fotheringham",
+       "Pos":"TE",
+       "p2024":-30.9147278559,
+       "eADP":519.0
     },
     {
-        "index": 443,
-        "Player": "J.J. Taylor",
-        "Pos": "RB",
-        "p2023": -7.5018665403,
-        "eADP": 495.0
+       "index":443,
+       "Player":"Mason Kinsey",
+       "Pos":"WR",
+       "p2024":-21.8125518532,
+       "eADP":507.0
     },
     {
-        "index": 444,
-        "Player": "Juwann Winfree",
-        "Pos": "WR",
-        "p2023": -26.8656192335,
-        "eADP": 543.0
+       "index":444,
+       "Player":"Kevin Rader",
+       "Pos":"TE",
+       "p2024":2.7661747912,
+       "eADP":448.0
     },
     {
-        "index": 445,
-        "Player": "Zander Horvath",
-        "Pos": "WR",
-        "p2023": 25.904163652,
-        "eADP": 368.0
+       "index":445,
+       "Player":"D'Wayne Eskridge",
+       "Pos":"WR",
+       "p2024":-32.5584329013,
+       "eADP":521.0
     },
     {
-        "index": 446,
-        "Player": "Dennis Houston",
-        "Pos": "WR",
-        "p2023": -16.7755104711,
-        "eADP": 520.0
+       "index":446,
+       "Player":"Jesper Horsted",
+       "Pos":"TE",
+       "p2024":0.3267215006,
+       "eADP":457.0
     },
     {
-        "index": 447,
-        "Player": "Quintez Cephus",
-        "Pos": "WR",
-        "p2023": -18.5966535859,
-        "eADP": 526.0
+       "index":447,
+       "Player":"Colton Dowell",
+       "Pos":"WR",
+       "p2024":-10.0428354832,
+       "eADP":474.0
     },
     {
-        "index": 448,
-        "Player": "Frank Darby",
-        "Pos": "WR",
-        "p2023": -22.4897269545,
-        "eADP": 532.0
+       "index":448,
+       "Player":"Reggie Gilliam",
+       "Pos":"WR",
+       "p2024":11.4377752499,
+       "eADP":418.0
     },
     {
-        "index": 449,
-        "Player": "Bryan Edwards",
-        "Pos": "WR",
-        "p2023": -14.3173593211,
-        "eADP": 513.0
+       "index":449,
+       "Player":"Nick Vannett",
+       "Pos":"TE",
+       "p2024":-14.2821013596,
+       "eADP":487.0
     },
     {
-        "index": 450,
-        "Player": "Ihmir Smith-Marsette",
-        "Pos": "WR",
-        "p2023": -15.008086403,
-        "eADP": 516.0
+       "index":450,
+       "Player":"Antoine Green",
+       "Pos":"WR",
+       "p2024":-14.3162133408,
+       "eADP":488.0
     },
     {
-        "index": 451,
-        "Player": "Nsimba Webster",
-        "Pos": "WR",
-        "p2023": -30.4647438881,
-        "eADP": 547.0
+       "index":451,
+       "Player":"Ko Kieft",
+       "Pos":"TE",
+       "p2024":16.3096533789,
+       "eADP":405.0
     },
     {
-        "index": 452,
-        "Player": "Deonte Harty",
-        "Pos": "WR",
-        "p2023": -25.712464449,
-        "eADP": 539.0
+       "index":452,
+       "Player":"Kwamie Lassiter II",
+       "Pos":"WR",
+       "p2024":-28.1902629612,
+       "eADP":513.0
     },
     {
-        "index": 453,
-        "Player": "Ty Montgomery",
-        "Pos": "WR",
-        "p2023": 79.149234351,
-        "eADP": 224.0
+       "index":453,
+       "Player":"Giovanni Ricci",
+       "Pos":"TE",
+       "p2024":-30.573135032,
+       "eADP":518.0
     },
     {
-        "index": 454,
-        "Player": "Austin Trammell",
-        "Pos": "WR",
-        "p2023": -16.213330692,
-        "eADP": 519.0
+       "index":454,
+       "Player":"Lamar Jackson",
+       "Pos":"QB",
+       "p2024":310.7945184679,
+       "eADP":66.0
     },
     {
-        "index": 455,
-        "Player": "Jerome Ford",
-        "Pos": "RB",
-        "p2023": 4.5299811366,
-        "eADP": 454.0
+       "index":455,
+       "Player":"Taysom Hill",
+       "Pos":"QB",
+       "p2024":117.213648734,
+       "eADP":228.0
     },
     {
-        "index": 456,
-        "Player": "Jalen Tolbert",
-        "Pos": "WR",
-        "p2023": -9.7939188712,
-        "eADP": 501.0
+       "index":456,
+       "Player":"Justin Fields",
+       "Pos":"QB",
+       "p2024":238.145318564,
+       "eADP":108.0
     },
     {
-        "index": 457,
-        "Player": "Miles Boykin",
-        "Pos": "WR",
-        "p2023": 10.8695564001,
-        "eADP": 430.0
+       "index":457,
+       "Player":"Jalen Hurts",
+       "Pos":"QB",
+       "p2024":327.7663761315,
+       "eADP":50.0
     },
     {
-        "index": 458,
-        "Player": "Sean McKeon",
-        "Pos": "TE",
-        "p2023": 3.8599754486,
-        "eADP": 456.0
+       "index":458,
+       "Player":"Josh Allen",
+       "Pos":"QB",
+       "p2024":329.2571416609,
+       "eADP":48.0
     },
     {
-        "index": 459,
-        "Player": "Jakob Johnson",
-        "Pos": "WR",
-        "p2023": 28.7754691817,
-        "eADP": 364.0
+       "index":459,
+       "Player":"Joshua Dobbs",
+       "Pos":"QB",
+       "p2024":183.9024042657,
+       "eADP":153.0
     },
     {
-        "index": 460,
-        "Player": "Stephen Anderson",
-        "Pos": "TE",
-        "p2023": 13.6524324995,
-        "eADP": 424.0
+       "index":460,
+       "Player":"Patrick Mahomes",
+       "Pos":"QB",
+       "p2024":260.7645325885,
+       "eADP":97.0
     },
     {
-        "index": 461,
-        "Player": "Reggie Bonnafon",
-        "Pos": "RB",
-        "p2023": -26.6122032946,
-        "eADP": 542.0
+       "index":461,
+       "Player":"Russell Wilson",
+       "Pos":"QB",
+       "p2024":253.5807251588,
+       "eADP":102.0
     },
     {
-        "index": 462,
-        "Player": "Tyron Johnson",
-        "Pos": "WR",
-        "p2023": -24.0118188755,
-        "eADP": 534.0
+       "index":462,
+       "Player":"Trevor Lawrence",
+       "Pos":"QB",
+       "p2024":236.1379652327,
+       "eADP":111.0
     },
     {
-        "index": 463,
-        "Player": "Jeremy Ruckert",
-        "Pos": "TE",
-        "p2023": -9.5577631444,
-        "eADP": 500.0
+       "index":463,
+       "Player":"Sam Howell",
+       "Pos":"QB",
+       "p2024":254.4019930082,
+       "eADP":99.0
     },
     {
-        "index": 464,
-        "Player": "Maurice Alexander",
-        "Pos": "WR",
-        "p2023": -25.2718000089,
-        "eADP": 538.0
+       "index":464,
+       "Player":"Bryce Young",
+       "Pos":"QB",
+       "p2024":170.0426177602,
+       "eADP":163.0
     },
     {
-        "index": 465,
-        "Player": "Jalen Camp",
-        "Pos": "WR",
-        "p2023": -29.423372508,
-        "eADP": 546.0
+       "index":465,
+       "Player":"Jordan Love",
+       "Pos":"QB",
+       "p2024":286.603984855,
+       "eADP":76.0
     },
     {
-        "index": 466,
-        "Player": "Kylin Hill",
-        "Pos": "RB",
-        "p2023": -27.7825477758,
-        "eADP": 545.0
+       "index":466,
+       "Player":"Kyler Murray",
+       "Pos":"QB",
+       "p2024":155.9159812371,
+       "eADP":183.0
     },
     {
-        "index": 467,
-        "Player": "Tyler Mabry",
-        "Pos": "TE",
-        "p2023": 7.4918176988,
-        "eADP": 442.0
+       "index":467,
+       "Player":"Dak Prescott",
+       "Pos":"QB",
+       "p2024":306.8743884728,
+       "eADP":69.0
     },
     {
-        "index": 468,
-        "Player": "Devine Ozigbo",
-        "Pos": "RB",
-        "p2023": -24.0999719172,
-        "eADP": 536.0
+       "index":468,
+       "Player":"Justin Herbert",
+       "Pos":"QB",
+       "p2024":221.8654506144,
+       "eADP":123.0
     },
     {
-        "index": 469,
-        "Player": "Tommy Sweeney",
-        "Pos": "TE",
-        "p2023": -24.0171351947,
-        "eADP": 535.0
+       "index":469,
+       "Player":"Zach Wilson",
+       "Pos":"QB",
+       "p2024":119.6283361503,
+       "eADP":226.0
     },
     {
-        "index": 470,
-        "Player": "C.J. Board",
-        "Pos": "WR",
-        "p2023": -32.6589748413,
-        "eADP": 549.0
+       "index":470,
+       "Player":"Daniel Jones",
+       "Pos":"QB",
+       "p2024":56.452256708,
+       "eADP":335.0
     },
     {
-        "index": 471,
-        "Player": "Jacob Harris",
-        "Pos": "WR",
-        "p2023": -16.9338052405,
-        "eADP": 522.0
+       "index":471,
+       "Player":"Tyrod Taylor",
+       "Pos":"QB",
+       "p2024":66.9390717844,
+       "eADP":314.0
     },
     {
-        "index": 472,
-        "Player": "Mason Schreck",
-        "Pos": "TE",
-        "p2023": -23.5665619802,
-        "eADP": 533.0
+       "index":472,
+       "Player":"Tommy DeVito",
+       "Pos":"QB",
+       "p2024":106.3456917119,
+       "eADP":244.0
     },
     {
-        "index": 473,
-        "Player": "Devin Asiasi",
-        "Pos": "TE",
-        "p2023": 0.4422351551,
-        "eADP": 470.0
+       "index":473,
+       "Player":"Desmond Ridder",
+       "Pos":"QB",
+       "p2024":189.3545354178,
+       "eADP":146.0
     },
     {
-        "index": 474,
-        "Player": "Jason Moore",
-        "Pos": "WR",
-        "p2023": -19.8926012136,
-        "eADP": 528.0
+       "index":474,
+       "Player":"C.J. Stroud",
+       "Pos":"QB",
+       "p2024":254.3821093474,
+       "eADP":100.0
     },
     {
-        "index": 475,
-        "Player": "Ty'Son Williams",
-        "Pos": "RB",
-        "p2023": -26.9614425863,
-        "eADP": 544.0
+       "index":475,
+       "Player":"Baker Mayfield",
+       "Pos":"QB",
+       "p2024":260.7705705473,
+       "eADP":96.0
     },
     {
-        "index": 476,
-        "Player": "Demetric Felton",
-        "Pos": "RB",
-        "p2023": -12.57928714,
-        "eADP": 508.0
+       "index":476,
+       "Player":"Geno Smith",
+       "Pos":"QB",
+       "p2024":217.6517337872,
+       "eADP":126.0
     },
     {
-        "index": 477,
-        "Player": "Duke Johnson",
-        "Pos": "RB",
-        "p2023": -31.8911489544,
-        "eADP": 548.0
+       "index":477,
+       "Player":"Brock Purdy",
+       "Pos":"QB",
+       "p2024":290.3365259664,
+       "eADP":75.0
     },
     {
-        "index": 478,
-        "Player": "Richard Rodgers",
-        "Pos": "TE",
-        "p2023": -7.952511414,
-        "eADP": 496.0
+       "index":478,
+       "Player":"Easton Stick",
+       "Pos":"QB",
+       "p2024":58.1606684855,
+       "eADP":331.0
     },
     {
-        "index": 479,
-        "Player": "Erik Ezukanma",
-        "Pos": "WR",
-        "p2023": -24.8262331663,
-        "eADP": 537.0
+       "index":479,
+       "Player":"Deshaun Watson",
+       "Pos":"QB",
+       "p2024":112.0143289604,
+       "eADP":237.0
     },
     {
-        "index": 480,
-        "Player": "Mason Kinsey",
-        "Pos": "WR",
-        "p2023": -39.9151923683,
-        "eADP": 552.0
+       "index":480,
+       "Player":"Anthony Richardson",
+       "Pos":"QB",
+       "p2024":149.5325990679,
+       "eADP":190.0
     },
     {
-        "index": 481,
-        "Player": "Cody White",
-        "Pos": "WR",
-        "p2023": -26.4435642512,
-        "eADP": 541.0
+       "index":481,
+       "Player":"Taylor Heinicke",
+       "Pos":"QB",
+       "p2024":63.7654879368,
+       "eADP":320.0
     },
     {
-        "index": 482,
-        "Player": "Damien Williams",
-        "Pos": "RB",
-        "p2023": -34.9559856131,
-        "eADP": 550.0
+       "index":482,
+       "Player":"Jake Browning",
+       "Pos":"QB",
+       "p2024":150.6425867198,
+       "eADP":188.0
     },
     {
-        "index": 483,
-        "Player": "Jordan Howard",
-        "Pos": "RB",
-        "p2023": -38.6485167941,
-        "eADP": 551.0
+       "index":483,
+       "Player":"Tyson Bagent",
+       "Pos":"QB",
+       "p2024":67.0363461329,
+       "eADP":312.0
     },
     {
-        "index": 484,
-        "Player": "Justin Fields",
-        "Pos": "QB",
-        "p2023": 271.1814607713,
-        "eADP": 78.0
+       "index":484,
+       "Player":"Gardner Minshew II",
+       "Pos":"QB",
+       "p2024":186.9612757819,
+       "eADP":148.0
     },
     {
-        "index": 485,
-        "Player": "Lamar Jackson",
-        "Pos": "QB",
-        "p2023": 249.5335394729,
-        "eADP": 98.0
+       "index":485,
+       "Player":"Mac Jones",
+       "Pos":"QB",
+       "p2024":123.4289778877,
+       "eADP":219.0
     },
     {
-        "index": 486,
-        "Player": "Josh Allen",
-        "Pos": "QB",
-        "p2023": 328.1179741824,
-        "eADP": 41.0
+       "index":486,
+       "Player":"Joe Burrow",
+       "Pos":"QB",
+       "p2024":165.928729651,
+       "eADP":169.0
     },
     {
-        "index": 487,
-        "Player": "Jalen Hurts",
-        "Pos": "QB",
-        "p2023": 312.5994238233,
-        "eADP": 52.0
+       "index":487,
+       "Player":"Bailey Zappe",
+       "Pos":"QB",
+       "p2024":71.9161363764,
+       "eADP":301.0
     },
     {
-        "index": 488,
-        "Player": "Daniel Jones",
-        "Pos": "QB",
-        "p2023": 260.1737041423,
-        "eADP": 87.0
+       "index":488,
+       "Player":"Tua Tagovailoa",
+       "Pos":"QB",
+       "p2024":267.9652209483,
+       "eADP":92.0
     },
     {
-        "index": 489,
-        "Player": "Marcus Mariota",
-        "Pos": "QB",
-        "p2023": 224.3353643693,
-        "eADP": 114.0
+       "index":489,
+       "Player":"Ryan Tannehill",
+       "Pos":"QB",
+       "p2024":74.5747938734,
+       "eADP":295.0
     },
     {
-        "index": 490,
-        "Player": "Kyler Murray",
-        "Pos": "QB",
-        "p2023": 190.3208271461,
-        "eADP": 150.0
+       "index":490,
+       "Player":"Matthew Stafford",
+       "Pos":"QB",
+       "p2024":224.768389677,
+       "eADP":121.0
     },
     {
-        "index": 491,
-        "Player": "Geno Smith",
-        "Pos": "QB",
-        "p2023": 286.3030483014,
-        "eADP": 67.0
+       "index":491,
+       "Player":"Dorian Thompson-Robinson",
+       "Pos":"QB",
+       "p2024":9.369681485,
+       "eADP":441.0
     },
     {
-        "index": 492,
-        "Player": "Patrick Mahomes",
-        "Pos": "QB",
-        "p2023": 339.5516566167,
-        "eADP": 33.0
+       "index":492,
+       "Player":"Will Levis",
+       "Pos":"QB",
+       "p2024":123.6003142414,
+       "eADP":218.0
     },
     {
-        "index": 493,
-        "Player": "Trevor Lawrence",
-        "Pos": "QB",
-        "p2023": 267.8149820732,
-        "eADP": 83.0
+       "index":493,
+       "Player":"Carson Wentz",
+       "Pos":"QB",
+       "p2024":85.9725899602,
+       "eADP":274.0
     },
     {
-        "index": 494,
-        "Player": "Russell Wilson",
-        "Pos": "QB",
-        "p2023": 216.7351483784,
-        "eADP": 121.0
+       "index":494,
+       "Player":"Tyler Huntley",
+       "Pos":"QB",
+       "p2024":46.0931901833,
+       "eADP":359.0
     },
     {
-        "index": 495,
-        "Player": "Joe Burrow",
-        "Pos": "QB",
-        "p2023": 302.7610237697,
-        "eADP": 58.0
+       "index":495,
+       "Player":"Kenny Pickett",
+       "Pos":"QB",
+       "p2024":142.972020202,
+       "eADP":197.0
     },
     {
-        "index": 496,
-        "Player": "Jacoby Brissett",
-        "Pos": "QB",
-        "p2023": 171.5304643413,
-        "eADP": 178.0
+       "index":496,
+       "Player":"Mitchell Trubisky",
+       "Pos":"QB",
+       "p2024":47.0356972717,
+       "eADP":355.0
     },
     {
-        "index": 497,
-        "Player": "Kenny Pickett",
-        "Pos": "QB",
-        "p2023": 151.858470914,
-        "eADP": 194.0
+       "index":497,
+       "Player":"Marcus Mariota",
+       "Pos":"QB",
+       "p2024":0.9595430797,
+       "eADP":455.0
     },
     {
-        "index": 498,
-        "Player": "Dak Prescott",
-        "Pos": "QB",
-        "p2023": 213.1543486631,
-        "eADP": 122.0
+       "index":498,
+       "Player":"Blaine Gabbert",
+       "Pos":"QB",
+       "p2024":-88.4828039067,
+       "eADP":524.0
     },
     {
-        "index": 499,
-        "Player": "Deshaun Watson",
-        "Pos": "QB",
-        "p2023": 120.8089644685,
-        "eADP": 237.0
+       "index":499,
+       "Player":"Derek Carr",
+       "Pos":"QB",
+       "p2024":240.8282278074,
+       "eADP":106.0
     },
     {
-        "index": 500,
-        "Player": "Justin Herbert",
-        "Pos": "QB",
-        "p2023": 253.0294285549,
-        "eADP": 94.0
+       "index":500,
+       "Player":"Trevor Siemian",
+       "Pos":"QB",
+       "p2024":-15.7967054298,
+       "eADP":471.0
     },
     {
-        "index": 501,
-        "Player": "Tyler Huntley",
-        "Pos": "QB",
-        "p2023": 63.3260169068,
-        "eADP": 326.0
+       "index":501,
+       "Player":"Jimmy Garoppolo",
+       "Pos":"QB",
+       "p2024":77.1500073248,
+       "eADP":292.0
     },
     {
-        "index": 502,
-        "Player": "Malik Willis",
-        "Pos": "QB",
-        "p2023": 33.2234526181,
-        "eADP": 393.0
+       "index":502,
+       "Player":"C.J. Beathard",
+       "Pos":"QB",
+       "p2024":5.7558355751,
+       "eADP":446.0
     },
     {
-        "index": 503,
-        "Player": "Davis Mills",
-        "Pos": "QB",
-        "p2023": 191.7251298753,
-        "eADP": 149.0
+       "index":503,
+       "Player":"Jeff Driskel",
+       "Pos":"QB",
+       "p2024":82.356950719,
+       "eADP":285.0
     },
     {
-        "index": 504,
-        "Player": "Sam Darnold",
-        "Pos": "QB",
-        "p2023": 120.1135427452,
-        "eADP": 239.0
+       "index":504,
+       "Player":"Clayton Tune",
+       "Pos":"QB",
+       "p2024":10.1140807955,
+       "eADP":436.0
     },
     {
-        "index": 505,
-        "Player": "Zach Wilson",
-        "Pos": "QB",
-        "p2023": 105.9310369224,
-        "eADP": 263.0
+       "index":505,
+       "Player":"P.J. Walker",
+       "Pos":"QB",
+       "p2024":-18.3119293003,
+       "eADP":478.0
     },
     {
-        "index": 506,
-        "Player": "Derek Carr",
-        "Pos": "QB",
-        "p2023": 217.226771979,
-        "eADP": 120.0
+       "index":506,
+       "Player":"Kirk Cousins",
+       "Pos":"QB",
+       "p2024":161.7713945305,
+       "eADP":173.0
     },
     {
-        "index": 507,
-        "Player": "Mac Jones",
-        "Pos": "QB",
-        "p2023": 177.4062568766,
-        "eADP": 166.0
+       "index":507,
+       "Player":"Nick Mullens",
+       "Pos":"QB",
+       "p2024":161.8442796069,
+       "eADP":172.0
     },
     {
-        "index": 508,
-        "Player": "Ryan Tannehill",
-        "Pos": "QB",
-        "p2023": 180.73638834,
-        "eADP": 161.0
+       "index":508,
+       "Player":"Jared Goff",
+       "Pos":"QB",
+       "p2024":269.2838824289,
+       "eADP":89.0
     },
     {
-        "index": 509,
-        "Player": "Kirk Cousins",
-        "Pos": "QB",
-        "p2023": 265.2995471743,
-        "eADP": 85.0
+       "index":509,
+       "Player":"Malik Willis",
+       "Pos":"QB",
+       "p2024":-21.3321266786,
+       "eADP":481.0
     },
     {
-        "index": 510,
-        "Player": "Taylor Heinicke",
-        "Pos": "QB",
-        "p2023": 151.5200328709,
-        "eADP": 195.0
+       "index":510,
+       "Player":"Jacoby Brissett",
+       "Pos":"QB",
+       "p2024":29.3037098441,
+       "eADP":396.0
     },
     {
-        "index": 511,
-        "Player": "Aaron Rodgers",
-        "Pos": "QB",
-        "p2023": 259.890855968,
-        "eADP": 89.0
+       "index":511,
+       "Player":"Brett Rypien",
+       "Pos":"QB",
+       "p2024":-29.879389567,
+       "eADP":499.0
     },
     {
-        "index": 512,
-        "Player": "Bryce Perkins",
-        "Pos": "QB",
-        "p2023": 24.141323068,
-        "eADP": 416.0
+       "index":512,
+       "Player":"Sam Darnold",
+       "Pos":"QB",
+       "p2024":26.2567860617,
+       "eADP":406.0
     },
     {
-        "index": 513,
-        "Player": "Sam Ehlinger",
-        "Pos": "QB",
-        "p2023": 36.0231819734,
-        "eADP": 385.0
+       "index":513,
+       "Player":"Jaren Hall",
+       "Pos":"QB",
+       "p2024":-5.5052098771,
+       "eADP":460.0
     },
     {
-        "index": 514,
-        "Player": "Carson Wentz",
-        "Pos": "QB",
-        "p2023": 105.9687236274,
-        "eADP": 262.0
+       "index":514,
+       "Player":"Drew Lock",
+       "Pos":"QB",
+       "p2024":20.4166852861,
+       "eADP":416.0
     },
     {
-        "index": 515,
-        "Player": "Jarrett Stidham",
-        "Pos": "QB",
-        "p2023": 50.4831273547,
-        "eADP": 355.0
+       "index":515,
+       "Player":"Andy Dalton",
+       "Pos":"QB",
+       "p2024":7.1012997822,
+       "eADP":444.0
     },
     {
-        "index": 516,
-        "Player": "Jeff Driskel",
-        "Pos": "QB",
-        "p2023": 122.5433865454,
-        "eADP": 235.0
+       "index":516,
+       "Player":"Aidan O'Connell",
+       "Pos":"QB",
+       "p2024":139.9674059833,
+       "eADP":198.0
     },
     {
-        "index": 517,
-        "Player": "Jared Goff",
-        "Pos": "QB",
-        "p2023": 271.2067122337,
-        "eADP": 77.0
+       "index":517,
+       "Player":"Davis Mills",
+       "Pos":"QB",
+       "p2024":-3.5662271748,
+       "eADP":459.0
     },
     {
-        "index": 518,
-        "Player": "Matt Ryan",
-        "Pos": "QB",
-        "p2023": 146.871340298,
-        "eADP": 200.0
+       "index":518,
+       "Player":"Mason Rudolph",
+       "Pos":"QB",
+       "p2024":46.4035571175,
+       "eADP":357.0
     },
     {
-        "index": 519,
-        "Player": "Tua Tagovailoa",
-        "Pos": "QB",
-        "p2023": 236.2044006054,
-        "eADP": 107.0
+       "index":519,
+       "Player":"Jarrett Stidham",
+       "Pos":"QB",
+       "p2024":26.1628742308,
+       "eADP":407.0
     },
     {
-        "index": 520,
-        "Player": "Tyrod Taylor",
-        "Pos": "QB",
-        "p2023": 9.7768229682,
-        "eADP": 447.0
+       "index":520,
+       "Player":"Logan Woodside",
+       "Pos":"QB",
+       "p2024":9.9660115144,
+       "eADP":437.0
     },
     {
-        "index": 521,
-        "Player": "Trey Lance",
-        "Pos": "QB",
-        "p2023": 14.7499163752,
-        "eADP": 437.0
+       "index":521,
+       "Player":"Tim Boyle",
+       "Pos":"QB",
+       "p2024":-40.2018138425,
+       "eADP":509.0
     },
     {
-        "index": 522,
-        "Player": "Desmond Ridder",
-        "Pos": "QB",
-        "p2023": 48.4615884068,
-        "eADP": 361.0
+       "index":522,
+       "Player":"Joe Flacco",
+       "Pos":"QB",
+       "p2024":99.3328465024,
+       "eADP":252.0
     },
     {
-        "index": 523,
-        "Player": "Trace McSorley",
-        "Pos": "QB",
-        "p2023": -20.3645863662,
-        "eADP": 506.0
-    },
-    {
-        "index": 524,
-        "Player": "Andy Dalton",
-        "Pos": "QB",
-        "p2023": 206.7590907367,
-        "eADP": 126.0
-    },
-    {
-        "index": 525,
-        "Player": "Chris Streveler",
-        "Pos": "QB",
-        "p2023": 0.3904893591,
-        "eADP": 471.0
-    },
-    {
-        "index": 526,
-        "Player": "Joshua Dobbs",
-        "Pos": "QB",
-        "p2023": 23.2940282761,
-        "eADP": 421.0
-    },
-    {
-        "index": 527,
-        "Player": "Davis Webb",
-        "Pos": "QB",
-        "p2023": 82.0099610854,
-        "eADP": 297.0
-    },
-    {
-        "index": 528,
-        "Player": "P.J. Walker",
-        "Pos": "QB",
-        "p2023": 51.8275255977,
-        "eADP": 351.0
-    },
-    {
-        "index": 529,
-        "Player": "Mitchell Trubisky",
-        "Pos": "QB",
-        "p2023": 71.8247772876,
-        "eADP": 310.0
-    },
-    {
-        "index": 530,
-        "Player": "Colt McCoy",
-        "Pos": "QB",
-        "p2023": 18.9280919085,
-        "eADP": 428.0
-    },
-    {
-        "index": 531,
-        "Player": "Sam Howell",
-        "Pos": "QB",
-        "p2023": 93.8045007379,
-        "eADP": 280.0
-    },
-    {
-        "index": 532,
-        "Player": "Jimmy Garoppolo",
-        "Pos": "QB",
-        "p2023": 182.3637121417,
-        "eADP": 159.0
-    },
-    {
-        "index": 533,
-        "Player": "John Wolford",
-        "Pos": "QB",
-        "p2023": 6.1691696577,
-        "eADP": 457.0
-    },
-    {
-        "index": 534,
-        "Player": "Teddy Bridgewater",
-        "Pos": "QB",
-        "p2023": 39.6904335494,
-        "eADP": 374.0
-    },
-    {
-        "index": 535,
-        "Player": "Skylar Thompson",
-        "Pos": "QB",
-        "p2023": 5.2268330832,
-        "eADP": 461.0
-    },
-    {
-        "index": 536,
-        "Player": "Jameis Winston",
-        "Pos": "QB",
-        "p2023": 23.326888166,
-        "eADP": 420.0
-    },
-    {
-        "index": 537,
-        "Player": "Kyle Allen",
-        "Pos": "QB",
-        "p2023": -29.014218539,
-        "eADP": 523.0
-    },
-    {
-        "index": 538,
-        "Player": "Brock Purdy",
-        "Pos": "QB",
-        "p2023": 136.8297272156,
-        "eADP": 214.0
-    },
-    {
-        "index": 539,
-        "Player": "Matthew Stafford",
-        "Pos": "QB",
-        "p2023": 118.2176402327,
-        "eADP": 242.0
-    },
-    {
-        "index": 540,
-        "Player": "Mike White",
-        "Pos": "QB",
-        "p2023": 32.364927472,
-        "eADP": 398.0
-    },
-    {
-        "index": 541,
-        "Player": "Nick Foles",
-        "Pos": "QB",
-        "p2023": -34.0044957234,
-        "eADP": 529.0
-    },
-    {
-        "index": 542,
-        "Player": "Nick Mullens",
-        "Pos": "QB",
-        "p2023": 9.45128977,
-        "eADP": 448.0
-    },
-    {
-        "index": 543,
-        "Player": "Trevor Siemian",
-        "Pos": "QB",
-        "p2023": 50.1608054301,
-        "eADP": 356.0
-    },
-    {
-        "index": 544,
-        "Player": "Nathan Peterman",
-        "Pos": "QB",
-        "p2023": 7.2336032822,
-        "eADP": 455.0
-    },
-    {
-        "index": 545,
-        "Player": "Brett Rypien",
-        "Pos": "QB",
-        "p2023": -23.7761781143,
-        "eADP": 511.0
-    },
-    {
-        "index": 546,
-        "Player": "Cooper Rush",
-        "Pos": "QB",
-        "p2023": 134.5052023609,
-        "eADP": 220.0
-    },
-    {
-        "index": 547,
-        "Player": "David Blough",
-        "Pos": "QB",
-        "p2023": 17.103481195,
-        "eADP": 434.0
-    },
-    {
-        "index": 548,
-        "Player": "Chase Daniel",
-        "Pos": "QB",
-        "p2023": 41.7200753105,
-        "eADP": 371.0
-    },
-    {
-        "index": 549,
-        "Player": "Joe Flacco",
-        "Pos": "QB",
-        "p2023": 30.6988558999,
-        "eADP": 400.0
-    },
-    {
-        "index": 550,
-        "Player": "Josh Johnson",
-        "Pos": "QB",
-        "p2023": -1.4761512932,
-        "eADP": 474.0
-    },
-    {
-        "index": 551,
-        "Player": "Gardner Minshew II",
-        "Pos": "QB",
-        "p2023": 36.5042625287,
-        "eADP": 382.0
+       "index":523,
+       "Player":"Case Keenum",
+       "Pos":"QB",
+       "p2024":-64.0561368866,
+       "eADP":523.0
     }
-]
+ ]
