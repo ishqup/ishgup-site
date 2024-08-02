@@ -250,7 +250,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       }
     }),
     columnHelper.accessor('Pos', {
-      header: "Position",
+      header: "Pos",
       cell: info => info.getValue(),
       enableSorting: false,
       meta: {
@@ -261,7 +261,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       }
     }),
     columnHelper.accessor('EspnADP', {
-      header: "ESPN ADP",
+      header: "ADP",
       cell: info => info.getValue(),
       meta: {
         style: (context: CellContext<PlayerRow, unknown>) => {
@@ -271,7 +271,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       }
     }),
     columnHelper.accessor('EspnRank', {
-      header: "ESPN Rank",
+      header: "ESPN Rk",
       cell: info => info.getValue(),
       meta: {
         style: (context: CellContext<PlayerRow, unknown>) => {
@@ -281,7 +281,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       }
     }),
     columnHelper.accessor('EspnProj', {
-      header: "ESPN Proj Total",
+      header: "ESPN Proj",
       cell: info => info.getValue().toFixed(2),
       meta: {
         style: (context: CellContext<PlayerRow, unknown>) => {
@@ -291,7 +291,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       }
     }),
     columnHelper.accessor('IshanRank', {
-      header: "Ishan Rank",
+      header: "Ishan Rk",
       cell: info => info.getValue() == 0 ? "N/A" : info.getValue(),
       meta: {
         style: (context: CellContext<PlayerRow, unknown>) => {
@@ -301,7 +301,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       }
     }),
     columnHelper.accessor('IshanProj', {
-      header: "Ishan Proj Total",
+      header: "Ishan Proj",
       cell: info => info.getValue() == 0 ? "N/A" : info.getValue().toFixed(2),
       meta: {
         style: (context: CellContext<PlayerRow, unknown>) => {
@@ -311,6 +311,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       }
     }),
     columnHelper.accessor("Difference", {
+      header: "Diff",
       cell: info => {
         const ishanProjTotal = info.row.getValue("IshanProj");
         if (ishanProjTotal == 0) {
