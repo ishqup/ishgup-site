@@ -128,7 +128,7 @@ type IshanPlayer = {
   index: number,
   Player: string,
   Pos: string,
-  p2023: number,
+  p2024: number,
   eADP: number
 }
 
@@ -212,7 +212,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
         let ishanPlayer = props.ishanData.find(y => y.Player.trim() == x.Name);
         if (ishanPlayer) {
           x.IshanRank = ishanPlayer.eADP;
-          x.IshanProj = ishanPlayer.p2023;
+          x.IshanProj = ishanPlayer.p2024;
         }
       })
       playerRatings.forEach(x => x.Difference = x.EspnRank - x.IshanRank)
