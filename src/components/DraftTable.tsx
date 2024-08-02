@@ -271,7 +271,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       }
     }),
     columnHelper.accessor('EspnRank', {
-      header: "ESPN Rk",
+      header: "eRk",
       cell: info => info.getValue(),
       meta: {
         style: (context: CellContext<PlayerRow, unknown>) => {
@@ -281,7 +281,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       }
     }),
     columnHelper.accessor('EspnProj', {
-      header: "ESPN Proj",
+      header: "eProj",
       cell: info => info.getValue().toFixed(2),
       meta: {
         style: (context: CellContext<PlayerRow, unknown>) => {
@@ -291,7 +291,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       }
     }),
     columnHelper.accessor('IshanRank', {
-      header: "Ishan Rk",
+      header: "iRk",
       cell: info => info.getValue() == 0 ? "N/A" : info.getValue(),
       meta: {
         style: (context: CellContext<PlayerRow, unknown>) => {
@@ -301,7 +301,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       }
     }),
     columnHelper.accessor('IshanProj', {
-      header: "Ishan Proj",
+      header: "iProj",
       cell: info => info.getValue() == 0 ? "N/A" : info.getValue().toFixed(2),
       meta: {
         style: (context: CellContext<PlayerRow, unknown>) => {
