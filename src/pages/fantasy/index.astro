@@ -33,6 +33,15 @@ const posts = (await getCollection("fantasy")).sort(
                 </>
             ))
         } -->
+        <SeasonHeader season="2024"></SeasonHeader>
+        {
+            posts.filter(p => p.data.season == "2024").map((post) => (
+                <>
+                <PostCard href={`/fantasy/${post.slug}/`} title={post.data.title} description={post.data.description} date={post.data.pubDate} image={new URL(Astro.url.pathname + "/" + post.slug + "/og-image.png", Astro.url).toString()}>
+                </>
+            ))
+        }
+
 
         <SeasonHeader season="2023"></SeasonHeader>
         {
