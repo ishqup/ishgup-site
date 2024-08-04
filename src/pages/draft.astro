@@ -106,12 +106,11 @@ export interface LeagueInfo {
     <Section heading="Key Notes">
         <div style="margin-bottom: 20px;">Ishan's rankings consist of 3 models: Flex Players, QBs, and Rookies. These models all derive from slightly different stats/methods
         and combining them doesn't always accurately reflect how these different types of players stack up against each other. The model also currently does not include 
-        rookie QBs. (W.I.P) The naming conventions of players slightly differ between ESPN and ProFootballReference, meaning a few players don't display their iRk or iProj.
-        The model seems to hate RBs, which makes some sense as for PPR scoring receptions are crucial and RB receiving is not very high volume. RBs also suffer the most injuries,
+        rookie QBs. The model seems to hate RBs, which makes some sense as for PPR scoring receptions are crucial and RB receiving is not very high volume. RBs also suffer the most injuries,
         replacement, and difference in usage (goal line, third down, committees). I've learned that more secure value comes from strong WR cores, while boom or bust value could be sought
         after in a more volatile position like RB. QBs have higher projections, but we don't play superflex so QBs are weighted to reflect closer to their ESPN draft position. These
-        rankings are purely for fun and should be taken as a grain of salt. Please add context to the player that you're looking at so you can make a clear decision of who you
-        want on your team.
+        rankings are purely for fun and should be taken with a grain of salt. Please add context to players when drafting using this tool, for instance the Bears and Texans WR rooms
+        had big changes and players like K.Allen, D.Moore, R.Odunze, N.Collins, S.Diggs, and T.Dell were predicted on without knowledge that they're in a depth chart with their new teammates.
         </div>
         <DraftTable client:load ishanData={ishanData}></DraftTable>
     </Section>
