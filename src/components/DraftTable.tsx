@@ -14,6 +14,7 @@ import {
   CellContext,
   RowData,
 } from '@tanstack/react-table'
+import debounce from 'debounce';
 
 declare module '@tanstack/table-core' {
   interface ColumnMeta<TData extends RowData, TValue> {
@@ -122,7 +123,6 @@ export interface The0 {
 
 
 const ESPN_URL = "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2024/segments/0/leaguedefaults/3?view=kona_player_info";
-//const ESPN_FILTER = { "players": { "filterSlotIds": { "value": [0, 23] }, "sortAdp": { "sortPriority": 1, "sortAsc": true }, "sortDraftRanks": { "sortPriority": 100, "sortAsc": true, "value": "PPR" }, "filterRanksForSlotIds": { "value": [0, 2, 4, 6, 17, 16] }, "filterStatsForTopScoringPeriodIds": { "value": 2, "additionalValue": ["002024", "102024"] } } }
 const ESPN_FILTER = { "players": { "filterSlotIds": {"value":[0, 23]},"sortAdp":{"sortPriority":2,"sortAsc":true},"sortDraftRanks":{"sortPriority":100,"sortAsc":true,"value":"PPR"},"filterRanksForSlotIds":{"value":[0,2,4,6,17,16,8,9,10,12,13,24,11,14,15]},"filterStatsForTopScoringPeriodIds":{"value":2,"additionalValue":["002024","102024","002023","022024"]}}}
 
 type IshanPlayer = {
@@ -210,6 +210,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
   const [currentTableData, setCurrentTableData] = React.useState<PlayerRow[]>([]);
   const [isLoading, setLoading] = React.useState(true);
   const [positionFilter, setPositionFilter] = React.useState([true, true, true, true]); // qb, rb, wr, te
+  const [searchFilter, setSearchFilter] = React.useState("");
 
   const numberClass = "font-SourceCodePro text-right w-[100px] pr-[10px]"
   const columnHelper = createColumnHelper<PlayerRow>()
@@ -225,19 +226,26 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
     let tmp = positionFilter
     tmp[index] = !positionFilter[index]
     setPositionFilter(tmp)
+  }
 
+  React.useEffect(() => {
     const positions = positionFilter.map((v, i) => {
       if (v) {
         return espnPosIdToString[i + 1]
       }
-    }).filter(x => x != undefined)
+    }).filter(x => x != undefined);
 
-    console.log(positions)
+    if (searchFilter == ""){
+      setCurrentTableData(masterTableData.filter(x => positions.includes(x.Pos)));
+    }else{
+      setCurrentTableData(masterTableData.filter(x => positions.includes(x.Pos) && x.Name.toLowerCase().includes(searchFilter.toLowerCase())));
+    }
+    
+  }, [positionFilter, searchFilter]);
 
-    setCurrentTableData(masterTableData.filter(x => positions.includes(x.Pos)))
-
-    console.log(currentTableData)
-  }
+  const handleSearchChange = debounce((event: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchFilter(event.target.value);
+  }, 300);
 
   React.useEffect(() => {
     axios.get(ESPN_URL, {
@@ -299,8 +307,8 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       }
       
 
-      console.log(espnPlayers)
-      console.log(props.ishanData)
+      // console.log(espnPlayers)
+      // console.log(props.ishanData)
 
       playerRatings.forEach(x => {
         let ishanPlayer = props.ishanData.find(y => y.comparisonName == x.comparison);
@@ -313,7 +321,6 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
 
       setMasterData(playerRatings)
       setCurrentTableData(playerRatings)
-
 
       setLoading(false);
     })
@@ -435,12 +442,8 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
     }),
   ]
 
-  const differenceValues = masterTableData.map(x => x.Difference)
-
   const colorScale = ["#ff52a0", "#1b2a3d", "#00dc9a"]
   const differenceScale = (chroma.scale(colorScale).domain([-25, 0, 25]))
-
-
 
   const table = useReactTable({
     data: currentTableData,
@@ -473,15 +476,21 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
 
   return (
     <div>
-      
       <div className='max-w-none bg-slate-800 rounded-xl overflow-auto'>
-      <div className='flex flex-row pt-2 pl-3'>
+      <div className='flex flex-col md:flex-row pt-2 pl-3 md:justify-between'>
+        <div className='flex flex-row '>
           {["QB", "RB", "WR", "TE"].map((x, i) => (
-            <div className='ml-1 mr-3'>
+            <div className='ml-1 mr-3 mb-2 md:pb-0'>
             {x + "s"}
             <input className="ml-1" type="checkbox" defaultChecked={true} onChange={() => updateFilter(i)}></input>
             </div>
           ))}
+          </div>
+
+          <div className='ml-1 mr-3'>
+            Search
+            <input className="ml-2 text-black" type="text" onChange={handleSearchChange}></input>
+          </div>
         </div>
       
       
