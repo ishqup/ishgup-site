@@ -223,7 +223,7 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
   }
 
   const updateFilter = (index: number) => {
-    let tmp = positionFilter
+    let tmp = [...positionFilter];
     tmp[index] = !positionFilter[index]
     setPositionFilter(tmp)
   }
@@ -234,6 +234,8 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
         return espnPosIdToString[i + 1]
       }
     }).filter(x => x != undefined);
+
+    console.log(positions);
 
     if (searchFilter == ""){
       setCurrentTableData(masterTableData.filter(x => positions.includes(x.Pos)));
