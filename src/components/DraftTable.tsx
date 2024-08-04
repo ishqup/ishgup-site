@@ -122,31 +122,84 @@ export interface The0 {
 
 
 const ESPN_URL = "https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2024/segments/0/leaguedefaults/3?view=kona_player_info";
-const ESPN_FILTER = { "players": { "filterSlotIds": { "value": [0, 23] }, "sortAdp": { "sortPriority": 1, "sortAsc": true }, "sortDraftRanks": { "sortPriority": 100, "sortAsc": true, "value": "PPR" }, "filterRanksForSlotIds": { "value": [0, 2, 4, 6, 17, 16] }, "filterStatsForTopScoringPeriodIds": { "value": 2, "additionalValue": ["002023", "102023", "002022", "022023"] } } }
+//const ESPN_FILTER = { "players": { "filterSlotIds": { "value": [0, 23] }, "sortAdp": { "sortPriority": 1, "sortAsc": true }, "sortDraftRanks": { "sortPriority": 100, "sortAsc": true, "value": "PPR" }, "filterRanksForSlotIds": { "value": [0, 2, 4, 6, 17, 16] }, "filterStatsForTopScoringPeriodIds": { "value": 2, "additionalValue": ["002024", "102024"] } } }
+const ESPN_FILTER = { "players": { "filterSlotIds": {"value":[0, 23]},"sortAdp":{"sortPriority":2,"sortAsc":true},"sortDraftRanks":{"sortPriority":100,"sortAsc":true,"value":"PPR"},"filterRanksForSlotIds":{"value":[0,2,4,6,17,16,8,9,10,12,13,24,11,14,15]},"filterStatsForTopScoringPeriodIds":{"value":2,"additionalValue":["002024","102024","002023","022024"]}}}
 
 type IshanPlayer = {
   index: number,
   Player: string,
   Pos: string,
   p2024: number,
-  eADP: number
+  eADP: number,
+  comparisonName: string
 }
 
 
 type PlayerRow = {
   Name: string,
   Pos: string,
+  Team: string,
   EspnADP: number,
   EspnRank: number,
   EspnProj: number,
   IshanRank: number,
   IshanProj: number,
-  Difference: number
+  Difference: number,
+  comparison: string
+}
+
+const ESPN_ID_TO_TEAM : { [key: number]: string } = {
+  1: "Atl",
+  2: "Buf",
+  3: "Chi",
+  4: "Cin",
+  6: "Dal",
+  8: "Det",
+  9: "GB",
+  11: "Ind",
+  12: "KC",
+  13: "LV",
+  14: "LAR",
+  15: "Mia",
+  16: "Min",
+  18: "NO",
+  20: "NYJ",
+  21: "Phi",
+  22: "Ari",
+  25: "SF",
+  26: "Sea",
+  27: "TB",
+  30: "Jax",
+  33: "Bal",
+  34: "Hou"
+}
+
+
+const fullNameToShort = (name: string) => {
+  const split = name.split(" ")
+  const firstChar = split[0].charAt(0)
+  const lastName = split.splice(1).join(" ")
+
+  return firstChar + "." + lastName
+}
+
+const normalizeName = (name: string) => {
+  const trimmed = name.trim()
+  const withoutJrs = trimmed.replaceAll("Jr.", "")
+  const withoutSrs = withoutJrs.replaceAll("Sr.", "")
+  const withoutDots = withoutSrs.replaceAll('.', '')
+  const withoutHyphens = withoutDots.replaceAll("-", "")
+
+  return withoutHyphens.trim().toLowerCase()
+
 }
 
 
 
 const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
+  props.ishanData.forEach(x => x.comparisonName = normalizeName(x.Player))
+
+
   const [sorting, setSorting] = React.useState<SortingState>([
     {
       "id": "EspnRank",
@@ -193,23 +246,64 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
       }
     }).then((res) => {
       const espnPlayers: ESPNPlayer[] = res.data["players"];
-      let playerRatings: PlayerRow[] = espnPlayers.map((x, i) => {
-        return {
-          Name: x.player && x.player.fullName ? x.player.fullName : "",
-          Pos: x.player && x.player.defaultPositionId ? espnPosIdToString[x.player.defaultPositionId] : "--",
+      let playerRatings: PlayerRow[] = [];
+      
+      for(let i = 0; i < espnPlayers.length; i++){
+        const player = espnPlayers[i];
+
+        let name = player.player && player.player.fullName ? player.player.fullName : ""
+        const adp = player.player.ownership && player.player.ownership.averageDraftPosition ? Number.parseFloat(player.player.ownership.averageDraftPosition.toFixed(1)) : 0
+        const pos = player.player && player.player.defaultPositionId ? espnPosIdToString[player.player.defaultPositionId] : "--";
+
+        // hard code differences in names between ESPN and PFR data
+        if (name == "Gabe Davis"){
+          name = "Gabriel Davis"
+        }
+
+        if (name == "Joshua Palmer"){
+          name = "Josh Palmer"
+        }
+
+        const espnNameToNormalized = normalizeName(name)
+
+        // work around for rookie QBs missing in Ishan's data, remove the outer if statement when fixed
+        if (pos != "QB"){
+          const espnPlayerInIshanData = props.ishanData.find(x => x.comparisonName == espnNameToNormalized)
+          if (!espnPlayerInIshanData){
+            continue;
+          }
+
+          const isPlayerSkipped = espnPlayerInIshanData.index > 300 && (i > 200);
+
+          if (isPlayerSkipped){
+            continue;
+          }
+        }
+        
+
+        const currPlayerRow: PlayerRow = 
+        {
+          Name: name,
+          Pos: pos,
+          Team: ESPN_ID_TO_TEAM[player.player.proTeamId],
           EspnRank: i + 1,
-          EspnADP: x.player.ownership && x.player.ownership.averageDraftPosition ? Number.parseFloat(x.player.ownership.averageDraftPosition.toFixed(1)) : 0,
-          EspnProj: x.player.stats?.find(x => x.externalId == "2024" && x.statSourceId == 1)?.appliedTotal ?? 0,
+          EspnADP: adp,
+          EspnProj: player.player.stats?.find(x => x.externalId == "2024" && x.statSourceId == 1)?.appliedTotal ?? 0,
           IshanRank: 0,
           IshanProj: 0,
           Difference: 0,
-        }
-      })
+          comparison: espnNameToNormalized
+        };
 
+        playerRatings.push(currPlayerRow);
+      }
+      
+
+      console.log(espnPlayers)
       console.log(props.ishanData)
 
       playerRatings.forEach(x => {
-        let ishanPlayer = props.ishanData.find(y => y.Player.trim() == x.Name);
+        let ishanPlayer = props.ishanData.find(y => y.comparisonName == x.comparison);
         if (ishanPlayer) {
           x.IshanRank = ishanPlayer.eADP;
           x.IshanProj = ishanPlayer.p2024;
@@ -225,13 +319,6 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
     })
   }, []);
 
-  const fullNameToShort = (name: string) => {
-    const split = name.split(" ")
-    const firstChar = split[0].charAt(0)
-    const lastName = split.splice(1).join()
-
-    return firstChar + "." + lastName
-  }
 
 
   const columns = [
@@ -365,6 +452,11 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
     state: {
       sorting,
     },
+    initialState: {
+      pagination: {
+        pageSize: 20,
+      },
+    },
   })
 
   if (isLoading) {
@@ -381,11 +473,18 @@ const DraftTable = (props: { ishanData: IshanPlayer[] }) => {
 
   return (
     <div>
-      {/* <input type="checkbox" defaultChecked={true} onChange={() => updateFilter(0)} />
-      <input type="checkbox" defaultChecked={true} onChange={() => updateFilter(1)} />
-      <input type="checkbox" defaultChecked={true} onChange={() => updateFilter(2)} />
-      <input type="checkbox" defaultChecked={true} onChange={() => updateFilter(3)} /> */}
+      
       <div className='max-w-none bg-slate-800 rounded-xl overflow-auto'>
+      <div className='flex flex-row pt-2 pl-3'>
+          {["QB", "RB", "WR", "TE"].map((x, i) => (
+            <div className='ml-1 mr-3'>
+            {x + "s"}
+            <input className="ml-1" type="checkbox" defaultChecked={true} onChange={() => updateFilter(i)}></input>
+            </div>
+          ))}
+        </div>
+      
+      
         <table className='text-lg w-full'>
           <thead className='font-Grotesk whitespace-nowrap'>
             {table.getHeaderGroups().map(headerGroup => (
