@@ -82,17 +82,37 @@ export interface LeagueInfo {
 }
 ---
 <BaseLayout title={"Fantasy Draft Tool - ishgup"} description={"2023 Fantasy ADP Analysis"}  activePath="fantasy">
-    <Section heading="ESPN vs Ishan Projections">
+    <Section heading="ESPN ADP vs Ishan's Projections">
         
         <div style="margin-bottom: 20px;">This table pulls data from ESPN's PPR Fantasy Rankings, displaying each player's average draft position (ADP) and 
-        season total projection. Players are ranked by their ADP in the field ESPN Rank. These rankings are then compared 
+        season total projection. Players are ranked by their ADP in the field eRk. These rankings are then compared 
         to Ishan's projections and rankings which were created using a machine learning linear regression model. More about 
-        this model can be learned within <a href="https://ishqup.github.io/projects/project-1/" style="text-decoration: underline;">this article</a>. 
-        The recommended way to use this table is to look at the Difference 
-        column, if there is a negative difference the player is overvalued by ESPN and if there is a positive difference the 
-        player is undervalued by ESPN. Ishan's rankings should be taken with a grain of salt as they do not include rookies or 
-        take into account players changing teams, this means you should heavily evaluate player situations prior to
-        relying on these projections to draft.</div>
+        this model can be learned within <a href="https://ishqup.github.io/projects/project-1/" style="text-decoration: underline;">this article</a>. These
+        predictions are made based on raw data and unbiased decision-making. The regression will ultimately never be completely accurate as it is missing data such as
+        depth charts, game schedules, players changing teams, coaching changes, suspensions, and injuries that provide key context into why these players are being drafted where they are.
+        </div>
+
+    </Section>
+
+    <Section heading="How to use this tool">
+        <div style="margin-bottom: 20px;">The way to interpret this data is to look at the Diff column. The Diff column is calculated as: eRk - iRk.
+        This shows us the difference in where people are drafting players and where the model thinks a player should be drafted. We can find value in this as
+        a negative Diff means a player is being overdrafted, while a positive Diff means a player is being underdrafted. Ideally, we look to avoid overdrafting a player
+        so we will generally choose to pick players with positive values. However, it is important to note that overdrafted players can still drop within your draft, so
+        if you can get them at a pick lower than they're usually drafted that's also considered a value pick. So remember not to fade players with negative Diff.
+        </div>
+    </Section>
+
+    <Section heading="Key Notes">
+        <div style="margin-bottom: 20px;">Ishan's rankings consist of 3 models: Flex Players, QBs, and Rookies. These models all derive from slightly different stats/methods
+        and combining them doesn't always accurately reflect how these different types of players stack up against each other. The model also currently does not include 
+        rookie QBs. (W.I.P) The naming conventions of players slightly differ between ESPN and ProFootballReference, meaning a few players don't display their iRk or iProj.
+        The model seems to hate RBs, which makes some sense as for PPR scoring receptions are crucial and RB receiving is not very high volume. RBs also suffer the most injuries,
+        replacement, and difference in usage (goal line, third down, committees). I've learned that more secure value comes from strong WR cores, while boom or bust value could be sought
+        after in a more volatile position like RB. QBs have higher projections, but we don't play superflex so QBs are weighted to reflect closer to their ESPN draft position. These
+        rankings are purely for fun and should be taken as a grain of salt. Please add context to the player that you're looking at so you can make a clear decision of who you
+        want on your team.
+        </div>
         <DraftTable client:load ishanData={ishanData}></DraftTable>
     </Section>
     
