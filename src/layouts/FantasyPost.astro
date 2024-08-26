@@ -11,7 +11,7 @@ const { title, description, pubDate, updatedDate } = Astro.props;
 
 <BaseLayout title={title} description={description} image="./og-image.png"  activePath="fantasy">
     <main
-        class="mx-auto max-w-2xl p-5 break-words leading-normal text-left font-Grotesk"
+        class="mx-auto max-w-[800px] p-5 break-words leading-normal text-left font-Grotesk"
     >
         <div class="mb-3">
             {
@@ -33,7 +33,7 @@ const { title, description, pubDate, updatedDate } = Astro.props;
             }
             <hr class="h-px my-4 bg-gray-300 border-0" />
         </div>
-        <article class="prose prose-invert prose-md prose-table:text-white prose-p:text-white">
+        <article class="prose max-w-none prose-invert prose-md prose-table:text-white [&_th]:pt-2 prose-p:text-white">
             <slot />
         </article>
     </main>
