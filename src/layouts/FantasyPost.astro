@@ -33,7 +33,7 @@ const { title, description, pubDate, updatedDate } = Astro.props;
             }
             <hr class="h-px my-4 bg-gray-300 border-0" />
         </div>
-        <article class="prose max-w-none prose-invert prose-md prose-table:text-white [&_th]:pt-2 prose-p:text-white">
+        <article class="prose max-w-none prose-invert prose-md prose-table:text-white [&_th]:pt-2 [&_th]:whitespace-nowrap prose-p:text-white">
             <slot />
         </article>
     </main>
