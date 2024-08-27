@@ -1,9 +1,9 @@
 const OGTemplate = (person1: string, person2: string | undefined, season: string, week: string) => {
 
     const SEASON_TO_BG_HEX: { [key: string]: string } = {
-        "2022": "#a0ebc0",
+        "2022": "#f890e7",
         "2023": "#7b68d0",
-        "2024": "#c145d1",
+        "2024": "#8BB8E8",
     }
 
     return (
