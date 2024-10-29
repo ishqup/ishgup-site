@@ -1,0 +1,3 @@
+[submodule "src/content/fantasy"]
+	path = src/content/fantasy
+	url = https://github.com/ishqup/fantasy.git
