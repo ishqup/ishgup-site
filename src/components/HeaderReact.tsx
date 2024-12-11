@@ -48,7 +48,6 @@ const HeaderReact = ({ activePath }: Props) => {
                     <a className={"hover:text-teal-400 " + (activePath == "home" ? "text-teal-400" : "")} href="/">Home</a>
                     <a className={"hover:text-teal-400 " + (activePath == "projects" ? "text-teal-400" : "")} href="/projects">Projects</a>
                     <a className={"hover:text-teal-400 " + (activePath == "fantasy" ? "text-teal-400" : "")} href="/fantasy">Fantasy</a>
-                    <a className={"hover:text-teal-400 " + (activePath == "about" ? "text-teal-400" : "")} href="/about">About Me</a>
                 </div>
             </div>
 
